@@ -1,0 +1,1234 @@
+     pid tid name               prio STATE            code  data        stack
+ 4235391   1 n/apps/dio_manager  10r RUNNING             0   52K   28K(516K)*
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1b40000             536K   12K              
+             libbacktrace.so.1  @78000000              16K  8192              
+             libcommonUtils.so  @78006000              12K  4096              
+             libdsicommon.so    @7800a000              24K  4096              
+             libomxctx.so.1     @78012000              32K  4096              
+             libusbdi.so.2      @7801d000              44K  4096              
+             libOmxCore.so      @78029000              16K  8192              
+             libpps.so.1        @7802f000              28K  4096              
+             libdns_sd.so.1     @78037000              28K  4096              
+             rplay_altscreen.so @78040000             212K  384K              
+             libaoi.so.1        @780d5000              28K  8192              
+             libNmeSDK.so       @780e0000             712K   64K              
+             libiplcommon.so    @781a3000             284K  8192              
+             libairplay.so      @781f0000             728K   16K              
+             ibOSAbstraction.so @782af000              44K  4096              
+             libasound.so.2     @782c0000             128K   20K              
+             liblibstd.so       @782e6000              32K  4096              
+             libscreen.so.1     @782f0000             104K  4096              
+             libcarplay_hook.so @78310000             112K  184K              
+             libz.so.2          @7835b000              76K  4096              
+             libutil.so         @78371000             912K   16K              
+             libosal.so         @78460000             492K   16K              
+             libOmxBase.so      @78500000             272K  4096              
+             libm.so.2          @78546000             148K  8192              
+             libsocket.so.3     @78570000             168K   24K              
+             libecpp-ne.so.4    @785c1000             112K   28K              
+             libcomm.so         @785f0000             788K   16K              
+             libNmeImage.so     @78900000            1696K   48K              
+             libNme.so          @78b30000             156K   28K              
+             bNmeBaseClasses.so @79100000            2356K  144K              
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+ 4239488   1 n/apps/dio_manager  10r REPLY               0  100K   28K(516K)*
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1890000             536K   12K              
+             libdsicommon.so    @78001000              24K  4096              
+             libbacktrace.so.1  @78008000              16K  8192              
+             libcomm.so         @78010000             788K   16K              
+             libOmxCore.so      @780d9000              16K  8192              
+             libomxctx.so.1     @780e0000              32K  4096              
+             libcommonUtils.so  @780e9000              12K  4096              
+             ibOSAbstraction.so @780ed000              44K  4096              
+             libusbdi.so.2      @780fc000              44K  4096              
+             libpps.so.1        @7810b000              28K  4096              
+             libdns_sd.so.1     @78114000              28K  4096              
+             libaoi.so.1        @7811d000              28K  8192              
+             libasound.so.2     @78129000             128K   20K              
+             libosal.so         @78150000             492K   16K              
+             liblibstd.so       @781d0000              32K  4096              
+             libsocket.so.3     @781e0000             168K   24K              
+             libscreen.so.1     @78220000             104K  4096              
+             libz.so.2          @7823b000              76K  4096              
+             libOmxBase.so      @78250000             272K  4096              
+             libm.so.2          @782a6000             148K  8192              
+             libutil.so         @782d0000             912K   16K              
+             libiplcommon.so    @783c0000             284K  8192              
+             libNme.so          @78490000             156K   28K              
+             libecpp-ne.so.4    @784f0000             112K   28K              
+             libNmeSDK.so       @785f0000             712K   64K              
+             libairplay.so      @78710000             728K   16K              
+             libNmeImage.so     @787e7000            1696K   48K              
+             rplay_altscreen.so @789a0000             212K  384K              
+             bNmeBaseClasses.so @78b00000            2356K  144K              
+             libcarplay_hook.so @78d80000             112K  184K              
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+19660924   1 n/apps/dio_manager  10r CONDVAR             0 2332K   36K(516K)*
+19660924   2 n/apps/dio_manager  10r DEAD                0 2332K  132K(132K)*
+19660924   3 n/apps/dio_manager  10r NANOSLEEP           0 2332K   12K(132K) 
+19660924   4 n/apps/dio_manager  10r CONDVAR             0 2332K   16K(132K) 
+19660924   5 n/apps/dio_manager  10r RECEIVE             0 2332K  4096(132K) 
+19660924   6 n/apps/dio_manager  10r REPLY               0 2332K   12K(132K) 
+19660924   7 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924   8 n/apps/dio_manager  10r CONDVAR             0 2332K   16K(132K) 
+19660924   9 n/apps/dio_manager  10r CONDVAR             0 2332K   16K(132K) 
+19660924  10 n/apps/dio_manager  10r CONDVAR             0 2332K   16K(132K) 
+19660924  11 n/apps/dio_manager  10r REPLY               0 2332K   20K(132K) 
+19660924  12 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  13 n/apps/dio_manager  10r RECEIVE             0 2332K  4096(132K) 
+19660924  14 n/apps/dio_manager  10r RECEIVE             0 2332K  8192(132K) 
+19660924  15 n/apps/dio_manager  10r CONDVAR             0 2332K   16K(132K) 
+19660924  16 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  17 n/apps/dio_manager  10r CONDVAR             0 2332K   12K(132K) 
+19660924  18 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  19 n/apps/dio_manager  10r RECEIVE             0 2332K  4096(132K) 
+19660924  20 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  21 n/apps/dio_manager  10r CONDVAR             0 2332K   12K(132K) 
+19660924  22 n/apps/dio_manager  10r REPLY               0 2332K   20K(132K) 
+19660924  23 n/apps/dio_manager  10r REPLY               0 2332K   20K(132K) 
+19660924  24 n/apps/dio_manager  10r REPLY               0 2332K   20K(132K) 
+19660924  25 n/apps/dio_manager  10r REPLY               0 2332K   20K(132K) 
+19660924  26 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  27 n/apps/dio_manager  10r CONDVAR             0 2332K  4096(132K) 
+19660924  28 n/apps/dio_manager  10r CONDVAR             0 2332K   12K(132K) 
+19660924  29 n/apps/dio_manager  10r CONDVAR             0 2332K  4096(132K) 
+19660924  30 n/apps/dio_manager  21r CONDVAR             0 2332K  8192(132K) 
+19660924  31 n/apps/dio_manager  10r REPLY               0 2332K  8192(132K) 
+19660924  32 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  33 n/apps/dio_manager  10r NANOSLEEP           0 2332K  4096(132K) 
+19660924  34 n/apps/dio_manager  21r SIGWAITINFO         0 2332K  8192(132K) 
+19660924  35 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  36 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+19660924  37 n/apps/dio_manager  21r CONDVAR             0 2332K  4096(132K) 
+19660924  38 n/apps/dio_manager  10r SIGWAITINFO         0 2332K   12K(132K) 
+19660924  39 n/apps/dio_manager  10r SIGWAITINFO         0 2332K  4096(132K) 
+19660924  40 n/apps/dio_manager  10r CONDVAR             0 2332K  8192(132K) 
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1960000             536K   12K              
+             libasound.so.2     @78000000             128K   20K              
+             libbacktrace.so.1  @78026000              16K  8192              
+             libOmxCore.so      @7802c000              16K  8192              
+             libdsicommon.so    @78033000              24K  4096              
+             libcommonUtils.so  @7803a000              12K  4096              
+             libusbdi.so.2      @7803e000              44K  4096              
+             eConnectBackend.so @7804a000              24K  4096              
+             ibOSAbstraction.so @78051000              44K  4096              
+             libdns_sd.so.1     @7805d000              28K  4096              
+             libaoi.so.1        @78065000              28K  8192              
+             libomxctx.so.1     @7806f000              32K  4096              
+             liblibstd.so       @7807c000              32K  4096              
+             libpps.so.1        @7808a000              28K  4096              
+             libbrokerproxy.so  @78092000              48K  4096              
+             libairplay.so      @780a0000             728K   16K              
+             libscreen.so.1     @78160000             104K  4096              
+             libz.so.2          @7817b000              76K  4096              
+             libNmeSDK.so       @78190000             712K   64K              
+             libm.so.2          @78258000             148K  8192              
+             libcomm.so         @78280000             788K   16K              
+             libsocket.so.3     @78350000             168K   24K              
+             rplay_altscreen.so @78380000             212K  384K              
+             libOmxBase.so      @78419000             272K  4096              
+             libosal.so         @78460000             492K   16K              
+             libiplcommon.so    @784e0000             284K  8192              
+             74-000c29a978ce.so @78529000              56K  4096              
+             libecpp-ne.so.4    @78540000             112K   28K              
+             libprobes.so       @78563000             108K  4096              
+             libNme.so          @78580000             156K   28K              
+             34-000c29e68a4a.so @785b0000              60K  4096              
+             23-5aba5e2ac150.so @785c0000              72K  4096              
+             TracingProtocol.so @785e0000             152K  4096              
+             libutil.so         @78610000             912K   16K              
+             a5-a36dfd6f8f02.so @786f9000              72K  4096              
+             libtracing.so      @78710000             476K  8192              
+             06-6d51438e5ecb.so @7878e000              56K  4096              
+             libcarplay_hook.so @787a0000             112K  184K              
+             9f-973d8eb645a3.so @787ed000              64K  4096              
+             ersistenceproxy.so @78800000             124K  4096              
+             codestring_data.so @78830000             684K  4096              
+             libNmeTransport.so @788e3000              84K   24K              
+             bNmeBaseClasses.so @78900000            2356K  144K              
+             libNmeVfs.so       @78b8e000            2128K   76K              
+             libNmeImage.so     @78e00000            1696K   48K              
+             libcrypto.so.2     @79100000            1488K  104K              
+             libssl.so.2        @79290000             360K   28K              
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+21151790   1 n/apps/dio_manager  10r CONDVAR             0   43M   36K(516K)*
+21151790   2 n/apps/dio_manager  10r DEAD                0   43M  132K(132K)*
+21151790   3 n/apps/dio_manager  10r NANOSLEEP           0   43M   12K(132K) 
+21151790   4 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790   5 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790   6 n/apps/dio_manager  10r REPLY               0   43M   16K(132K) 
+21151790   7 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790   8 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790   9 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  10 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  11 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  12 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  13 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  14 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  15 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  16 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  17 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  18 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  19 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  20 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  21 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  22 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  23 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  24 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  25 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  26 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  27 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  28 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  29 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  30 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  31 n/apps/dio_manager  21r CONDVAR             0   43M  8192(132K) 
+21151790  32 n/apps/dio_manager  10r REPLY               0   43M  8192(132K) 
+21151790  33 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  34 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  35 n/apps/dio_manager  21r SIGWAITINFO         0   43M   12K(132K) 
+21151790  36 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  37 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  38 n/apps/dio_manager  21r CONDVAR             0   43M  4096(132K) 
+21151790  39 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  40 n/apps/dio_manager  10r SIGWAITINFO         0   43M  8192(132K) 
+21151790  41 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  42 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  43 n/apps/dio_manager  19f SIGWAITINFO         0   43M  8192(132K) 
+21151790  44 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  45 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  46 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  47 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  49 n/apps/dio_manager  10r CONDVAR             0   43M   4096(12K) 
+21151790  50 n/apps/dio_manager  10r RECEIVE             0   43M   4096(36K) 
+21151790  51 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  52 n/apps/dio_manager  15r RUNNING             0   43M   4096(20K) 
+21151790  53 n/apps/dio_manager  10r NANOSLEEP           0   43M  8192(132K) 
+21151790  56 n/apps/dio_manager  17f SIGWAITINFO         0   43M  8192(132K) 
+21151790  57 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  58 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  59 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  60 n/apps/dio_manager  15r CONDVAR             0   43M   4096(20K) 
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1660000             536K   12K              
+             libcommonUtils.so  @78000000              12K  4096              
+             libdsicommon.so    @78005000              24K  4096              
+             libomxctx.so.1     @7800c000              32K  4096              
+             libdns_sd.so.1     @78015000              28K  4096              
+             libOmxCore.so      @7801d000              16K  8192              
+             libbacktrace.so.1  @78025000              16K  8192              
+             libpmem_client.so  @7802b000              16K  4096              
+             libusbdi.so.2      @78030000              44K  4096              
+             ibOSAbstraction.so @7803c000              44K  4096              
+             libasound.so.2     @7804c000             128K   20K              
+             libpps.so.1        @78074000              28K  4096              
+             rplay_altscreen.so @78080000             212K  384K              
+             libaoi.so.1        @78116000              28K  8192              
+             libiplcommon.so    @78120000             284K  8192              
+             libz.so.2          @78169000              76K  4096              
+             libscreen.so.1     @78180000             104K  4096              
+             libcomm.so         @781a0000             788K   16K              
+             libm.so.2          @78269000             148K  8192              
+             libNmeSDK.so       @78290000             712K   64K              
+             libsocket.so.3     @78352000             168K   24K              
+             libutil.so         @78383000             912K   16K              
+             libosal.so         @78470000             492K   16K              
+             liblibstd.so       @784f0000              32K  4096              
+             eConnectBackend.so @784fd000              24K  4096              
+             libOSUser.so       @78504000              28K  8192              
+             libairplay.so      @78510000             728K   16K              
+             libadreno_utils.so @785ca000              20K  8192              
+             libprobes.so       @785d2000             108K  4096              
+             TracingProtocol.so @785f0000             152K  4096              
+             libNmeImage.so     @7861f000            1696K   48K              
+             libGSLUser.so      @787d3000              32K  4096              
+             74-000c29a978ce.so @787dd000              56K  4096              
+             a5-a36dfd6f8f02.so @787ec000              72K  4096              
+             34-000c29e68a4a.so @78800000              60K  4096              
+             23-5aba5e2ac150.so @78810000              72K  4096              
+             libbrokerproxy.so  @78826000              48K  4096              
+             libNme.so          @78840000             156K   28K              
+             ersistenceproxy.so @78870000             124K  4096              
+             libecpp-ne.so.4    @78890000             112K   28K              
+             06-6d51438e5ecb.so @788b7000              56K  4096              
+             libtracing.so      @788d0000             476K  8192              
+             libpanel.so        @78949000              76K  4096              
+             codestring_data.so @78960000             684K  4096              
+             libNmeTransport.so @78a10000              84K   24K              
+             9f-973d8eb645a3.so @78a30000              64K  4096              
+             mmiVdec_asic_AF.so @78a50000             148K  4096              
+             libssl.so.2        @78a80000             360K   28K              
+             libOmxBase.so      @78af0000             272K  4096              
+             egl14.so           @78b80000             132K  4096              
+             libcarplay_hook.so @78c30000             112K  184K              
+             OpenGLES20.so      @78cc0000             868K  108K              
+             bNmeBaseClasses.so @78e00000            2356K  144K              
+             libcrypto.so.2     @79200000            1488K  104K              
+             libNmeVfs.so       @79400000            2128K   76K              
+             gpuDeinterlacer.so @79b00000              64K   11M              
+             Mapped Phys Memory @  f47000 (bef00000)       1024K  F,S         
+             Mapped Phys Memory @ 10df000 (c0200000)       1024K  F,S         
+             Mapped Phys Memory @ 1200000 (c6b00000)       1024K  F,S         
+             Mapped Phys Memory @ 13d0000 (c3c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1500000 (c2500000)       1024K  F,S         
+             Mapped Phys Memory @ 1700000 (c1c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1878000 (bd400000)       1024K  F,S         
+             Mapped Phys Memory @ 1a00000 (b9f00000)       1024K  F,S         
+             Mapped Phys Memory @ 1b30000 (b6830000)        512K  F,S         
+             Mapped Phys Memory @ 1c00000 (bf900000)       1024K  F,S         
+             Mapped Phys Memory @ 1d46000 (b7100000)        512K  F,S         
+             Mapped Phys Memory @ 1e00000 (c4900000)       1024K  F,S         
+             Mapped Phys Memory @ 1f40000 (bb100000)        512K  F,S         
+             Mapped Phys Memory @ 2000000 (ba200000)       1024K  F,S         
+             Mapped Phys Memory @ 2127000 (bb200000)       1024K  F,S         
+             Mapped Phys Memory @ 2260000 (b7200000)       1024K  F,S         
+             Mapped Phys Memory @ 2400000 (beb00000)       1024K  F,S         
+             Mapped Phys Memory @ 2541000 (c1b00000)        512K  F,S         
+             Mapped Phys Memory @ 2600000 (be000000)       1024K  F,S         
+             Mapped Phys Memory @ 2780000 (bb700000)        512K  F,S         
+             Mapped Phys Memory @ 28e0000 (c3d00000)        512K  F,S         
+             Mapped Phys Memory @ 2a10000 (c2370000)        512K  F,S         
+             Mapped Phys Memory @ 2b10000 (bf7f0000)        512K  F,S         
+             Mapped Phys Memory @ 2c00000 (c2080000)        512K  F,S         
+             Mapped Phys Memory @ 2d10000 (b3430000)        512K  F,S         
+             Mapped Phys Memory @ 2e00000 (bb080000)        512K  F,S         
+             Mapped Phys Memory @ 3030000 (b7080000)        512K  F,S         
+             /dev/mem           @28030000 (       0)        740K  S           
+             /dev/mem           @28100000 (       0)       1252K  S           
+             /dev/mem           @28240000 (       0)        740K  S           
+             /dev/mem           @28303000 (       0)       1252K  S           
+             /dev/mem           @28440000 (       0)        740K  S           
+             /dev/mem           @28500000 (       0)       1252K  S           
+             /dev/mem           @286a3000 (       0)       1252K  S           
+             /dev/mem           @28800000 (       0)       1252K  S           
+             /dev/mem           @28940000 (       0)        740K  S           
+             /dev/mem           @28a00000 (       0)       1252K  S           
+             /dev/mem           @28b52000 (       0)       1252K  S           
+             /dev/mem           @28d00000 (       0)       1252K  S           
+             /dev/mem           @28e50000 (       0)        740K  S           
+             /dev/mem           @28f34000 (       0)       1252K  S           
+             /dev/mem           @29100000 (       0)       1252K  S           
+             /dev/mem           @29264000 (       0)       1252K  S           
+             /dev/mem           @29400000 (       0)       1252K  S           
+             /dev/mem           @29563000 (       0)       1252K  S           
+             /dev/mem           @29700000 (       0)       1252K  S           
+             /dev/mem           @29840000 (       0)        740K  S           
+             /dev/mem           @299b0000 (       0)        740K  S           
+             /dev/mem           @29b00000 (       0)       1144K  S           
+             /dev/mem           @29c20000 (       0)        740K  S           
+             em/carplay111_h264 @29d00000 (       0)       4100K  S           
+             /dev/mem           @2a190000 (       0)        740K  S           
+             /dev/mem           @2a250000 (       0)        740K  S           
+             /dev/mem           @2a360000 (       0)        740K  S           
+             /dev/mem           @2a430000 (       0)        740K  S           
+             /dev/mem           @2a500000 (       0)       1252K  S           
+             carplay111_decoded @2aa00000 (       0)       6148K  S           
+             Mapped Phys Memory @ 1047000 (c6c60000)         64K  F,S         
+             Mapped Phys Memory @ 1057000 (b4ee3000)         32K  F,S         
+             Mapped Phys Memory @ 105f000 (ba683000)         16K  F,S         
+             Mapped Phys Memory @ 1063000 (b4849000)        8192  F,S         
+             Mapped Phys Memory @ 1065000 (cb552000)        4096  F,S         
+             Mapped Phys Memory @ 11df000 (b47b0000)         64K  F,S         
+             Mapped Phys Memory @ 11ef000 (c74b8000)         32K  F,S         
+             Mapped Phys Memory @ 11f7000 (c7090000)         16K  F,S         
+             Mapped Phys Memory @ 11fb000 (ba690000)        8192  F,S         
+             Mapped Phys Memory @ 11fd000 (c74b7000)        4096  F,S         
+             Mapped Phys Memory @ 1300000 (b7710000)         64K  F,S         
+             Mapped Phys Memory @ 1310000 (baa83000)         32K  F,S         
+             Mapped Phys Memory @ 1318000 (ce260000)         16K  F,S         
+             Mapped Phys Memory @ 131c000 (b465e000)        8192  F,S         
+             Mapped Phys Memory @ 131e000 (b5449000)        4096  F,S         
+             Mapped Phys Memory @ 14d0000 (bba40000)         64K  F,S         
+             Mapped Phys Memory @ 14e0000 (c5aa6000)         32K  F,S         
+             Mapped Phys Memory @ 14e8000 (c5b74000)         16K  F,S         
+             Mapped Phys Memory @ 14ec000 (b4391000)        8192  F,S         
+             Mapped Phys Memory @ 14ee000 (b4d31000)        4096  F,S         
+             Mapped Phys Memory @ 1600000 (ba7c0000)         64K  F,S         
+             Mapped Phys Memory @ 1610000 (b42f3000)         32K  F,S         
+             Mapped Phys Memory @ 1618000 (c70a7000)         16K  F,S         
+             Mapped Phys Memory @ 161c000 (c820f000)        8192  F,S         
+             Mapped Phys Memory @ 161e000 (c5442000)        4096  F,S         
+             Mapped Phys Memory @ 1800000 (b7870000)         64K  F,S         
+             Mapped Phys Memory @ 1810000 (ca7f8000)         32K  F,S         
+             Mapped Phys Memory @ 1818000 (c6d60000)         16K  F,S         
+             Mapped Phys Memory @ 181c000 (c5851000)        8192  F,S         
+             Mapped Phys Memory @ 181e000 (c5850000)        4096  F,S         
+             Mapped Phys Memory @ 1978000 (cb430000)         64K  F,S         
+             Mapped Phys Memory @ 1988000 (b4643000)         32K  F,S         
+             Mapped Phys Memory @ 1990000 (ba92b000)         16K  F,S         
+             Mapped Phys Memory @ 1994000 (b9ea1000)        8192  F,S         
+             Mapped Phys Memory @ 1996000 (b9ea0000)        4096  F,S         
+             Mapped Phys Memory @ 1b00000 (baaf0000)         64K  F,S         
+             Mapped Phys Memory @ 1b10000 (c62b3000)         32K  F,S         
+             Mapped Phys Memory @ 1b18000 (baa28000)         16K  F,S         
+             Mapped Phys Memory @ 1b1c000 (c18a8000)        8192  F,S         
+             Mapped Phys Memory @ 1b1e000 (c62b2000)        4096  F,S         
+             Mapped Phys Memory @ 1bb0000 (bd320000)        128K  F,S         
+             Mapped Phys Memory @ 1bd0000 (bf870000)         64K  F,S         
+             Mapped Phys Memory @ 1be0000 (c62d0000)         16K  F,S         
+             Mapped Phys Memory @ 1d00000 (bf030000)         64K  F,S         
+             Mapped Phys Memory @ 1d10000 (fc345000)         32K  F,S         
+             Mapped Phys Memory @ 1d18000 (ba60c000)         16K  F,S         
+             Mapped Phys Memory @ 1d1c000 (ba60a000)        8192  F,S         
+             Mapped Phys Memory @ 1d1e000 (bab2f000)        4096  F,S         
+             Mapped Phys Memory @ 1dc6000 (bbf10000)        128K  F,S         
+             Mapped Phys Memory @ 1de6000 (c5a00000)         64K  F,S         
+             Mapped Phys Memory @ 1df6000 (ce345000)         16K  F,S         
+             Mapped Phys Memory @ 1f00000 (ca310000)         64K  F,S         
+             Mapped Phys Memory @ 1f10000 (b8335000)         32K  F,S         
+             Mapped Phys Memory @ 1f18000 (fc2cc000)         16K  F,S         
+             Mapped Phys Memory @ 1f1c000 (bbe00000)        8192  F,S         
+             Mapped Phys Memory @ 1f1e000 (c55de000)        4096  F,S         
+             Mapped Phys Memory @ 1fc0000 (bba10000)        128K  F,S         
+             Mapped Phys Memory @ 1fe0000 (c4110000)         64K  F,S         
+             Mapped Phys Memory @ 1ff0000 (c75d7000)         16K  F,S         
+             Mapped Phys Memory @ 2100000 (b43b0000)         64K  F,S         
+             Mapped Phys Memory @ 2110000 (ba5f9000)         32K  F,S         
+             Mapped Phys Memory @ 2118000 (ba5f5000)         16K  F,S         
+             Mapped Phys Memory @ 211c000 (bc501000)        8192  F,S         
+             Mapped Phys Memory @ 211e000 (bc500000)        4096  F,S         
+             Mapped Phys Memory @ 2227000 (c6280000)         64K  F,S         
+             Mapped Phys Memory @ 2237000 (b8730000)         32K  F,S         
+             Mapped Phys Memory @ 223f000 (b8894000)         16K  F,S         
+             Mapped Phys Memory @ 2243000 (b8892000)        8192  F,S         
+             Mapped Phys Memory @ 2245000 (b8891000)        4096  F,S         
+             Mapped Phys Memory @ 2360000 (c78f0000)         64K  F,S         
+             Mapped Phys Memory @ 2370000 (c44a0000)         32K  F,S         
+             Mapped Phys Memory @ 2378000 (bc014000)         16K  F,S         
+             Mapped Phys Memory @ 237c000 (bc012000)        8192  F,S         
+             Mapped Phys Memory @ 237e000 (b4713000)        4096  F,S         
+             Mapped Phys Memory @ 2500000 (b88d0000)         64K  F,S         
+             Mapped Phys Memory @ 2510000 (debc8000)         32K  F,S         
+             Mapped Phys Memory @ 2518000 (b79ce000)         16K  F,S         
+             Mapped Phys Memory @ 251c000 (b79cc000)        8192  F,S         
+             Mapped Phys Memory @ 251e000 (b79cb000)        4096  F,S         
+             Mapped Phys Memory @ 25c1000 (cabe0000)        128K  F,S         
+             Mapped Phys Memory @ 25e1000 (ba7a0000)         64K  F,S         
+             Mapped Phys Memory @ 25f1000 (c849f000)         16K  F,S         
+             Mapped Phys Memory @ 2700000 (cac10000)         64K  F,S         
+             Mapped Phys Memory @ 2710000 (c6529000)         32K  F,S         
+             Mapped Phys Memory @ 2718000 (cb032000)         16K  F,S         
+             Mapped Phys Memory @ 271c000 (c6527000)        8192  F,S         
+             Mapped Phys Memory @ 271e000 (c54fb000)        4096  F,S         
+             Mapped Phys Memory @ 2800000 (c26c0000)        128K  F,S         
+             Mapped Phys Memory @ 2820000 (b7840000)         64K  F,S         
+             Mapped Phys Memory @ 2830000 (cc8ec000)         16K  F,S         
+             Mapped Phys Memory @ 2960000 (c7480000)        128K  F,S         
+             Mapped Phys Memory @ 2980000 (c7370000)         64K  F,S         
+             Mapped Phys Memory @ 2990000 (ba634000)         16K  F,S         
+             Mapped Phys Memory @ 2a90000 (bec10000)        128K  F,S         
+             Mapped Phys Memory @ 2ab0000 (ba990000)         64K  F,S         
+             Mapped Phys Memory @ 2ac0000 (c75ec000)         16K  F,S         
+             Mapped Phys Memory @ 2b90000 (c4010000)        128K  F,S         
+             Mapped Phys Memory @ 2bb0000 (c5100000)         64K  F,S         
+             Mapped Phys Memory @ 2bc0000 (b7cbc000)         16K  F,S         
+             Mapped Phys Memory @ 2c80000 (c5740000)        128K  F,S         
+             Mapped Phys Memory @ 2ca0000 (c6840000)         64K  F,S         
+             Mapped Phys Memory @ 2cb0000 (c75e8000)         16K  F,S         
+             Mapped Phys Memory @ 2d90000 (ba160000)        128K  F,S         
+             Mapped Phys Memory @ 2db0000 (baac0000)         64K  F,S         
+             Mapped Phys Memory @ 2dc0000 (cc8e8000)         16K  F,S         
+             Mapped Phys Memory @ 2e80000 (ba430000)        128K  F,S         
+             Mapped Phys Memory @ 2ea0000 (bb420000)         64K  F,S         
+             Mapped Phys Memory @ 2eb0000 (b76c8000)         16K  F,S         
+             Mapped Phys Memory @ 30b0000 (b7420000)        128K  F,S         
+             Mapped Phys Memory @ 30d0000 (c5310000)         64K  F,S         
+             Mapped Phys Memory @ 30e0000 (b7cb8000)         16K  F,S         
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+21151790   1 n/apps/dio_manager  10r CONDVAR             0   43M   36K(516K)*
+21151790   2 n/apps/dio_manager  10r DEAD                0   43M  132K(132K)*
+21151790   3 n/apps/dio_manager  10r NANOSLEEP           0   43M   12K(132K) 
+21151790   4 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790   5 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790   6 n/apps/dio_manager  10r REPLY               0   43M   16K(132K) 
+21151790   7 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790   8 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790   9 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  10 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  11 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  12 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  13 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  14 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  15 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  16 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  17 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  18 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  19 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  20 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  21 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  22 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  23 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  24 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  25 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  26 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  27 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  28 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  29 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  30 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  31 n/apps/dio_manager  21r CONDVAR             0   43M  8192(132K) 
+21151790  32 n/apps/dio_manager  10r REPLY               0   43M  8192(132K) 
+21151790  33 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  34 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  35 n/apps/dio_manager  21r SIGWAITINFO         0   43M   12K(132K) 
+21151790  36 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  37 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  38 n/apps/dio_manager  21r CONDVAR             0   43M  4096(132K) 
+21151790  39 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  40 n/apps/dio_manager  10r SIGWAITINFO         0   43M  8192(132K) 
+21151790  41 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  42 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  43 n/apps/dio_manager  19f SIGWAITINFO         0   43M  8192(132K) 
+21151790  44 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  45 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  46 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  47 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  48 n/apps/dio_manager  18f SIGWAITINFO         0   43M  8192(132K) 
+21151790  49 n/apps/dio_manager  10r CONDVAR             0   43M   4096(12K) 
+21151790  50 n/apps/dio_manager  24r RECEIVE             0   43M   4096(36K) 
+21151790  51 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  52 n/apps/dio_manager  15r REPLY               0   43M   4096(20K) 
+21151790  53 n/apps/dio_manager  10r NANOSLEEP           0   43M  8192(132K) 
+21151790  54 n/apps/dio_manager  18f SIGWAITINFO         0   43M   12K(132K) 
+21151790  56 n/apps/dio_manager  17f SIGWAITINFO         0   43M  8192(132K) 
+21151790  57 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  58 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  59 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  60 n/apps/dio_manager  15r CONDVAR             0   43M   4096(20K) 
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1660000             536K   12K              
+             libcommonUtils.so  @78000000              12K  4096              
+             libdsicommon.so    @78005000              24K  4096              
+             libomxctx.so.1     @7800c000              32K  4096              
+             libdns_sd.so.1     @78015000              28K  4096              
+             libOmxCore.so      @7801d000              16K  8192              
+             libbacktrace.so.1  @78025000              16K  8192              
+             libpmem_client.so  @7802b000              16K  4096              
+             libusbdi.so.2      @78030000              44K  4096              
+             ibOSAbstraction.so @7803c000              44K  4096              
+             libasound.so.2     @7804c000             128K   20K              
+             libpps.so.1        @78074000              28K  4096              
+             rplay_altscreen.so @78080000             212K  384K              
+             libaoi.so.1        @78116000              28K  8192              
+             libiplcommon.so    @78120000             284K  8192              
+             libz.so.2          @78169000              76K  4096              
+             libscreen.so.1     @78180000             104K  4096              
+             libcomm.so         @781a0000             788K   16K              
+             libm.so.2          @78269000             148K  8192              
+             libNmeSDK.so       @78290000             712K   64K              
+             libsocket.so.3     @78352000             168K   24K              
+             libutil.so         @78383000             912K   16K              
+             libosal.so         @78470000             492K   16K              
+             liblibstd.so       @784f0000              32K  4096              
+             eConnectBackend.so @784fd000              24K  4096              
+             libOSUser.so       @78504000              28K  8192              
+             libairplay.so      @78510000             728K   16K              
+             libadreno_utils.so @785ca000              20K  8192              
+             libprobes.so       @785d2000             108K  4096              
+             TracingProtocol.so @785f0000             152K  4096              
+             libNmeImage.so     @7861f000            1696K   48K              
+             libGSLUser.so      @787d3000              32K  4096              
+             74-000c29a978ce.so @787dd000              56K  4096              
+             a5-a36dfd6f8f02.so @787ec000              72K  4096              
+             34-000c29e68a4a.so @78800000              60K  4096              
+             23-5aba5e2ac150.so @78810000              72K  4096              
+             libbrokerproxy.so  @78826000              48K  4096              
+             libNme.so          @78840000             156K   28K              
+             ersistenceproxy.so @78870000             124K  4096              
+             libecpp-ne.so.4    @78890000             112K   28K              
+             06-6d51438e5ecb.so @788b7000              56K  4096              
+             libtracing.so      @788d0000             476K  8192              
+             libpanel.so        @78949000              76K  4096              
+             codestring_data.so @78960000             684K  4096              
+             libNmeTransport.so @78a10000              84K   24K              
+             9f-973d8eb645a3.so @78a30000              64K  4096              
+             mmiVdec_asic_AF.so @78a50000             148K  4096              
+             libssl.so.2        @78a80000             360K   28K              
+             libOmxBase.so      @78af0000             272K  4096              
+             egl14.so           @78b80000             132K  4096              
+             libcarplay_hook.so @78c30000             112K  184K              
+             OpenGLES20.so      @78cc0000             868K  108K              
+             bNmeBaseClasses.so @78e00000            2356K  144K              
+             libcrypto.so.2     @79200000            1488K  104K              
+             libNmeVfs.so       @79400000            2128K   76K              
+             gpuDeinterlacer.so @79b00000              64K   11M              
+             Mapped Phys Memory @  f47000 (bef00000)       1024K  F,S         
+             Mapped Phys Memory @ 10df000 (c0200000)       1024K  F,S         
+             Mapped Phys Memory @ 1200000 (c6b00000)       1024K  F,S         
+             Mapped Phys Memory @ 13d0000 (c3c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1500000 (c2500000)       1024K  F,S         
+             Mapped Phys Memory @ 1700000 (c1c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1878000 (bd400000)       1024K  F,S         
+             Mapped Phys Memory @ 1a00000 (b9f00000)       1024K  F,S         
+             Mapped Phys Memory @ 1b30000 (b6830000)        512K  F,S         
+             Mapped Phys Memory @ 1c00000 (bf900000)       1024K  F,S         
+             Mapped Phys Memory @ 1d46000 (b7100000)        512K  F,S         
+             Mapped Phys Memory @ 1e00000 (c4900000)       1024K  F,S         
+             Mapped Phys Memory @ 1f40000 (bb100000)        512K  F,S         
+             Mapped Phys Memory @ 2000000 (ba200000)       1024K  F,S         
+             Mapped Phys Memory @ 2127000 (bb200000)       1024K  F,S         
+             Mapped Phys Memory @ 2260000 (b7200000)       1024K  F,S         
+             Mapped Phys Memory @ 2400000 (beb00000)       1024K  F,S         
+             Mapped Phys Memory @ 2541000 (c1b00000)        512K  F,S         
+             Mapped Phys Memory @ 2600000 (be000000)       1024K  F,S         
+             Mapped Phys Memory @ 2780000 (bb700000)        512K  F,S         
+             Mapped Phys Memory @ 28e0000 (c3d00000)        512K  F,S         
+             Mapped Phys Memory @ 2a10000 (c2370000)        512K  F,S         
+             Mapped Phys Memory @ 2b10000 (bf7f0000)        512K  F,S         
+             Mapped Phys Memory @ 2c00000 (c2080000)        512K  F,S         
+             Mapped Phys Memory @ 2d10000 (b3430000)        512K  F,S         
+             Mapped Phys Memory @ 2e00000 (bb080000)        512K  F,S         
+             Mapped Phys Memory @ 3030000 (b7080000)        512K  F,S         
+             /dev/mem           @28030000 (       0)        740K  S           
+             /dev/mem           @28100000 (       0)       1252K  S           
+             /dev/mem           @28240000 (       0)        740K  S           
+             /dev/mem           @28303000 (       0)       1252K  S           
+             /dev/mem           @28440000 (       0)        740K  S           
+             /dev/mem           @28500000 (       0)       1252K  S           
+             /dev/mem           @286a3000 (       0)       1252K  S           
+             /dev/mem           @28800000 (       0)       1252K  S           
+             /dev/mem           @28940000 (       0)        740K  S           
+             /dev/mem           @28a00000 (       0)       1252K  S           
+             /dev/mem           @28b52000 (       0)       1252K  S           
+             /dev/mem           @28d00000 (       0)       1252K  S           
+             /dev/mem           @28e50000 (       0)        740K  S           
+             /dev/mem           @28f34000 (       0)       1252K  S           
+             /dev/mem           @29100000 (       0)       1252K  S           
+             /dev/mem           @29264000 (       0)       1252K  S           
+             /dev/mem           @29400000 (       0)       1252K  S           
+             /dev/mem           @29563000 (       0)       1252K  S           
+             /dev/mem           @29700000 (       0)       1252K  S           
+             /dev/mem           @29840000 (       0)        740K  S           
+             /dev/mem           @299b0000 (       0)        740K  S           
+             /dev/mem           @29b00000 (       0)       1144K  S           
+             /dev/mem           @29c20000 (       0)        740K  S           
+             em/carplay111_h264 @29d00000 (       0)       4100K  S           
+             /dev/mem           @2a190000 (       0)        740K  S           
+             /dev/mem           @2a250000 (       0)        740K  S           
+             /dev/mem           @2a360000 (       0)        740K  S           
+             /dev/mem           @2a430000 (       0)        740K  S           
+             /dev/mem           @2a500000 (       0)       1252K  S           
+             carplay111_decoded @2aa00000 (       0)       6148K  S           
+             Mapped Phys Memory @ 1047000 (c6c60000)         64K  F,S         
+             Mapped Phys Memory @ 1057000 (b4ee3000)         32K  F,S         
+             Mapped Phys Memory @ 105f000 (ba683000)         16K  F,S         
+             Mapped Phys Memory @ 1063000 (b4849000)        8192  F,S         
+             Mapped Phys Memory @ 1065000 (cb552000)        4096  F,S         
+             Mapped Phys Memory @ 11df000 (b47b0000)         64K  F,S         
+             Mapped Phys Memory @ 11ef000 (c74b8000)         32K  F,S         
+             Mapped Phys Memory @ 11f7000 (c7090000)         16K  F,S         
+             Mapped Phys Memory @ 11fb000 (ba690000)        8192  F,S         
+             Mapped Phys Memory @ 11fd000 (c74b7000)        4096  F,S         
+             Mapped Phys Memory @ 1300000 (b7710000)         64K  F,S         
+             Mapped Phys Memory @ 1310000 (baa83000)         32K  F,S         
+             Mapped Phys Memory @ 1318000 (ce260000)         16K  F,S         
+             Mapped Phys Memory @ 131c000 (b465e000)        8192  F,S         
+             Mapped Phys Memory @ 131e000 (b5449000)        4096  F,S         
+             Mapped Phys Memory @ 14d0000 (bba40000)         64K  F,S         
+             Mapped Phys Memory @ 14e0000 (c5aa6000)         32K  F,S         
+             Mapped Phys Memory @ 14e8000 (c5b74000)         16K  F,S         
+             Mapped Phys Memory @ 14ec000 (b4391000)        8192  F,S         
+             Mapped Phys Memory @ 14ee000 (b4d31000)        4096  F,S         
+             Mapped Phys Memory @ 1600000 (ba7c0000)         64K  F,S         
+             Mapped Phys Memory @ 1610000 (b42f3000)         32K  F,S         
+             Mapped Phys Memory @ 1618000 (c70a7000)         16K  F,S         
+             Mapped Phys Memory @ 161c000 (c820f000)        8192  F,S         
+             Mapped Phys Memory @ 161e000 (c5442000)        4096  F,S         
+             Mapped Phys Memory @ 1800000 (b7870000)         64K  F,S         
+             Mapped Phys Memory @ 1810000 (ca7f8000)         32K  F,S         
+             Mapped Phys Memory @ 1818000 (c6d60000)         16K  F,S         
+             Mapped Phys Memory @ 181c000 (c5851000)        8192  F,S         
+             Mapped Phys Memory @ 181e000 (c5850000)        4096  F,S         
+             Mapped Phys Memory @ 1978000 (cb430000)         64K  F,S         
+             Mapped Phys Memory @ 1988000 (b4643000)         32K  F,S         
+             Mapped Phys Memory @ 1990000 (ba92b000)         16K  F,S         
+             Mapped Phys Memory @ 1994000 (b9ea1000)        8192  F,S         
+             Mapped Phys Memory @ 1996000 (b9ea0000)        4096  F,S         
+             Mapped Phys Memory @ 1b00000 (baaf0000)         64K  F,S         
+             Mapped Phys Memory @ 1b10000 (c62b3000)         32K  F,S         
+             Mapped Phys Memory @ 1b18000 (baa28000)         16K  F,S         
+             Mapped Phys Memory @ 1b1c000 (c18a8000)        8192  F,S         
+             Mapped Phys Memory @ 1b1e000 (c62b2000)        4096  F,S         
+             Mapped Phys Memory @ 1bb0000 (bd320000)        128K  F,S         
+             Mapped Phys Memory @ 1bd0000 (bf870000)         64K  F,S         
+             Mapped Phys Memory @ 1be0000 (c62d0000)         16K  F,S         
+             Mapped Phys Memory @ 1d00000 (bf030000)         64K  F,S         
+             Mapped Phys Memory @ 1d10000 (fc345000)         32K  F,S         
+             Mapped Phys Memory @ 1d18000 (ba60c000)         16K  F,S         
+             Mapped Phys Memory @ 1d1c000 (ba60a000)        8192  F,S         
+             Mapped Phys Memory @ 1d1e000 (bab2f000)        4096  F,S         
+             Mapped Phys Memory @ 1dc6000 (bbf10000)        128K  F,S         
+             Mapped Phys Memory @ 1de6000 (c5a00000)         64K  F,S         
+             Mapped Phys Memory @ 1df6000 (ce345000)         16K  F,S         
+             Mapped Phys Memory @ 1f00000 (ca310000)         64K  F,S         
+             Mapped Phys Memory @ 1f10000 (b8335000)         32K  F,S         
+             Mapped Phys Memory @ 1f18000 (fc2cc000)         16K  F,S         
+             Mapped Phys Memory @ 1f1c000 (bbe00000)        8192  F,S         
+             Mapped Phys Memory @ 1f1e000 (c55de000)        4096  F,S         
+             Mapped Phys Memory @ 1fc0000 (bba10000)        128K  F,S         
+             Mapped Phys Memory @ 1fe0000 (c4110000)         64K  F,S         
+             Mapped Phys Memory @ 1ff0000 (c75d7000)         16K  F,S         
+             Mapped Phys Memory @ 2100000 (b43b0000)         64K  F,S         
+             Mapped Phys Memory @ 2110000 (ba5f9000)         32K  F,S         
+             Mapped Phys Memory @ 2118000 (ba5f5000)         16K  F,S         
+             Mapped Phys Memory @ 211c000 (bc501000)        8192  F,S         
+             Mapped Phys Memory @ 211e000 (bc500000)        4096  F,S         
+             Mapped Phys Memory @ 2227000 (c6280000)         64K  F,S         
+             Mapped Phys Memory @ 2237000 (b8730000)         32K  F,S         
+             Mapped Phys Memory @ 223f000 (b8894000)         16K  F,S         
+             Mapped Phys Memory @ 2243000 (b8892000)        8192  F,S         
+             Mapped Phys Memory @ 2245000 (b8891000)        4096  F,S         
+             Mapped Phys Memory @ 2360000 (c78f0000)         64K  F,S         
+             Mapped Phys Memory @ 2370000 (c44a0000)         32K  F,S         
+             Mapped Phys Memory @ 2378000 (bc014000)         16K  F,S         
+             Mapped Phys Memory @ 237c000 (bc012000)        8192  F,S         
+             Mapped Phys Memory @ 237e000 (b4713000)        4096  F,S         
+             Mapped Phys Memory @ 2500000 (b88d0000)         64K  F,S         
+             Mapped Phys Memory @ 2510000 (debc8000)         32K  F,S         
+             Mapped Phys Memory @ 2518000 (b79ce000)         16K  F,S         
+             Mapped Phys Memory @ 251c000 (b79cc000)        8192  F,S         
+             Mapped Phys Memory @ 251e000 (b79cb000)        4096  F,S         
+             Mapped Phys Memory @ 25c1000 (cabe0000)        128K  F,S         
+             Mapped Phys Memory @ 25e1000 (ba7a0000)         64K  F,S         
+             Mapped Phys Memory @ 25f1000 (c849f000)         16K  F,S         
+             Mapped Phys Memory @ 2700000 (cac10000)         64K  F,S         
+             Mapped Phys Memory @ 2710000 (c6529000)         32K  F,S         
+             Mapped Phys Memory @ 2718000 (cb032000)         16K  F,S         
+             Mapped Phys Memory @ 271c000 (c6527000)        8192  F,S         
+             Mapped Phys Memory @ 271e000 (c54fb000)        4096  F,S         
+             Mapped Phys Memory @ 2800000 (c26c0000)        128K  F,S         
+             Mapped Phys Memory @ 2820000 (b7840000)         64K  F,S         
+             Mapped Phys Memory @ 2830000 (cc8ec000)         16K  F,S         
+             Mapped Phys Memory @ 2960000 (c7480000)        128K  F,S         
+             Mapped Phys Memory @ 2980000 (c7370000)         64K  F,S         
+             Mapped Phys Memory @ 2990000 (ba634000)         16K  F,S         
+             Mapped Phys Memory @ 2a90000 (bec10000)        128K  F,S         
+             Mapped Phys Memory @ 2ab0000 (ba990000)         64K  F,S         
+             Mapped Phys Memory @ 2ac0000 (c75ec000)         16K  F,S         
+             Mapped Phys Memory @ 2b90000 (c4010000)        128K  F,S         
+             Mapped Phys Memory @ 2bb0000 (c5100000)         64K  F,S         
+             Mapped Phys Memory @ 2bc0000 (b7cbc000)         16K  F,S         
+             Mapped Phys Memory @ 2c80000 (c5740000)        128K  F,S         
+             Mapped Phys Memory @ 2ca0000 (c6840000)         64K  F,S         
+             Mapped Phys Memory @ 2cb0000 (c75e8000)         16K  F,S         
+             Mapped Phys Memory @ 2d90000 (ba160000)        128K  F,S         
+             Mapped Phys Memory @ 2db0000 (baac0000)         64K  F,S         
+             Mapped Phys Memory @ 2dc0000 (cc8e8000)         16K  F,S         
+             Mapped Phys Memory @ 2e80000 (ba430000)        128K  F,S         
+             Mapped Phys Memory @ 2ea0000 (bb420000)         64K  F,S         
+             Mapped Phys Memory @ 2eb0000 (b76c8000)         16K  F,S         
+             Mapped Phys Memory @ 30b0000 (b7420000)        128K  F,S         
+             Mapped Phys Memory @ 30d0000 (c5310000)         64K  F,S         
+             Mapped Phys Memory @ 30e0000 (b7cb8000)         16K  F,S         
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+21151790   1 n/apps/dio_manager  10r CONDVAR             0   43M   36K(516K)*
+21151790   2 n/apps/dio_manager  10r DEAD                0   43M  132K(132K)*
+21151790   3 n/apps/dio_manager  10r READY               0   43M   12K(132K) 
+21151790   4 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790   5 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790   6 n/apps/dio_manager  10r REPLY               0   43M   16K(132K) 
+21151790   7 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790   8 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790   9 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  10 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  11 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  12 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  13 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  14 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  15 n/apps/dio_manager  10r CONDVAR             0   43M   16K(132K) 
+21151790  16 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  17 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  18 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  19 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  20 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  21 n/apps/dio_manager  10r RECEIVE             0   43M  4096(132K) 
+21151790  22 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  23 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  24 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  25 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  26 n/apps/dio_manager  10r REPLY               0   43M   20K(132K) 
+21151790  27 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  28 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  29 n/apps/dio_manager  10r CONDVAR             0   43M   12K(132K) 
+21151790  30 n/apps/dio_manager  10r CONDVAR             0   43M  4096(132K) 
+21151790  31 n/apps/dio_manager  21r CONDVAR             0   43M  8192(132K) 
+21151790  32 n/apps/dio_manager  10r REPLY               0   43M  8192(132K) 
+21151790  33 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  34 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  35 n/apps/dio_manager  21r SIGWAITINFO         0   43M   12K(132K) 
+21151790  36 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  37 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  38 n/apps/dio_manager  21r CONDVAR             0   43M  4096(132K) 
+21151790  39 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  40 n/apps/dio_manager  10r SIGWAITINFO         0   43M  8192(132K) 
+21151790  41 n/apps/dio_manager  10r CONDVAR             0   43M  8192(132K) 
+21151790  42 n/apps/dio_manager  10r NANOSLEEP           0   43M  4096(132K) 
+21151790  43 n/apps/dio_manager  19f SIGWAITINFO         0   43M  8192(132K) 
+21151790  44 n/apps/dio_manager  10r SIGWAITINFO         0   43M   12K(132K) 
+21151790  45 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  46 n/apps/dio_manager  10r RECEIVE             0   43M  8192(132K) 
+21151790  47 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  48 n/apps/dio_manager  18f SIGWAITINFO         0   43M     0(132K) 
+21151790  49 n/apps/dio_manager  10r CONDVAR             0   43M   4096(12K) 
+21151790  50 n/apps/dio_manager  24r RECEIVE             0   43M   4096(36K) 
+21151790  51 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  52 n/apps/dio_manager  15r CONDVAR             0   43M   4096(20K) 
+21151790  53 n/apps/dio_manager  10r NANOSLEEP           0   43M  8192(132K) 
+21151790  54 n/apps/dio_manager  18f SIGWAITINFO         0   43M     0(132K) 
+21151790  56 n/apps/dio_manager  17f SIGWAITINFO         0   43M  8192(132K) 
+21151790  57 n/apps/dio_manager  18f CONDVAR             0   43M  4096(132K) 
+21151790  58 n/apps/dio_manager  19f CONDVAR             0   43M  8192(132K) 
+21151790  59 n/apps/dio_manager  10r RECEIVE             0   43M   4096(12K) 
+21151790  60 n/apps/dio_manager  15r CONDVAR             0   43M   4096(20K) 
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1660000             536K   12K              
+             libcommonUtils.so  @78000000              12K  4096              
+             libdsicommon.so    @78005000              24K  4096              
+             libomxctx.so.1     @7800c000              32K  4096              
+             libdns_sd.so.1     @78015000              28K  4096              
+             libOmxCore.so      @7801d000              16K  8192              
+             libbacktrace.so.1  @78025000              16K  8192              
+             libpmem_client.so  @7802b000              16K  4096              
+             libusbdi.so.2      @78030000              44K  4096              
+             ibOSAbstraction.so @7803c000              44K  4096              
+             libasound.so.2     @7804c000             128K   20K              
+             libpps.so.1        @78074000              28K  4096              
+             rplay_altscreen.so @78080000             212K  384K              
+             libaoi.so.1        @78116000              28K  8192              
+             libiplcommon.so    @78120000             284K  8192              
+             libz.so.2          @78169000              76K  4096              
+             libscreen.so.1     @78180000             104K  4096              
+             libcomm.so         @781a0000             788K   16K              
+             libm.so.2          @78269000             148K  8192              
+             libNmeSDK.so       @78290000             712K   64K              
+             libsocket.so.3     @78352000             168K   24K              
+             libutil.so         @78383000             912K   16K              
+             libosal.so         @78470000             492K   16K              
+             liblibstd.so       @784f0000              32K  4096              
+             eConnectBackend.so @784fd000              24K  4096              
+             libOSUser.so       @78504000              28K  8192              
+             libairplay.so      @78510000             728K   16K              
+             libadreno_utils.so @785ca000              20K  8192              
+             libprobes.so       @785d2000             108K  4096              
+             TracingProtocol.so @785f0000             152K  4096              
+             libNmeImage.so     @7861f000            1696K   48K              
+             libGSLUser.so      @787d3000              32K  4096              
+             74-000c29a978ce.so @787dd000              56K  4096              
+             a5-a36dfd6f8f02.so @787ec000              72K  4096              
+             34-000c29e68a4a.so @78800000              60K  4096              
+             23-5aba5e2ac150.so @78810000              72K  4096              
+             libbrokerproxy.so  @78826000              48K  4096              
+             libNme.so          @78840000             156K   28K              
+             ersistenceproxy.so @78870000             124K  4096              
+             libecpp-ne.so.4    @78890000             112K   28K              
+             06-6d51438e5ecb.so @788b7000              56K  4096              
+             libtracing.so      @788d0000             476K  8192              
+             libpanel.so        @78949000              76K  4096              
+             codestring_data.so @78960000             684K  4096              
+             libNmeTransport.so @78a10000              84K   24K              
+             9f-973d8eb645a3.so @78a30000              64K  4096              
+             mmiVdec_asic_AF.so @78a50000             148K  4096              
+             libssl.so.2        @78a80000             360K   28K              
+             libOmxBase.so      @78af0000             272K  4096              
+             egl14.so           @78b80000             132K  4096              
+             libcarplay_hook.so @78c30000             112K  184K              
+             OpenGLES20.so      @78cc0000             868K  108K              
+             bNmeBaseClasses.so @78e00000            2356K  144K              
+             libcrypto.so.2     @79200000            1488K  104K              
+             libNmeVfs.so       @79400000            2128K   76K              
+             gpuDeinterlacer.so @79b00000              64K   11M              
+             Mapped Phys Memory @  f47000 (bef00000)       1024K  F,S         
+             Mapped Phys Memory @ 10df000 (c0200000)       1024K  F,S         
+             Mapped Phys Memory @ 1200000 (c6b00000)       1024K  F,S         
+             Mapped Phys Memory @ 13d0000 (c3c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1500000 (c2500000)       1024K  F,S         
+             Mapped Phys Memory @ 1700000 (c1c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1878000 (bd400000)       1024K  F,S         
+             Mapped Phys Memory @ 1a00000 (b9f00000)       1024K  F,S         
+             Mapped Phys Memory @ 1b30000 (b6830000)        512K  F,S         
+             Mapped Phys Memory @ 1c00000 (bf900000)       1024K  F,S         
+             Mapped Phys Memory @ 1d46000 (b7100000)        512K  F,S         
+             Mapped Phys Memory @ 1e00000 (c4900000)       1024K  F,S         
+             Mapped Phys Memory @ 1f40000 (bb100000)        512K  F,S         
+             Mapped Phys Memory @ 2000000 (ba200000)       1024K  F,S         
+             Mapped Phys Memory @ 2127000 (bb200000)       1024K  F,S         
+             Mapped Phys Memory @ 2260000 (b7200000)       1024K  F,S         
+             Mapped Phys Memory @ 2400000 (beb00000)       1024K  F,S         
+             Mapped Phys Memory @ 2541000 (c1b00000)        512K  F,S         
+             Mapped Phys Memory @ 2600000 (be000000)       1024K  F,S         
+             Mapped Phys Memory @ 2780000 (bb700000)        512K  F,S         
+             Mapped Phys Memory @ 28e0000 (c3d00000)        512K  F,S         
+             Mapped Phys Memory @ 2a10000 (c2370000)        512K  F,S         
+             Mapped Phys Memory @ 2b10000 (bf7f0000)        512K  F,S         
+             Mapped Phys Memory @ 2c00000 (c2080000)        512K  F,S         
+             Mapped Phys Memory @ 2d10000 (b3430000)        512K  F,S         
+             Mapped Phys Memory @ 2e00000 (bb080000)        512K  F,S         
+             Mapped Phys Memory @ 3030000 (b7080000)        512K  F,S         
+             /dev/mem           @28030000 (       0)        740K  S           
+             /dev/mem           @28100000 (       0)       1252K  S           
+             /dev/mem           @28240000 (       0)        740K  S           
+             /dev/mem           @28303000 (       0)       1252K  S           
+             /dev/mem           @28440000 (       0)        740K  S           
+             /dev/mem           @28500000 (       0)       1252K  S           
+             /dev/mem           @286a3000 (       0)       1252K  S           
+             /dev/mem           @28800000 (       0)       1252K  S           
+             /dev/mem           @28940000 (       0)        740K  S           
+             /dev/mem           @28a00000 (       0)       1252K  S           
+             /dev/mem           @28b52000 (       0)       1252K  S           
+             /dev/mem           @28d00000 (       0)       1252K  S           
+             /dev/mem           @28e50000 (       0)        740K  S           
+             /dev/mem           @28f34000 (       0)       1252K  S           
+             /dev/mem           @29100000 (       0)       1252K  S           
+             /dev/mem           @29264000 (       0)       1252K  S           
+             /dev/mem           @29400000 (       0)       1252K  S           
+             /dev/mem           @29563000 (       0)       1252K  S           
+             /dev/mem           @29700000 (       0)       1252K  S           
+             /dev/mem           @29840000 (       0)        740K  S           
+             /dev/mem           @299b0000 (       0)        740K  S           
+             /dev/mem           @29b00000 (       0)       1144K  S           
+             /dev/mem           @29c20000 (       0)        740K  S           
+             em/carplay111_h264 @29d00000 (       0)       4100K  S           
+             /dev/mem           @2a190000 (       0)        740K  S           
+             /dev/mem           @2a250000 (       0)        740K  S           
+             /dev/mem           @2a360000 (       0)        740K  S           
+             /dev/mem           @2a430000 (       0)        740K  S           
+             /dev/mem           @2a500000 (       0)       1252K  S           
+             carplay111_decoded @2aa00000 (       0)       6148K  S           
+             Mapped Phys Memory @ 1047000 (c6c60000)         64K  F,S         
+             Mapped Phys Memory @ 1057000 (b4ee3000)         32K  F,S         
+             Mapped Phys Memory @ 105f000 (ba683000)         16K  F,S         
+             Mapped Phys Memory @ 1063000 (b4849000)        8192  F,S         
+             Mapped Phys Memory @ 1065000 (cb552000)        4096  F,S         
+             Mapped Phys Memory @ 11df000 (b47b0000)         64K  F,S         
+             Mapped Phys Memory @ 11ef000 (c74b8000)         32K  F,S         
+             Mapped Phys Memory @ 11f7000 (c7090000)         16K  F,S         
+             Mapped Phys Memory @ 11fb000 (ba690000)        8192  F,S         
+             Mapped Phys Memory @ 11fd000 (c74b7000)        4096  F,S         
+             Mapped Phys Memory @ 1300000 (b7710000)         64K  F,S         
+             Mapped Phys Memory @ 1310000 (baa83000)         32K  F,S         
+             Mapped Phys Memory @ 1318000 (ce260000)         16K  F,S         
+             Mapped Phys Memory @ 131c000 (b465e000)        8192  F,S         
+             Mapped Phys Memory @ 131e000 (b5449000)        4096  F,S         
+             Mapped Phys Memory @ 14d0000 (bba40000)         64K  F,S         
+             Mapped Phys Memory @ 14e0000 (c5aa6000)         32K  F,S         
+             Mapped Phys Memory @ 14e8000 (c5b74000)         16K  F,S         
+             Mapped Phys Memory @ 14ec000 (b4391000)        8192  F,S         
+             Mapped Phys Memory @ 14ee000 (b4d31000)        4096  F,S         
+             Mapped Phys Memory @ 1600000 (ba7c0000)         64K  F,S         
+             Mapped Phys Memory @ 1610000 (b42f3000)         32K  F,S         
+             Mapped Phys Memory @ 1618000 (c70a7000)         16K  F,S         
+             Mapped Phys Memory @ 161c000 (c820f000)        8192  F,S         
+             Mapped Phys Memory @ 161e000 (c5442000)        4096  F,S         
+             Mapped Phys Memory @ 1800000 (b7870000)         64K  F,S         
+             Mapped Phys Memory @ 1810000 (ca7f8000)         32K  F,S         
+             Mapped Phys Memory @ 1818000 (c6d60000)         16K  F,S         
+             Mapped Phys Memory @ 181c000 (c5851000)        8192  F,S         
+             Mapped Phys Memory @ 181e000 (c5850000)        4096  F,S         
+             Mapped Phys Memory @ 1978000 (cb430000)         64K  F,S         
+             Mapped Phys Memory @ 1988000 (b4643000)         32K  F,S         
+             Mapped Phys Memory @ 1990000 (ba92b000)         16K  F,S         
+             Mapped Phys Memory @ 1994000 (b9ea1000)        8192  F,S         
+             Mapped Phys Memory @ 1996000 (b9ea0000)        4096  F,S         
+             Mapped Phys Memory @ 1b00000 (baaf0000)         64K  F,S         
+             Mapped Phys Memory @ 1b10000 (c62b3000)         32K  F,S         
+             Mapped Phys Memory @ 1b18000 (baa28000)         16K  F,S         
+             Mapped Phys Memory @ 1b1c000 (c18a8000)        8192  F,S         
+             Mapped Phys Memory @ 1b1e000 (c62b2000)        4096  F,S         
+             Mapped Phys Memory @ 1bb0000 (bd320000)        128K  F,S         
+             Mapped Phys Memory @ 1bd0000 (bf870000)         64K  F,S         
+             Mapped Phys Memory @ 1be0000 (c62d0000)         16K  F,S         
+             Mapped Phys Memory @ 1d00000 (bf030000)         64K  F,S         
+             Mapped Phys Memory @ 1d10000 (fc345000)         32K  F,S         
+             Mapped Phys Memory @ 1d18000 (ba60c000)         16K  F,S         
+             Mapped Phys Memory @ 1d1c000 (ba60a000)        8192  F,S         
+             Mapped Phys Memory @ 1d1e000 (bab2f000)        4096  F,S         
+             Mapped Phys Memory @ 1dc6000 (bbf10000)        128K  F,S         
+             Mapped Phys Memory @ 1de6000 (c5a00000)         64K  F,S         
+             Mapped Phys Memory @ 1df6000 (ce345000)         16K  F,S         
+             Mapped Phys Memory @ 1f00000 (ca310000)         64K  F,S         
+             Mapped Phys Memory @ 1f10000 (b8335000)         32K  F,S         
+             Mapped Phys Memory @ 1f18000 (fc2cc000)         16K  F,S         
+             Mapped Phys Memory @ 1f1c000 (bbe00000)        8192  F,S         
+             Mapped Phys Memory @ 1f1e000 (c55de000)        4096  F,S         
+             Mapped Phys Memory @ 1fc0000 (bba10000)        128K  F,S         
+             Mapped Phys Memory @ 1fe0000 (c4110000)         64K  F,S         
+             Mapped Phys Memory @ 1ff0000 (c75d7000)         16K  F,S         
+             Mapped Phys Memory @ 2100000 (b43b0000)         64K  F,S         
+             Mapped Phys Memory @ 2110000 (ba5f9000)         32K  F,S         
+             Mapped Phys Memory @ 2118000 (ba5f5000)         16K  F,S         
+             Mapped Phys Memory @ 211c000 (bc501000)        8192  F,S         
+             Mapped Phys Memory @ 211e000 (bc500000)        4096  F,S         
+             Mapped Phys Memory @ 2227000 (c6280000)         64K  F,S         
+             Mapped Phys Memory @ 2237000 (b8730000)         32K  F,S         
+             Mapped Phys Memory @ 223f000 (b8894000)         16K  F,S         
+             Mapped Phys Memory @ 2243000 (b8892000)        8192  F,S         
+             Mapped Phys Memory @ 2245000 (b8891000)        4096  F,S         
+             Mapped Phys Memory @ 2360000 (c78f0000)         64K  F,S         
+             Mapped Phys Memory @ 2370000 (c44a0000)         32K  F,S         
+             Mapped Phys Memory @ 2378000 (bc014000)         16K  F,S         
+             Mapped Phys Memory @ 237c000 (bc012000)        8192  F,S         
+             Mapped Phys Memory @ 237e000 (b4713000)        4096  F,S         
+             Mapped Phys Memory @ 2500000 (b88d0000)         64K  F,S         
+             Mapped Phys Memory @ 2510000 (debc8000)         32K  F,S         
+             Mapped Phys Memory @ 2518000 (b79ce000)         16K  F,S         
+             Mapped Phys Memory @ 251c000 (b79cc000)        8192  F,S         
+             Mapped Phys Memory @ 251e000 (b79cb000)        4096  F,S         
+             Mapped Phys Memory @ 25c1000 (cabe0000)        128K  F,S         
+             Mapped Phys Memory @ 25e1000 (ba7a0000)         64K  F,S         
+             Mapped Phys Memory @ 25f1000 (c849f000)         16K  F,S         
+             Mapped Phys Memory @ 2700000 (cac10000)         64K  F,S         
+             Mapped Phys Memory @ 2710000 (c6529000)         32K  F,S         
+             Mapped Phys Memory @ 2718000 (cb032000)         16K  F,S         
+             Mapped Phys Memory @ 271c000 (c6527000)        8192  F,S         
+             Mapped Phys Memory @ 271e000 (c54fb000)        4096  F,S         
+             Mapped Phys Memory @ 2800000 (c26c0000)        128K  F,S         
+             Mapped Phys Memory @ 2820000 (b7840000)         64K  F,S         
+             Mapped Phys Memory @ 2830000 (cc8ec000)         16K  F,S         
+             Mapped Phys Memory @ 2960000 (c7480000)        128K  F,S         
+             Mapped Phys Memory @ 2980000 (c7370000)         64K  F,S         
+             Mapped Phys Memory @ 2990000 (ba634000)         16K  F,S         
+             Mapped Phys Memory @ 2a90000 (bec10000)        128K  F,S         
+             Mapped Phys Memory @ 2ab0000 (ba990000)         64K  F,S         
+             Mapped Phys Memory @ 2ac0000 (c75ec000)         16K  F,S         
+             Mapped Phys Memory @ 2b90000 (c4010000)        128K  F,S         
+             Mapped Phys Memory @ 2bb0000 (c5100000)         64K  F,S         
+             Mapped Phys Memory @ 2bc0000 (b7cbc000)         16K  F,S         
+             Mapped Phys Memory @ 2c80000 (c5740000)        128K  F,S         
+             Mapped Phys Memory @ 2ca0000 (c6840000)         64K  F,S         
+             Mapped Phys Memory @ 2cb0000 (c75e8000)         16K  F,S         
+             Mapped Phys Memory @ 2d90000 (ba160000)        128K  F,S         
+             Mapped Phys Memory @ 2db0000 (baac0000)         64K  F,S         
+             Mapped Phys Memory @ 2dc0000 (cc8e8000)         16K  F,S         
+             Mapped Phys Memory @ 2e80000 (ba430000)        128K  F,S         
+             Mapped Phys Memory @ 2ea0000 (bb420000)         64K  F,S         
+             Mapped Phys Memory @ 2eb0000 (b76c8000)         16K  F,S         
+             Mapped Phys Memory @ 30b0000 (b7420000)        128K  F,S         
+             Mapped Phys Memory @ 30d0000 (c5310000)         64K  F,S         
+             Mapped Phys Memory @ 30e0000 (b7cb8000)         16K  F,S         
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo
+     pid tid name               prio STATE            code  data        stack
+21151790   1 n/apps/dio_manager  10r CONDVAR             0   33M   36K(516K)*
+21151790   2 n/apps/dio_manager  10r DEAD                0   33M  132K(132K)*
+21151790   3 n/apps/dio_manager  10r NANOSLEEP           0   33M   12K(132K) 
+21151790   4 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790   5 n/apps/dio_manager  10r RECEIVE             0   33M  4096(132K) 
+21151790   6 n/apps/dio_manager  10r REPLY               0   33M   16K(132K) 
+21151790   7 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790   8 n/apps/dio_manager  10r CONDVAR             0   33M   16K(132K) 
+21151790   9 n/apps/dio_manager  10r CONDVAR             0   33M   16K(132K) 
+21151790  10 n/apps/dio_manager  10r CONDVAR             0   33M   16K(132K) 
+21151790  11 n/apps/dio_manager  10r REPLY               0   33M   20K(132K) 
+21151790  12 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  13 n/apps/dio_manager  10r RECEIVE             0   33M  4096(132K) 
+21151790  14 n/apps/dio_manager  10r RECEIVE             0   33M  8192(132K) 
+21151790  15 n/apps/dio_manager  10r CONDVAR             0   33M   16K(132K) 
+21151790  16 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  17 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  18 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790  19 n/apps/dio_manager  10r RECEIVE             0   33M  4096(132K) 
+21151790  20 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  21 n/apps/dio_manager  10r RECEIVE             0   33M  4096(132K) 
+21151790  22 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  23 n/apps/dio_manager  10r REPLY               0   33M   20K(132K) 
+21151790  24 n/apps/dio_manager  10r REPLY               0   33M   20K(132K) 
+21151790  25 n/apps/dio_manager  10r REPLY               0   33M   20K(132K) 
+21151790  26 n/apps/dio_manager  10r REPLY               0   33M   20K(132K) 
+21151790  27 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790  28 n/apps/dio_manager  10r CONDVAR             0   33M  4096(132K) 
+21151790  29 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  30 n/apps/dio_manager  10r CONDVAR             0   33M  4096(132K) 
+21151790  31 n/apps/dio_manager  21r CONDVAR             0   33M  8192(132K) 
+21151790  32 n/apps/dio_manager  10r REPLY               0   33M  8192(132K) 
+21151790  33 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790  34 n/apps/dio_manager  10r NANOSLEEP           0   33M  4096(132K) 
+21151790  35 n/apps/dio_manager  21r SIGWAITINFO         0   33M   12K(132K) 
+21151790  36 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790  37 n/apps/dio_manager  10r CONDVAR             0   33M  8192(132K) 
+21151790  38 n/apps/dio_manager  21r CONDVAR             0   33M  4096(132K) 
+21151790  39 n/apps/dio_manager  10r SIGWAITINFO         0   33M   12K(132K) 
+21151790  40 n/apps/dio_manager  10r SIGWAITINFO         0   33M  8192(132K) 
+21151790  41 n/apps/dio_manager  10r CONDVAR             0   33M   12K(132K) 
+21151790  42 n/apps/dio_manager  10r NANOSLEEP           0   33M  4096(132K) 
+21151790  43 n/apps/dio_manager  19f SIGWAITINFO         0   33M  8192(132K) 
+21151790  44 n/apps/dio_manager  10r SIGWAITINFO         0   33M   12K(132K) 
+21151790  45 n/apps/dio_manager  18f CONDVAR             0   33M  4096(132K) 
+21151790  46 n/apps/dio_manager  10r RECEIVE             0   33M  8192(132K) 
+21151790  47 n/apps/dio_manager  19f CONDVAR             0   33M  8192(132K) 
+21151790  49 n/apps/dio_manager  10r CONDVAR             0   33M   4096(12K) 
+21151790  50 n/apps/dio_manager  24r RECEIVE             0   33M   4096(36K) 
+21151790  51 n/apps/dio_manager  10r RECEIVE             0   33M   4096(12K) 
+21151790  52 n/apps/dio_manager  15r CONDVAR             0   33M   4096(20K) 
+21151790  53 n/apps/dio_manager  10r NANOSLEEP           0   33M  8192(132K) 
+21151790  57 n/apps/dio_manager  18f CONDVAR             0   33M  4096(132K) 
+             dio_manager        @  100000             652K   24K              
+             libc.so.3          @ 1660000             536K   12K              
+             libcommonUtils.so  @78000000              12K  4096              
+             libdsicommon.so    @78005000              24K  4096              
+             libomxctx.so.1     @7800c000              32K  4096              
+             libdns_sd.so.1     @78015000              28K  4096              
+             libOmxCore.so      @7801d000              16K  8192              
+             libbacktrace.so.1  @78025000              16K  8192              
+             libpmem_client.so  @7802b000              16K  4096              
+             libusbdi.so.2      @78030000              44K  4096              
+             ibOSAbstraction.so @7803c000              44K  4096              
+             libasound.so.2     @7804c000             128K   20K              
+             libpps.so.1        @78074000              28K  4096              
+             rplay_altscreen.so @78080000             212K  384K              
+             libaoi.so.1        @78116000              28K  8192              
+             libiplcommon.so    @78120000             284K  8192              
+             libz.so.2          @78169000              76K  4096              
+             libscreen.so.1     @78180000             104K  4096              
+             libcomm.so         @781a0000             788K   16K              
+             libm.so.2          @78269000             148K  8192              
+             libNmeSDK.so       @78290000             712K   64K              
+             libsocket.so.3     @78352000             168K   24K              
+             libutil.so         @78383000             912K   16K              
+             libosal.so         @78470000             492K   16K              
+             liblibstd.so       @784f0000              32K  4096              
+             eConnectBackend.so @784fd000              24K  4096              
+             libOSUser.so       @78504000              28K  8192              
+             libairplay.so      @78510000             728K   16K              
+             libadreno_utils.so @785ca000              20K  8192              
+             libprobes.so       @785d2000             108K  4096              
+             TracingProtocol.so @785f0000             152K  4096              
+             libNmeImage.so     @7861f000            1696K   48K              
+             libGSLUser.so      @787d3000              32K  4096              
+             74-000c29a978ce.so @787dd000              56K  4096              
+             a5-a36dfd6f8f02.so @787ec000              72K  4096              
+             34-000c29e68a4a.so @78800000              60K  4096              
+             23-5aba5e2ac150.so @78810000              72K  4096              
+             libbrokerproxy.so  @78826000              48K  4096              
+             libNme.so          @78840000             156K   28K              
+             ersistenceproxy.so @78870000             124K  4096              
+             libecpp-ne.so.4    @78890000             112K   28K              
+             06-6d51438e5ecb.so @788b7000              56K  4096              
+             libtracing.so      @788d0000             476K  8192              
+             libpanel.so        @78949000              76K  4096              
+             codestring_data.so @78960000             684K  4096              
+             libNmeTransport.so @78a10000              84K   24K              
+             9f-973d8eb645a3.so @78a30000              64K  4096              
+             mmiVdec_asic_AF.so @78a50000             148K  4096              
+             libssl.so.2        @78a80000             360K   28K              
+             libOmxBase.so      @78af0000             272K  4096              
+             egl14.so           @78b80000             132K  4096              
+             libcarplay_hook.so @78c30000             112K  184K              
+             OpenGLES20.so      @78cc0000             868K  108K              
+             bNmeBaseClasses.so @78e00000            2356K  144K              
+             libcrypto.so.2     @79200000            1488K  104K              
+             libNmeVfs.so       @79400000            2128K   76K              
+             gpuDeinterlacer.so @79b00000              64K   11M              
+             Mapped Phys Memory @  f47000 (bef00000)       1024K  F,S         
+             Mapped Phys Memory @ 10df000 (c0200000)       1024K  F,S         
+             Mapped Phys Memory @ 1200000 (c6b00000)       1024K  F,S         
+             Mapped Phys Memory @ 13d0000 (c3c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1500000 (c2500000)       1024K  F,S         
+             Mapped Phys Memory @ 1700000 (c1c00000)       1024K  F,S         
+             Mapped Phys Memory @ 1878000 (bd400000)       1024K  F,S         
+             Mapped Phys Memory @ 1a00000 (b9f00000)       1024K  F,S         
+             Mapped Phys Memory @ 1c00000 (bf900000)       1024K  F,S         
+             Mapped Phys Memory @ 1e00000 (c4900000)       1024K  F,S         
+             Mapped Phys Memory @ 2000000 (ba200000)       1024K  F,S         
+             Mapped Phys Memory @ 2127000 (bb200000)       1024K  F,S         
+             Mapped Phys Memory @ 2260000 (b7200000)       1024K  F,S         
+             Mapped Phys Memory @ 2400000 (beb00000)       1024K  F,S         
+             Mapped Phys Memory @ 2600000 (be000000)       1024K  F,S         
+             /dev/mem           @28100000 (       0)       1252K  S           
+             /dev/mem           @28303000 (       0)       1252K  S           
+             /dev/mem           @28500000 (       0)       1252K  S           
+             /dev/mem           @286a3000 (       0)       1252K  S           
+             /dev/mem           @28800000 (       0)       1252K  S           
+             /dev/mem           @28a00000 (       0)       1252K  S           
+             /dev/mem           @28b52000 (       0)       1252K  S           
+             /dev/mem           @28d00000 (       0)       1252K  S           
+             /dev/mem           @28f34000 (       0)       1252K  S           
+             /dev/mem           @29100000 (       0)       1252K  S           
+             /dev/mem           @29264000 (       0)       1252K  S           
+             /dev/mem           @29400000 (       0)       1252K  S           
+             /dev/mem           @29563000 (       0)       1252K  S           
+             /dev/mem           @29700000 (       0)       1252K  S           
+             /dev/mem           @29b00000 (       0)       1144K  S           
+             em/carplay111_h264 @29d00000 (       0)       4100K  S           
+             /dev/mem           @2a500000 (       0)       1252K  S           
+             carplay111_decoded @2aa00000 (       0)       6148K  S           
+             Mapped Phys Memory @ 1047000 (c6c60000)         64K  F,S         
+             Mapped Phys Memory @ 1057000 (b4ee3000)         32K  F,S         
+             Mapped Phys Memory @ 105f000 (ba683000)         16K  F,S         
+             Mapped Phys Memory @ 1063000 (b4849000)        8192  F,S         
+             Mapped Phys Memory @ 1065000 (cb552000)        4096  F,S         
+             Mapped Phys Memory @ 11df000 (b47b0000)         64K  F,S         
+             Mapped Phys Memory @ 11ef000 (c74b8000)         32K  F,S         
+             Mapped Phys Memory @ 11f7000 (c7090000)         16K  F,S         
+             Mapped Phys Memory @ 11fb000 (ba690000)        8192  F,S         
+             Mapped Phys Memory @ 11fd000 (c74b7000)        4096  F,S         
+             Mapped Phys Memory @ 1300000 (b7710000)         64K  F,S         
+             Mapped Phys Memory @ 1310000 (baa83000)         32K  F,S         
+             Mapped Phys Memory @ 1318000 (ce260000)         16K  F,S         
+             Mapped Phys Memory @ 131c000 (b465e000)        8192  F,S         
+             Mapped Phys Memory @ 131e000 (b5449000)        4096  F,S         
+             Mapped Phys Memory @ 14d0000 (bba40000)         64K  F,S         
+             Mapped Phys Memory @ 14e0000 (c5aa6000)         32K  F,S         
+             Mapped Phys Memory @ 14e8000 (c5b74000)         16K  F,S         
+             Mapped Phys Memory @ 14ec000 (b4391000)        8192  F,S         
+             Mapped Phys Memory @ 14ee000 (b4d31000)        4096  F,S         
+             Mapped Phys Memory @ 1600000 (ba7c0000)         64K  F,S         
+             Mapped Phys Memory @ 1610000 (b42f3000)         32K  F,S         
+             Mapped Phys Memory @ 1618000 (c70a7000)         16K  F,S         
+             Mapped Phys Memory @ 161c000 (c820f000)        8192  F,S         
+             Mapped Phys Memory @ 161e000 (c5442000)        4096  F,S         
+             Mapped Phys Memory @ 1800000 (b7870000)         64K  F,S         
+             Mapped Phys Memory @ 1810000 (ca7f8000)         32K  F,S         
+             Mapped Phys Memory @ 1818000 (c6d60000)         16K  F,S         
+             Mapped Phys Memory @ 181c000 (c5851000)        8192  F,S         
+             Mapped Phys Memory @ 181e000 (c5850000)        4096  F,S         
+             Mapped Phys Memory @ 1978000 (cb430000)         64K  F,S         
+             Mapped Phys Memory @ 1988000 (b4643000)         32K  F,S         
+             Mapped Phys Memory @ 1990000 (ba92b000)         16K  F,S         
+             Mapped Phys Memory @ 1994000 (b9ea1000)        8192  F,S         
+             Mapped Phys Memory @ 1996000 (b9ea0000)        4096  F,S         
+             Mapped Phys Memory @ 1b00000 (baaf0000)         64K  F,S         
+             Mapped Phys Memory @ 1b10000 (c62b3000)         32K  F,S         
+             Mapped Phys Memory @ 1b18000 (baa28000)         16K  F,S         
+             Mapped Phys Memory @ 1b1c000 (c18a8000)        8192  F,S         
+             Mapped Phys Memory @ 1b1e000 (c62b2000)        4096  F,S         
+             Mapped Phys Memory @ 1d00000 (bf030000)         64K  F,S         
+             Mapped Phys Memory @ 1d10000 (fc345000)         32K  F,S         
+             Mapped Phys Memory @ 1d18000 (ba60c000)         16K  F,S         
+             Mapped Phys Memory @ 1d1c000 (ba60a000)        8192  F,S         
+             Mapped Phys Memory @ 1d1e000 (bab2f000)        4096  F,S         
+             Mapped Phys Memory @ 1f00000 (ca310000)         64K  F,S         
+             Mapped Phys Memory @ 1f10000 (b8335000)         32K  F,S         
+             Mapped Phys Memory @ 1f18000 (fc2cc000)         16K  F,S         
+             Mapped Phys Memory @ 1f1c000 (bbe00000)        8192  F,S         
+             Mapped Phys Memory @ 1f1e000 (c55de000)        4096  F,S         
+             Mapped Phys Memory @ 2100000 (b43b0000)         64K  F,S         
+             Mapped Phys Memory @ 2110000 (ba5f9000)         32K  F,S         
+             Mapped Phys Memory @ 2118000 (ba5f5000)         16K  F,S         
+             Mapped Phys Memory @ 211c000 (bc501000)        8192  F,S         
+             Mapped Phys Memory @ 211e000 (bc500000)        4096  F,S         
+             Mapped Phys Memory @ 2227000 (c6280000)         64K  F,S         
+             Mapped Phys Memory @ 2237000 (b8730000)         32K  F,S         
+             Mapped Phys Memory @ 223f000 (b8894000)         16K  F,S         
+             Mapped Phys Memory @ 2243000 (b8892000)        8192  F,S         
+             Mapped Phys Memory @ 2245000 (b8891000)        4096  F,S         
+             Mapped Phys Memory @ 2360000 (c78f0000)         64K  F,S         
+             Mapped Phys Memory @ 2370000 (c44a0000)         32K  F,S         
+             Mapped Phys Memory @ 2378000 (bc014000)         16K  F,S         
+             Mapped Phys Memory @ 237c000 (bc012000)        8192  F,S         
+             Mapped Phys Memory @ 237e000 (b4713000)        4096  F,S         
+             Mapped Phys Memory @ 2500000 (b88d0000)         64K  F,S         
+             Mapped Phys Memory @ 2510000 (debc8000)         32K  F,S         
+             Mapped Phys Memory @ 2518000 (b79ce000)         16K  F,S         
+             Mapped Phys Memory @ 251c000 (b79cc000)        8192  F,S         
+             Mapped Phys Memory @ 251e000 (b79cb000)        4096  F,S         
+             Mapped Phys Memory @ 2700000 (cac10000)         64K  F,S         
+             Mapped Phys Memory @ 2710000 (c6529000)         32K  F,S         
+             Mapped Phys Memory @ 2718000 (cb032000)         16K  F,S         
+             Mapped Phys Memory @ 271c000 (c6527000)        8192  F,S         
+             Mapped Phys Memory @ 271e000 (c54fb000)        4096  F,S         
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo

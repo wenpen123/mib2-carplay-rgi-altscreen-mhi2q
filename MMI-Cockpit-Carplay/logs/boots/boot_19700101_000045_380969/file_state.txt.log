@@ -1,0 +1,46 @@
+Thu Jan 01 00:01:22 GMT 1970
+total 496
+drwxrwxrwx  2 root      root           1024 Jan 01 00:00 .
+drwxrwxrwx  5 root      root           1024 Jan 01 00:00 ..
+-rwxr-xr-x  1 root      root         251880 Oct 01  2026 libcarplay_altscreen.so
+total 624
+drwxrwxrwx  2 root      root           1024 Jan 01 00:00 .
+drwxrwxrwx  3 root      root           1024 Jan 01 00:00 ..
+-rw-rw-rw-  1 root      root             26 Jan 01 00:00 .mmi-cockpit-carplay-mirror-owner
+-rwxrwxrwx  1 root      root           1322 Oct 01  2026 BUILD_INFO.txt
+-rwxrwxrwx  1 root      root           1235 Oct 01  2026 LICENSE.MMI-MIRROR
+-rwxrwxrwx  1 root      root            588 Oct 01  2026 SHA256SUMS
+-rwxr-xr-x  1 root      root          51906 Oct 01  2026 carplay-alt111-mirror-display
+-rwxrwxrwx  1 root      root         113616 Oct 01  2026 logo.rgba
+-rwxr-xr-x  1 root      root          13471 Oct 01  2026 start_vehicle.sh
+-rwxr-xr-x  1 root      root           1749 Oct 01  2026 stop_vehicle.sh
+-rwxrwxrwx  1 root      root         130576 Oct 01  2026 watermark.rgba
+total 7
+drwxrwxrwx  2 root      root           1024 Jan 01 00:01 .
+drwxrwxrwx  5 root      root           1024 Jan 01 00:00 ..
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ACTIVE
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ARMED
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ARMED_CREATE111
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ARMED_FEATURE
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ARMED_INFO
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 ARMED_MUTATE
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 FORCE_START
+-rw-rw-rw-  1 root      root              8 Jan 01 00:01 IAP2_PROFILE
+-rw-rw-rw-  1 root      root              0 Jan 01 00:01 basevideo3.enabled
+-rw-rw-rw-  1 root      root              0 Jan 01 00:00 diagnostics.enabled
+-rw-rw-rw-  1 root      root             25 Jan 01 00:01 fullchain_probe
+-rw-rw-rw-  1 root      root             25 Jan 01 00:01 run_id
+total 129
+drwxrwxrwx  2 root      root          32768 Jan 01  1980 .
+drwxrwxrwx  6 root      root          32768 Jan 01  1980 ..
+-rwxrwxrwx  1 root      root              0 Jan 01  1980 INSTALLED
+-rwxrwxrwx  1 root      root             10 Jan 01  1980 firmware_profile.txt
+--- mmi-mirror-hmi.state
+/tmp/mmi-mirror-hmi.state: No such file or directory
+--- cluster_geom.cfg
+/tmp/cluster_geom.cfg: No such file or directory
+--- carplay_cluster.ctx
+/tmp/carplay_cluster.ctx: No such file or directory
+--- process priorities
+     pid name prio 
+  446508 mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display   10r 

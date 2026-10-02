@@ -1,0 +1,5 @@
+===== CarPlay generation pid=22470787 ppid=1204314 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=22470787 monitor=22548622
+[monitor] generation=22470787 active
+[monitor] starting maneuver_render reason=initial

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GEM">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Custom/GEM/GEM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,6 @@
+19700101_000141 ADAPTIVE_FAILSAFE_BEGIN profile=UNIVERSAL train=Current train = 'MHI2Q_CN_AUG22_K1004' source=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log payload_filter=STATUS_ONLY store_required=NO
+19700101_000142 ADAPTIVE_BINARY path=/eso/lib/libairplay.so cksum=2678655048     761564 STDIN
+19700101_000142 ADAPTIVE_BINARY path=/eso/bin/apps/dio_manager cksum=3274834670     694029 STDIN
+19700101_000142 ADAPTIVE_BINARY path=/mnt/app/eso/bin/apps/dio_manager cksum=3274834670     694029 STDIN
+19700101_000143 ADAPTIVE_BINARY path=/armle/usr/lib/libNmeBaseClasses.so cksum=3927086786    2544058 STDIN
+19700101_000143 ADAPTIVE_BINARY path=/mnt/app/armle/usr/lib/libNmeBaseClasses.so cksum=3927086786    2544058 STDIN

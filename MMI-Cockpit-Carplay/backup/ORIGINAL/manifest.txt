@@ -1,0 +1,5 @@
+/eso/bin/apps/dio_manager
+/eso/lib/libairplay.so
+/armle/usr/lib/libNmeBaseClasses.so
+/mnt/system/etc/eso/production/smartphone_integrator.json
+/mnt/system/etc/eso/production/dio_manager.json

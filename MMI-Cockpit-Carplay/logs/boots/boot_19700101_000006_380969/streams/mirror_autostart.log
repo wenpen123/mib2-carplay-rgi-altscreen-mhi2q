@@ -1,0 +1,6 @@
+MIRROR_LIFECYCLE_WATCH=STARTED pid=446512 trigger=DIRECT111_TAP_STOP after_first_present=1 restart_while_demand=1
+MIRROR_DISPLAY=STARTED pid=446491 log=/tmp/MMI-Cockpit-Carplay.mirror.log volatile_mode=FLAT_TMP sink_test_grid=0
+WAITING_FOR=PHONE_REQUEST_111_then_H264_TAP_then_DECODER_FIRST_FRAME_then_DISPLAYABLE3
+MIRROR_LIFECYCLE_WATCH=STARTED pid=446514 trigger=DIRECT111_TAP_STOP after_first_present=1 restart_while_demand=1
+MIRROR_DISPLAY=STARTED pid=446506 log=/tmp/MMI-Cockpit-Carplay.mirror.log volatile_mode=FLAT_TMP sink_test_grid=0
+WAITING_FOR=PHONE_REQUEST_111_then_H264_TAP_then_DECODER_FIRST_FRAME_then_DISPLAYABLE3

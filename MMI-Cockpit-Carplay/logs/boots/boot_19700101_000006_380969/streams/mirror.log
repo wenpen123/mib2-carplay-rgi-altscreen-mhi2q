@@ -1,0 +1,729 @@
+MIRROR_LAUNCH_ENV=READY pid=$ bin=/mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display volatile_mode=FLAT_TMP restart_reason=NONE restart_count=0 max_abnormal_restarts=3 recover_current_session=0
+PATH=/proc/boot:/bin:/sbin:/usr/bin:/usr/sbin:/base/bin:/root/bin-target:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps
+LD_LIBRARY_PATH=/proc/boot:/lib:/usr/lib:/lib/dll:/eso/lib/:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll
+HOOK_LOG=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+GATE_TOKEN=/tmp/MMI-Cockpit-Carplay.mirror.phone111.gate
+SCREEN_CONTEXT_POLICY=JAVA80_ONLY native_context_writer=0
+READY_POLICY=destination_first_present_only base_ready=/tmp/mmi-mirror-basevideo.ready
+DIRECT111_SOURCE=ScreenStreamProcessData+H264_SHM decoded_shm=/carplay111_decoded
+WINDOW58_POLICY=NOT_ENUMERATED sidecar_screen_read_window=0 hook_exact_stock_window_readback=1 window_manager_context=0
+SINK_TEST_GRID_MODE=0 opt_in_env=ALT111_SINK_TEST_GRID
+DECODER_POLICY=stock_omx_then_screen_linearizer decoded_shm=/carplay111_decoded h264_shm=/carplay111_h264 raw_vendor_fallback=DISABLED
+SHM_POLICY=fstat_size_guard writer_ready_last=1 session_identity=writer_pid+generation+stream_cookie
+SIDECAR_PRELOAD_POLICY=ISOLATED inherited_preload_ignored=<unset>
+SESSION_END_POLICY=hook_DIRECT111_TAP_STOP after_first_present restart_while_demand=1
+direct111: PHASE=BUILD id=carplay-private111-direct-display-v2 target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap compatibility_parallel_to_h264_tap=1 shm_attach=fstat_size_guard session_identity=writer_pid+generation+cookie window58_readback=0 screen_manage_window_sidecar=0
+direct111: PHASE=GATE_WAIT for=PHONE_REQUEST_111 screen_context=NONE window58_dependency=NONE hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+direct111: PHASE=GATE_LOG_ATTACHED path=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log screen_context=NONE window58_dependency=NONE
+MIRROR_LAUNCH_ENV=READY pid=$ bin=/mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display volatile_mode=FLAT_TMP restart_reason=NONE restart_count=0 max_abnormal_restarts=3 recover_current_session=0
+PATH=/proc/boot:/bin:/sbin:/usr/bin:/usr/sbin:/base/bin:/root/bin-target:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps
+LD_LIBRARY_PATH=/proc/boot:/lib:/usr/lib:/lib/dll:/eso/lib/:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll
+HOOK_LOG=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+GATE_TOKEN=/tmp/MMI-Cockpit-Carplay.mirror.phone111.gate
+SCREEN_CONTEXT_POLICY=JAVA80_ONLY native_context_writer=0
+READY_POLICY=destination_first_present_only base_ready=/tmp/mmi-mirror-basevideo.ready
+DIRECT111_SOURCE=ScreenStreamProcessData+H264_SHM decoded_shm=/carplay111_decoded
+WINDOW58_POLICY=NOT_ENUMERATED sidecar_screen_read_window=0 hook_exact_stock_window_readback=1 window_manager_context=0
+SINK_TEST_GRID_MODE=0 opt_in_env=ALT111_SINK_TEST_GRID
+DECODER_POLICY=stock_omx_then_screen_linearizer decoded_shm=/carplay111_decoded h264_shm=/carplay111_h264 raw_vendor_fallback=DISABLED
+SHM_POLICY=fstat_size_guard writer_ready_last=1 session_identity=writer_pid+generation+stream_cookie
+SIDECAR_PRELOAD_POLICY=ISOLATED inherited_preload_ignored=<unset>
+SESSION_END_POLICY=hook_DIRECT111_TAP_STOP after_first_present restart_while_demand=1
+direct111: PHASE=BUILD id=carplay-private111-direct-display-v2 target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap compatibility_parallel_to_h264_tap=1 shm_attach=fstat_size_guard session_identity=writer_pid+generation+cookie window58_readback=0 screen_manage_window_sidecar=0
+direct111: PHASE=GATE_WAIT for=PHONE_REQUEST_111 screen_context=NONE window58_dependency=NONE hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+direct111: PHASE=GATE_LOG_ATTACHED path=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log screen_context=NONE window58_dependency=NONE
+direct111: PHASE=GATE_PASS trigger=PHONE_REQUEST_111 gate_source=phone-marker policy=stream111_request_or_phone_marker next=H264_TAP_AND_DECODER_SHM
+direct111: PHASE=SOURCE_INIT mode=private111-direct decoder_backend=stock-omx-tap h264_shm=/carplay111_h264 decoded_shm=/carplay111_decoded window58_readback=0
+direct111: PHASE=PIPELINE_WAIT waiting=H264_TAP+DECODER_FRESH_PROGRESS startup_frame_progress_required=2 source=/carplay111_decoded window58_readback=0
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=H264_SHM_ATTACHED name=/carplay111_h264 version=1 ring=4194304 writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 map=29000000 bytes=4194372 object_size=4194372 inode=2011536160 attempts=403
+direct111: PHASE=DECODED_SHM_ATTACHED name=/carplay111_decoded version=1 slots=3 slot_bytes=2097152 writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 map=28700000 bytes=6291520 object_size=6291520 inode=2011535656 attempts=403
+direct111: PHASE=H264_SOURCE_SESSION writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=31
+direct111: PHASE=H264_STREAM_VALID writer_pid=4239488 generation=1 cookie=0x008c24c8 packets=31 bytes=1965 sps=1 pps=1 idr=1 annexb=0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=31 bytes=1965 seq=31 wraps=0 drops=0 sps=1 pps=1 idr=1
+direct111: PHASE=SOURCE_SESSION writer_pid=4239488 generation=1 stream_cookie=0x008c24c8 decoder_backend=stock-omx-tap
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=21->25 slot=0->1
+direct111: PHASE=DECODER_FIRST_FRAME backend=stock-omx-tap writer_pid=4239488 generation=1 cookie=0x008c24c8 seq=30 size=1440x542 stride=1440 bytes=1170720 H264_VALID=YES
+direct111: PHASE=PIPELINE_SOURCE_PRIMED fresh_frames=2 writer_pid=4239488 generation=1 cookie=0x008c24c8 stale_single_frame_rejected=1
+direct111: PHASE=FIRST_DECODED_FRAME backend=stock-omx-tap format=NV12 size=1440x542 stride=1440 h264_ready=1 generation=1
+backend: init size=1440x455 displayable=3 context_owner=java
+backend: loaded /mnt/app/eso/lib/libdisplayinit.so
+backend: display_init complete (library handle kept open)
+backend: libscreen destroy=78304c9c get_iv=78304934 get_cv=78304aac
+backend: EGL initialized 1.4
+backend: display_create_window ret=1 displayable=3 size=1440x455 native=34a0a8 kd=3449000
+backend: eglMakeCurrent OK
+backend: window visible probe rc=0 visible=0 errno=0
+backend: manager-string rc=0 value='All your base are belong to us!' errno=0 [managed by displaymanager]
+renderer: GLES2 renderer initialized output=1440x455
+display: ready output=1440x455 displayable=3 context_owner=java
+renderer: PHASE=WATERMARK_ASSET_READY text=free_open_source_no_resale size=340x96 watermark_motion=BOUNCING_DRIFT
+renderer: PHASE=LOGO_ASSET_READY size=284x100
+direct111: PHASE=CONTEXT80_REQUEST owner=java composite=98,101,102,3 displayable=3 native_dmdt=0
+direct111: PHASE=STARTUP_LOGO_PRESENT duration_ms=2000 asset=/mnt/app/root/carplay-altscreen/bin/mirror/logo.rgba context_owner=java
+LIFECYCLE_WATCH=ARMED sidecar_pid=446506 stop_count=0 hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log base_ready=/tmp/mmi-mirror-basevideo.ready
+renderer: PHASE=NV12_CSC_READY backend=cpu-bt601 input=1440x542 stride=1440 output=RGBA8888
+renderer: texture allocated 1440x542
+direct111: PHASE=DISPLAYABLE3_FIRST_PRESENT result=OK displayable=3 output=1440x455 source=private111-decoded window58_readback=0
+direct111: PHASE=DIRECT111_ACTIVE target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap h264_tap_independent=1 same_session_recovery=0 window58_readback=0 target_fps=30
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=268->269 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=288 bytes=2026673 seq=288 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=358->359 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=408->409 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=472->473 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=522->523 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=545 bytes=2841066 seq=545 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=581->582 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=609->610 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=651->652 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=663 h264_bytes=3214988 decoded_frames=657 source_frames=252 presented_frames=252 present_fps=25.08 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 copies=300 producer_frames=729 seq=729
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=734->735 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=802 bytes=4277219 seq=802 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=924->925 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=935->936 slot=2->0
+111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=935->936 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=995->996 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1038->1039 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=1058 bytes=4582530 seq=1058 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1070->1071 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1088 h264_bytes=4616363 decoded_frames=1082 source_frames=489 presented_frames=489 present_fps=22.17 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1127->1128 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1142->1143 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1162->1163 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1188->1189 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1232->1233 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1248->1249 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=1314 bytes=4871258 seq=1314 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1316->1317 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1328->1329 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 copies=600 producer_frames=1333 seq=1333
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1373->1374 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE r direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1476->1477 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1491->1492 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1500->1501 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1511 h264_bytes=5093439 decoded_frames=1505 source_frames=694 presented_frames=694 present_fps=20.31 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=1570 bytes=5159983 seq=1570 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1643->1644 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1709->1710 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1734->1735 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1768->1769 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1788->1789 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 copies=900 producer_frames=1812 seq=1812
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=1826 bytes=5462201 seq=1826 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1824->1825 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1902->1903 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1923 h264_bytes=5573833 decoded_frames=1918 source_frames=963 presented_frames=963 present_fps=26.82 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=1983->1984 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2031->2032 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 actdirect111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2057->2058 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=2082 bytes=5756817 seq=2082 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2107->2108 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2113->2114 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2128->2129 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2197->2198 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2220->2221 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2240->2241 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2256->2257 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 copies=1200 producer_frames=2278 seq=2278
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=2335 h264_bytes=6047977 decoded_frames=2330 source_frames=1234 presented_frames=1234 present_fps=27.04 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=2343 bytes=6057187 seq=2343 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2424->2425 slot=0->1
+>1 cookie=0x008c24c8->0x008c24c8 seq=2424->2425 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2471->2472 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2531->2532 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2558->2559 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2570->2571 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=2599 bytes=6351800 seq=2599 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2631->2632 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2672->2673 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2713->2714 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 copies=1500 producer_frames=2734 seq=2734
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2737->2738 slot=1->2
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=2745 h264_bytes=6519824 decoded_frames=2740 source_frames=1502 presented_frames=1502 present_fps=26.78 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2805->2806 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2844->2845 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=1 packets=2855 bytes=6651131 seq=2855 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2899->2900 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=4239488->4239488 active=1->1 gen=1->1 cookie=0x008c24c8->0x008c24c8 seq=2946->2947 slot=0->1
+LIFECYCLE_WATCH=PRIVATE111_STOP detected=1 sidecar_pid=446506 stop_count=1 action=TERM_AND_RESTART_IF_DEMAND
+direct111: PHASE=CONTEXT80_RELEASE owner=java native_dmdt=0
+backend: screen_destroy_window rc=0 errno=0
+direct111: PHASE=STOP source_frames=1653 presented_frames=1653 window58_readback=0
+LIFECYCLE_WATCH=RESTART_NEXT_SESSION demand=/tmp/mmi-mirror-active gate_policy=next_PHONE_REQUEST_111
+
+MIRROR_SESSION_RESTART reason=private111_session_end launcher_pid=16883782
+MIRROR_LAUNCH_ENV=READY pid=$ bin=/mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display volatile_mode=FLAT_TMP restart_reason=private111_session_end restart_count=0 max_abnormal_restarts=3 recover_current_session=0
+PATH=/proc/boot:/bin:/sbin:/usr/bin:/usr/sbin:/base/bin:/root/bin-target:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps
+LD_LIBRARY_PATH=/proc/boot:/lib:/usr/lib:/lib/dll:/eso/lib/:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll
+HOOK_LOG=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+GATE_TOKEN=/tmp/MMI-Cockpit-Carplay.mirror.phone111.gate
+SCREEN_CONTEXT_POLICY=JAVA80_ONLY native_context_writer=0
+READY_POLICY=destination_first_present_only base_ready=/tmp/mmi-mirror-basevideo.ready
+DIRECT111_SOURCE=ScreenStreamProcessData+H264_SHM decoded_shm=/carplay111_decoded
+WINDOW58_POLICY=NOT_ENUMERATED sidecar_screen_read_window=0 hook_exact_stock_window_readback=1 window_manager_context=0
+SINK_TEST_GRID_MODE=0 opt_in_env=ALT111_SINK_TEST_GRID
+DECODER_POLICY=stock_omx_then_screen_linearizer decoded_shm=/carplay111_decoded h264_shm=/carplay111_h264 raw_vendor_fallback=DISABLED
+SHM_POLICY=fstat_size_guard writer_ready_last=1 session_identity=writer_pid+generation+stream_cookie
+SIDECAR_PRELOAD_POLICY=ISOLATED inherited_preload_ignored=<unset>
+SESSION_END_POLICY=hook_DIRECT111_TAP_STOP after_first_present restart_while_demand=1
+direct111: PHASE=BUILD id=carplay-private111-direct-display-v2 target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap compatibility_parallel_to_h264_tap=1 shm_attach=fstat_size_guard session_identity=writer_pid+generation+cookie window58_readback=0 screen_manage_window_sidecar=0
+direct111: PHASE=GATE_LOG_ATTACHED path=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log screen_context=NONE window58_dependency=NONE
+direct111: PHASE=GATE_CONSUMED source=phone-marker waiting_for_next_private111_session=1
+direct111: PHASE=GATE_PASS trigger=PHONE_REQUEST_111 gate_source=phone-marker policy=stream111_request_or_phone_marker next=H264_TAP_AND_DECODER_SHM
+direct111: PHASE=SOURCE_INIT mode=private111-direct decoder_backend=stock-omx-tap h264_shm=/carplay111_h264 decoded_shm=/carplay111_decoded window58_readback=0
+direct111: PHASE=H264_SHM_ATTACHED name=/carplay111_h264 version=1 ring=4194304 writer_pid=4239488 generation=1 cookie=0x008c24c8 active=0 map=28d00000 bytes=4194372 object_size=4194372 inode=2011536160 attempts=1
+direct111: PHASE=DECODED_SHM_ATTACHED name=/carplay111_decoded version=1 slots=3 slot_bytes=2097152 writer_pid=4239488 generation=1 cookie=0x008c24c8 active=0 map=28600000 bytes=6291520 object_size=6291520 inode=2011535656 attempts=1
+direct111: PHASE=PIPELINE_WAIT waiting=H264_TAP+DECODER_FRESH_PROGRESS startup_frame_progress_required=2 source=/carplay111_decoded window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=4239488 generation=1 cookie=0x008c24c8 active=0 packets=2959 bytes=6774878 seq=2959 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=2959 h264_bytes=6774878 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=H264_SOURCE_SESSION writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5
+direct111: PHASE=H264_STREAM_VALID writer_pid=21151790 generation=1 cookie=0x001d26d0 packets=5 bytes=390 sps=1 pps=1 idr=1 annexb=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5 bytes=390 seq=39 wraps=0 drops=0 sps=1 pps=1 idr=1
+direct111: PHASE=SOURCE_SESSION writer_pid=21151790 generation=1 stream_cookie=0x001d26d0 decoder_backend=stock-omx-tap
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4->7 slot=1->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8->9 slot=2->0
+direct111: PHASE=DECODER_FIRST_FRAME backend=stock-omx-tap writer_pid=21151790 generation=1 cookie=0x001d26d0 seq=12 size=1440x542 stride=1440 bytes=1170720 H264_VALID=YES
+direct111: PHASE=PIPELINE_SOURCE_PRIMED fresh_frames=2 writer_pid=21151790 generation=1 cookie=0x001d26d0 stale_single_frame_rejected=1
+direct111: PHASE=FIRST_DECODED_FRAME backend=stock-omx-tap format=NV12 size=1440x542 stride=1440 h264_ready=1 generation=1
+backend: init size=1440x455 displayable=3 context_owner=java
+backend: loaded /mnt/app/eso/lib/libdisplayinit.so
+backend: display_init complete (library handle kept open)
+backend: libscreen destroy=780c4c9c get_iv=780c4934 get_cv=780c4aac
+backend: EGL initialized 1.4
+backend: display_create_window ret=1 displayable=3 size=1440x455 native=6400a8 kd=6553768
+backend: eglMakeCurrent OK
+backend: window visible probe rc=0 visible=0 errno=0
+backend: manager-string rc=0 value='All your base are belong to us!' errno=0 [managed by displaymanager]
+renderer: GLES2 renderer initialized output=1440x455
+display: ready output=1440x455 displayable=3 context_owner=java
+renderer: PHASE=WATERMARK_ASSET_READY text=free_open_source_no_resale size=340x96 watermark_motion=BOUNCING_DRIFT
+renderer: PHASE=LOGO_ASSET_READY size=284x100
+direct111: PHASE=CONTEXT80_REQUEST owner=java composite=98,101,102,3 displayable=3 native_dmdt=0
+direct111: PHASE=STARTUP_LOGO_PRESENT duration_ms=2000 asset=/mnt/app/root/carplay-altscreen/bin/mirror/logo.rgba context_owner=java
+LIFECYCLE_WATCH=ARMED sidecar_pid=16916530 stop_count=1 hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log base_ready=/tmp/mmi-mirror-basevideo.ready
+renderer: PHASE=NV12_CSC_READY backend=cpu-bt601 input=1440x542 stride=1440 output=RGBA8888
+renderer: texture allocated 1440x542
+direct111: PHASE=DISPLAYABLE3_FIRST_PRESENT result=OK displayable=3 output=1440x455 source=private111-decoded window58_readback=0
+direct111: PHASE=DIRECT111_ACTIVE target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap h264_tap_independent=1 same_session_recovery=0 window58_readback=0 target_fps=30
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=196->197 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=231->232 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=239->240 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=241->242 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=261 bytes=610348 seq=261 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=358->359 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=439->440 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=479->480 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=493->494 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=518 bytes=1475160 seq=518 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=575->576 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=596 h264_bytes=1900482 decoded_frames=589 source_frames=286 presented_frames=286 present_fps=28.43 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=603->604 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=300 producer_frames=613 seq=613
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=658->659 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=716->717 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=775 bytes=2196745 seq=775 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=794->795 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=848->849 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=881->882 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=935->936 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=952->953 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=964->965 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=983->984 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=985->986 slot=1->2
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_pdirect111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1011 h264_bytes=2866856 decoded_frames=1003 source_frames=565 presented_frames=565 present_fps=27.89 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=1031 bytes=2899564 seq=1031 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1037->1038 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=600 producer_frames=1060 seq=1060
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1093->1094 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1106->1107 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1113->1114 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1121->1122 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1140->1141 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1176->1177 slot=0->1
+1->1 cookie=0x001d26d0->0x001d26d0 seq=1176->1177 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1203->1204 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1207->1208 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1212->1213 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1224->1225 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1227->1228 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1252->1253 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=1288 bytes=3332821 seq=1288 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1328->1329 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1345->1346 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1356->1357 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1372->1373 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1377->1378 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1416 h264_bytes=3546559 decoded_frames=1408 source_frames=823 presented_frames=823 present_fps=25.79 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1442->1443 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1476->1477 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1496->1497 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1509->1510 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=900 producer_frames=1524 seq=1524
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=1544 bytes=4105217 seq=1544 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1545->1546 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1611->1612 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1633->1634 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1644->1645 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1647->1648 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1688->1689 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1719->1720 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1742->1743 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=1800 bytes=4575920 seq=1800 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1806->1807 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=1826 h264_bytes=4621909 decoded_frames=1819 source_frames=1093 presented_frames=1093 present_fps=26.98 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1856->1857 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1857->1858 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1887->1888 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1894->1895 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1899->1900 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=        direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1911->1912 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1942->1943 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=1946->1947 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=1200 producer_frames=1985 seq=1985
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2015->2016 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2022->2023 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2047->2048 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=2056 bytes=5028728 seq=2056 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2138->2139 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2169->2170 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2190->2191 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2198->2199 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2219->2220 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2223->2224 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2232->2233 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=2244 h264_bytes=5361270 decoded_frames=2238 source_frames=1368 presented_frames=1368 present_fps=27.41 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2245->2246 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2261->2262 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2274->2275 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2282->2283 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=2312 bytes=5481555 seq=2312 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=1500 producer_frames=2428 seq=2428
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2455->2456 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2463->2464 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2494->2495 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2495->2496 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2504->2505 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2559->2560 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=2570 bytes=5951081 seq=2570 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2628->2629 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=2656 h264_bytes=6105187 decoded_frames=2649 source_frames=1649 presented_frames=1649 present_fps=28.04 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2654->2655 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2676->2677 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2678->2679 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2737->2738 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=2826 bytes=6409798 seq=2826 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2834->2835 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2850->2851 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=1800 producer_frames=2865 seq=2865
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2907->2908 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2963->2964 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2968->2969 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=2983->2984 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3017->3018 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=3058 h264_bytes=7163879 decoded_frames=3051 source_frames=1928 presented_frames=1928 present_fps=27.87 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=3083 bytes=7777732 seq=3083 wraps=1 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3203->3204 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3250->3251 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=2100 producer_frames=3279 seq=3279
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3307->3308 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3322->3323 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=3339 bytes=9023286 seq=3339 wraps=2 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3344->3345 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3383->3384 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3391->3392 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3407->3408 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3424->3425 slot=1->2
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=3450 h264_bytes=9209309 decoded_frames=3443 source_frames=2208 presented_frames=2208 present_fps=27.93 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3470->3471 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3489->3490 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3503->3504 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3506->3507 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=3595 bytes=9452308 seq=3595 wraps=2 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3597->3598 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3612->3613 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3683->3684 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3692->3693 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3714->3715 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=2400 producer_frames=3716 seq=3716
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3745->3746 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3786->3787 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=3851 bytes=9881318 seq=3851 wraps=2 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=3864 h264_bytes=9903102 decoded_frames=3856 source_frames=2500 presented_frames=2500 present_fps=29.14 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3884->3885 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3921->3922 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=3937->3938 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=4107 bytes=10390294 seq=4107 wraps=2 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=2700 producer_frames=4103 seq=4103
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=4182 h264_bytes=10817426 decoded_frames=4175 source_frames=2765 presented_frames=2765 present_fps=26.42 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=4363 bytes=11433433 seq=4363 wraps=2 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4430->4431 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=3000 producer_frames=4438 seq=4438
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=4487 h264_bytes=11628934 decoded_frames=4481 source_frames=3021 presented_frames=3021 present_fps=25.19 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4510->4511 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=4619 bytes=13079620 seq=4619 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4691->4692 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=4826 h264_bytes=13460990 decoded_frames=4820 source_frames=3254 presented_frames=3254 present_fps=22.41 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4834->4835 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=4875 bytes=13551265 seq=4875 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4877->4878 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4908->4909 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=3300 producer_frames=4911 seq=4911
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4931->4932 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4967->4968 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=4990->4991 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5095->5096 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5108->5109 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5132 bytes=14024756 seq=5132 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=5142 h264_bytes=14043178 decoded_frames=5136 source_frames=3418 presented_frames=3418 present_fps=16.33 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5160->5161 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5187->5188 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5255->5256 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5268->5269 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1276 failures=250 h264_packets=5279 decoded_frames=5273 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2608 failures=500 h264_packets=5279 decoded_frames=5273 generation=1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5282->5283 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5290->5291 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5316->5317 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5358->5359 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=5373 h264_bytes=14468755 decoded_frames=5367 source_frames=3541 presented_frames=3541 present_fps=12.28 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5389 bytes=14498229 seq=5389 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5467->5468 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=3600 producer_frames=5471 seq=5471
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5491->5492 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5631->5632 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5646 bytes=15260552 seq=5646 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=5734 h264_bytes=15619035 decoded_frames=5727 source_frames=3825 presented_frames=3825 present_fps=28.33 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5787->5788 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5797->5798 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5808->5809 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5810->5811 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=3900 producer_frames=5834 seq=5834
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5874->5875 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5884->5885 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=5903 bytes=15947459 seq=5903 wraps=3 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5917->5918 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5936->5937 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5956->5957 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5988->5989 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=5997->5998 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6030->6031 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6039->6040 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6054->6055 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6066->6067 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6101->6102 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6108->6109 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1273 failures=250 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2591 failures=500 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3925 failures=750 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5247 failures=1000 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6579 failures=1250 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=7909 failures=1500 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9220 failures=1750 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10549 failures=2000 h264_packets=6127 decoded_frames=6121 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=6128 h264_bytes=16382930 decoded_frames=6122 source_frames=4052 presented_frames=4052 present_fps=11.28 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=6159 bytes=16687148 seq=6159 wraps=4 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6193->6194 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6208->6209 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6277->6278 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6314->6315 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=4200 producer_frames=6343 seq=6343
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6348->6349 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6360->6361 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6407->6408 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=6417 bytes=18555898 seq=6417 wraps=4 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6469->6470 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6509->6510 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=6538 h264_bytes=19039700 decoded_frames=6531 source_frames=4323 presented_frames=4323 present_fps=27.02 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6641->6642 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6655->6656 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6662->6663 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=6673 bytes=19579467 seq=6673 wraps=4 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6676->6677 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6701->6702 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6748->6749 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=4500 producer_frames=6793 seq=6793
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6821->6822 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=6929 bytes=20603048 seq=6929 wraps=4 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6928->6929 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6931->6932 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=6934->6935 slot=1->2
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=6950 h264_bytes=20687012 decoded_frames=6942 source_frames=4596 presented_frames=4596 present_fps=27.25 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7012->7013 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7015->7016 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7046->7047 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7052->7053 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7173->7174 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=7185 bytes=21626616 seq=7185 wraps=5 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7226->7227 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=4800 producer_frames=7235 seq=7235
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7270->7271 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7275->7276 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=7366 h264_bytes=22350316 decoded_frames=7359 source_frames=4885 presented_frames=4885 present_fps=28.83 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7373->7374 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7403->7404 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7413->7414 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=7441 bytes=22650192 seq=7441 wraps=5 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7512->7513 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7555->7556 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7568->7569 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7635->7636 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=5100 producer_frames=7679 seq=7679
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=7697 bytes=23673763 seq=7697 wraps=5 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7716->7717 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=7718->7719 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=7782 h264_bytes=24013627 decoded_frames=7774 source_frames=5164 presented_frames=5164 present_fps=27.89 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=7953 bytes=24697373 seq=7953 wraps=5 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=7967 h264_bytes=24753354 decoded_frames=7960 source_frames=5340 presented_frames=5340 present_fps=17.59 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=5400 producer_frames=8021 seq=8021
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=8055 h264_bytes=25434910 decoded_frames=8047 source_frames=5422 presented_frames=5422 present_fps=7.90 displayable=3 context=80 window58_readback=0
+mes=5422 present_fps=7.90 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8080->8081 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8186->8187 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8189->8190 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=8209 bytes=26049834 seq=8209 wraps=6 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8210->8211 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8274->8275 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=8406 h264_bytes=26777427 decoded_frames=8397 source_frames=5670 presented_frames=5670 present_fps=24.79 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=5700 producer_frames=8442 seq=8442
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=8465 bytes=26995334 seq=8465 wraps=6 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8483->8484 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8499->8500 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8553->8554 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8561->8562 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8594->8595 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8623->8624 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8626->8627 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8701->8702 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8706->8707 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=8721 bytes=28464667 seq=8721 wraps=6 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=8775 h264_bytes=28931435 decoded_frames=8768 source_frames=5935 presented_frames=5935 present_fps=26.49 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=6000 producer_frames=8845 seq=8845
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8858->8859 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8877->8878 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=8920->8921 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=8977 bytes=30915798 seq=8977 wraps=7 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9010->9011 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9035->9036 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9083->9084 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=9092 h264_bytes=31508734 decoded_frames=9086 source_frames=6200 presented_frames=6200 present_fps=26.44 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9108->9109 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9186->9187 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9194->9195 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=6300 producer_frames=9212 seq=9212
+0x001d26d0 copies=6300 producer_frames=9212 seq=9212
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=9233 bytes=32235577 seq=9233 wraps=7 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=9408 h264_bytes=33137683 decoded_frames=9401 source_frames=6463 presented_frames=6463 present_fps=26.27 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=9489 bytes=33555233 seq=9489 wraps=8 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9507->9508 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=6600 producer_frames=9550 seq=9550
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9554->9555 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9560->9561 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9579->9580 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9605->9606 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9683->9684 slot=2->0
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=9720 h264_bytes=34746013 decoded_frames=9713 source_frames=6731 presented_frames=6731 present_fps=26.74 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=9746 bytes=34880038 seq=9746 wraps=8 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9807->9808 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9832->9833 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9837->9838 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9841->9842 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=6900 producer_frames=9910 seq=9910
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9952->9953 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9984->9985 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=10002 bytes=36227086 seq=10002 wraps=8 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=9999->10000 slot=0->1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=10049 h264_bytes=36477628 decoded_frames=10042 source_frames=6994 presented_frames=6994 present_fps=26.23 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10049->10050 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10108->10109 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10154->10155 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10174->10175 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10189->10190 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10212->10213 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10218->10219 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10240->10241 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10243->10244 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10246->10247 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=10258 bytes=37357603 seq=10258 wraps=8 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10268->10269 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=7200 producer_frames=10327 seq=10327
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=10389 h264_bytes=37694243 decoded_frames=10382 source_frames=7252 presented_frames=7252 present_fps=25.76 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10502->10503 slot=2->0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=10514 bytes=37877699 seq=10514 wraps=9 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10596->10597 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10600->10601 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=7500 producer_frames=10676 seq=10676
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=10729 h264_bytes=38200486 decoded_frames=10723 source_frames=7525 presented_frames=7525 present_fps=25.75 displayable=3 context=80 window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=10770 bytes=38930744 seq=10770 wraps=9 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10953->10954 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=10971->10972 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=11027 bytes=39911230 seq=11027 wraps=9 drops=0 direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=11027 bytes=39911230 seq=11027 wraps=9 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1300 failures=250 h264_packets=11042 decoded_frames=11036 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11043 h264_bytes=39948345 decoded_frames=11037 source_frames=7733 presented_frames=7733 present_fps=20.62 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11081->11082 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11154->11155 slot=0->1
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=7800 producer_frames=11160 seq=11160
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1286 failures=250 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2615 failures=500 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3949 failures=750 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5282 failures=1000 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6617 failures=1250 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=7975 failures=1500 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9317 failures=1750 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10642 failures=2000 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=12006 failures=2250 h264_packets=11181 decoded_frames=11175 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11183 h264_bytes=40273058 decoded_frames=11176 source_frames=7805 presented_frames=7805 present_fps=4.36 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11181->11182 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11187->11188 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11193->11194 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11265->11266 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=11284 bytes=40507317 seq=11284 wraps=9 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11283->11284 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11291->11292 slot=2->0
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1285 failures=250 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2646 failures=500 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=4000 failures=750 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5372 failures=1000 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6702 failures=1250 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=8034 failures=1500 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9380 failures=1750 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10703 failures=2000 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=12093 failures=2250 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=13427 failures=2500 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=14747 failures=2750 h264_packets=11316 decoded_frames=11310 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11317 h264_bytes=40583855 decoded_frames=11311 source_frames=7888 presented_frames=7888 present_fps=4.39 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11337->11338 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11385->11386 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11388->11389 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11400->11401 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1287 failures=250 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2642 failures=500 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3976 failures=750 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5287 failures=1000 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6616 failures=1250 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=7967 failures=1500 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9305 failures=1750 h264_packets=11451 decoded_frames=11445 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11453 h264_bytes=40899276 decoded_frames=11446 source_frames=7958 presented_frames=7958 present_fps=5.20 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11514->11515 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11524->11525 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=11541 bytes=41103372 seq=11541 wraps=9 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11568->11569 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11577->11578 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1278 failures=250 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2609 failures=500 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3977 failures=750 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5352 failures=1000 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6698 failures=1250 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=8029 failures=1500 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9405 failures=1750 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10834 failures=2000 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=12178 failures=2250 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=13499 failures=2500 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=14827 failures=2750 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=16165 failures=3000 h264_packets=11599 decoded_frames=11593 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11600 h264_bytes=41240216 decoded_frames=11594 source_frames=8041 presented_frames=8041 present_fps=4.10 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11602->11603 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11611->11612 slot=1->2
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=8100 producer_frames=11686 seq=11686
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11702->11703 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11706->11707 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11718->11719 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11727->11728 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11762->11763 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11781->11782 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11787->11788 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=11797 bytes=41697135 seq=11797 wraps=10 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11805->11806 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1281 failures=250 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2608 failures=500 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3905 failures=750 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5218 failures=1000 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6581 failures=1250 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=7893 failures=1500 h264_packets=11847 decoded_frames=11841 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=11848 h264_bytes=41815427 decoded_frames=11842 source_frames=8192 presented_frames=8192 present_fps=9.18 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11883->11884 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11925->11926 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=11970->11971 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12008->12009 slot=2->0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12025->12026 slot=1->2
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=12054 bytes=42293214 seq=12054 wraps=10 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12048->12049 slot=0->1
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12053->12054 slot=2->0
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1332 failures=250 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2650 failures=500 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3962 failures=750 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5305 failures=1000 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6712 failures=1250 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=8050 failures=1500 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9390 failures=1750 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10731 failures=2000 h264_packets=12066 decoded_frames=12060 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=12067 h264_bytes=42323368 decoded_frames=12061 source_frames=8331 presented_frames=8331 present_fps=7.82 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12070->12071 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12101->12102 slot=2->0
+direct111: PHASE=DECODED_CONSUMER_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 copies=8400 producer_frames=12160 seq=12160
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12192->12193 slot=0->1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1285 failures=250 h264_packets=12200 decoded_frames=12194 generation=1
+s=12200 decoded_frames=12194 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2606 failures=500 h264_packets=12200 decoded_frames=12194 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3965 failures=750 h264_packets=12200 decoded_frames=12194 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5303 failures=1000 h264_packets=12200 decoded_frames=12194 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6653 failures=1250 h264_packets=12200 decoded_frames=12194 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=7972 failures=1500 h264_packets=12200 decoded_frames=12194 generation=1
+direct111: PHASE=RUN generation=1 h264_ready=1 h264_packets=12201 h264_bytes=42634158 decoded_frames=12195 source_frames=8419 presented_frames=8419 present_fps=6.66 displayable=3 context=80 window58_readback=0
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=21151790->21151790 active=1->1 gen=1->1 cookie=0x001d26d0->0x001d26d0 seq=12294->12295 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=1 packets=12311 bytes=42889290 seq=12311 wraps=10 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=1282 failures=250 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=2623 failures=500 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=3980 failures=750 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=5319 failures=1000 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=6674 failures=1250 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=8019 failures=1500 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=9365 failures=1750 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=10726 failures=2000 h264_packets=12332 decoded_frames=12326 generation=1
+direct111: PHASE=DECODED_SOURCE_STALL freeze_last_frame=1 duration_ms=12080 failures=2250 h264_packets=12332 decoded_frames=12326 generation=1
+LIFECYCLE_WATCH=PRIVATE111_STOP detected=1 sidecar_pid=16916530 stop_count=2 action=TERM_AND_RESTART_IF_DEMAND
+direct111: PHASE=CONTEXT80_RELEASE owner=java native_dmdt=0
+backend: screen_destroy_window rc=0 errno=0
+direct111: PHASE=STOP source_frames=8504 presented_frames=8504 window58_readback=0
+LIFECYCLE_WATCH=RESTART_NEXT_SESSION demand=/tmp/mmi-mirror-active gate_policy=next_PHONE_REQUEST_111
+
+MIRROR_SESSION_RESTART reason=private111_session_end launcher_pid=85983302
+MIRROR_LAUNCH_ENV=READY pid=$ bin=/mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display volatile_mode=FLAT_TMP restart_reason=private111_session_end restart_count=0 max_abnormal_restarts=3 recover_current_session=0
+PATH=/proc/boot:/bin:/sbin:/usr/bin:/usr/sbin:/base/bin:/root/bin-target:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps
+LD_LIBRARY_PATH=/proc/boot:/lib:/usr/lib:/lib/dll:/eso/lib/:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll
+HOOK_LOG=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+GATE_TOKEN=/tmp/MMI-Cockpit-Carplay.mirror.phone111.gate
+SCREEN_CONTEXT_POLICY=JAVA80_ONLY native_context_writer=0
+READY_POLICY=destination_first_present_only base_ready=/tmp/mmi-mirror-basevideo.ready
+DIRECT111_SOURCE=ScreenStreamProcessData+H264_SHM decoded_shm=/carplay111_decoded
+WINDOW58_POLICY=NOT_ENUMERATED sidecar_screen_read_window=0 hook_exact_stock_window_readback=1 window_manager_context=0
+SINK_TEST_GRID_MODE=0 opt_in_env=ALT111_SINK_TEST_GRID
+DECODER_POLICY=stock_omx_then_screen_linearizer decoded_shm=/carplay111_decoded h264_shm=/carplay111_h264 raw_vendor_fallback=DISABLED
+SHM_POLICY=fstat_size_guard writer_ready_last=1 session_identity=writer_pid+generation+stream_cookie
+SIDECAR_PRELOAD_POLICY=ISOLATED inherited_preload_ignored=<unset>
+SESSION_END_POLICY=hook_DIRECT111_TAP_STOP after_first_present restart_while_demand=1
+direct111: PHASE=BUILD id=carplay-private111-direct-display-v2 target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap compatibility_parallel_to_h264_tap=1 shm_attach=fstat_size_guard session_identity=writer_pid+generation+cookie window58_readback=0 screen_manage_window_sidecar=0
+direct111: PHASE=GATE_LOG_ATTACHED path=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log screen_context=NONE window58_dependency=NONE
+direct111: PHASE=GATE_PASS trigger=PHONE_REQUEST_111 gate_source=phone-marker policy=stream111_request_or_phone_marker next=H264_TAP_AND_DECODER_SHM
+direct111: PHASE=SOURCE_INIT mode=private111-direct decoder_backend=stock-omx-tap h264_shm=/carplay111_h264 decoded_shm=/carplay111_decoded window58_readback=0
+direct111: PHASE=H264_SHM_ATTACHED name=/carplay111_h264 version=1 ring=4194304 writer_pid=21151790 generation=1 cookie=0x001d26d0 active=0 map=28900000 bytes=4194372 object_size=4194372 inode=2011536160 attempts=1
+direct111: PHASE=DECODED_SHM_ATTACHED name=/carplay111_decoded version=1 slots=3 slot_bytes=2097152 writer_pid=21151790 generation=1 cookie=0x001d26d0 active=0 map=28200000 bytes=6291520 object_size=6291520 inode=2011535656 attempts=1
+direct111: PHASE=PIPELINE_WAIT waiting=H264_TAP+DECODER_FRESH_PROGRESS startup_frame_progress_required=2 source=/carplay111_decoded window58_readback=0
+direct111: PHASE=H264_PROGRESS writer_pid=21151790 generation=1 cookie=0x001d26d0 active=0 packets=12332 bytes=42937997 seq=12332 wraps=10 drops=0 sps=4 pps=4 idr=4
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=12332 h264_bytes=42937997 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=12332 h264_bytes=42937997 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED

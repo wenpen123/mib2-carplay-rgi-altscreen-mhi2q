@@ -1,0 +1,2 @@
+19700101_000045 BOOT_BEGIN storage=FLAT_TMP_PLAINTEXT_SD volume=/net/mmx/fs/sda0
+19700101_000045 SD_READY volume=/net/mmx/fs/sda0

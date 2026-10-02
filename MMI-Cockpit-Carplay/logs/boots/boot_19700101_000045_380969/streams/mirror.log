@@ -1,0 +1,56 @@
+MIRROR_LAUNCH_ENV=READY pid=$ bin=/mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display volatile_mode=FLAT_TMP restart_reason=NONE restart_count=0 max_abnormal_restarts=3 recover_current_session=0
+PATH=/proc/boot:/bin:/sbin:/usr/bin:/usr/sbin:/base/bin:/root/bin-target:/proc/boot:/armle/bin:/armle/scripts:/bin:/usr/bin:/usr/sbin:/sbin:/mnt/app/armle/bin:/mnt/app/armle/sbin:/mnt/app/armle/usr/bin:/mnt/app/armle/usr/sbin:/eso/bin:/eso/bin/apps
+LD_LIBRARY_PATH=/proc/boot:/lib:/usr/lib:/lib/dll:/eso/lib/:/proc/boot:/usr/lib:/armle/lib:/armle/lib/dll:/lib:/mnt/app/root/carplay-altscreen/lib:/eso/lib:/mnt/app/usr/lib:/mnt/app/armle/lib:/mnt/app/armle/lib/dll:/mnt/app/armle/usr/lib:/lib/dll
+HOOK_LOG=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+GATE_TOKEN=/tmp/MMI-Cockpit-Carplay.mirror.phone111.gate
+SCREEN_CONTEXT_POLICY=JAVA80_ONLY native_context_writer=0
+READY_POLICY=destination_first_present_only base_ready=/tmp/mmi-mirror-basevideo.ready
+DIRECT111_SOURCE=ScreenStreamProcessData+H264_SHM decoded_shm=/carplay111_decoded
+WINDOW58_POLICY=NOT_ENUMERATED sidecar_screen_read_window=0 hook_exact_stock_window_readback=1 window_manager_context=0
+SINK_TEST_GRID_MODE=0 opt_in_env=ALT111_SINK_TEST_GRID
+DECODER_POLICY=stock_omx_then_screen_linearizer decoded_shm=/carplay111_decoded h264_shm=/carplay111_h264 raw_vendor_fallback=DISABLED
+SHM_POLICY=fstat_size_guard writer_ready_last=1 session_identity=writer_pid+generation+stream_cookie
+SIDECAR_PRELOAD_POLICY=ISOLATED inherited_preload_ignored=<unset>
+SESSION_END_POLICY=hook_DIRECT111_TAP_STOP after_first_present restart_while_demand=1
+direct111: PHASE=BUILD id=carplay-private111-direct-display-v2 target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap compatibility_parallel_to_h264_tap=1 shm_attach=fstat_size_guard session_identity=writer_pid+generation+cookie window58_readback=0 screen_manage_window_sidecar=0
+direct111: PHASE=GATE_WAIT for=PHONE_REQUEST_111 screen_context=NONE window58_dependency=NONE hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log
+direct111: PHASE=GATE_LOG_ATTACHED path=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log screen_context=NONE window58_dependency=NONE
+direct111: PHASE=GATE_PASS trigger=PHONE_REQUEST_111 gate_source=phone-marker policy=stream111_request_or_phone_marker next=H264_TAP_AND_DECODER_SHM
+direct111: PHASE=SOURCE_INIT mode=private111-direct decoder_backend=stock-omx-tap h264_shm=/carplay111_h264 decoded_shm=/carplay111_decoded window58_readback=0
+direct111: PHASE=PIPELINE_WAIT waiting=H264_TAP+DECODER_FRESH_PROGRESS startup_frame_progress_required=2 source=/carplay111_decoded window58_readback=0
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=PIPELINE_PROGRESS h264_ready=0 h264_packets=0 h264_bytes=0 decoder_ready=0 decoded_frames=0 fresh_frames=0 displayable3=NOT_CREATED
+direct111: PHASE=H264_SHM_ATTACHED name=/carplay111_h264 version=1 ring=4194304 writer_pid=22470787 generation=1 cookie=0x001de8d8 active=1 map=28500000 bytes=4194372 object_size=4194372 inode=1958269780 attempts=135
+direct111: PHASE=DECODED_SHM_ATTACHED name=/carplay111_decoded version=1 slots=3 slot_bytes=2097152 writer_pid=22470787 generation=1 cookie=0x001de8d8 active=1 map=28a00000 bytes=6291520 object_size=6291520 inode=1958272724 attempts=135
+direct111: PHASE=H264_SOURCE_SESSION writer_pid=22470787 generation=1 cookie=0x001de8d8 active=1 packets=31
+direct111: PHASE=H264_STREAM_VALID writer_pid=22470787 generation=1 cookie=0x001de8d8 packets=31 bytes=1965 sps=1 pps=1 idr=1 annexb=0
+direct111: PHASE=H264_PROGRESS writer_pid=22470787 generation=1 cookie=0x001de8d8 active=1 packets=31 bytes=1965 seq=31 wraps=0 drops=0 sps=1 pps=1 idr=1
+direct111: PHASE=SOURCE_SESSION writer_pid=22470787 generation=1 stream_cookie=0x001de8d8 decoder_backend=stock-omx-tap
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=22470787->22470787 active=1->1 gen=1->1 cookie=0x001de8d8->0x001de8d8 seq=22->24 slot=1->0
+direct111: PHASE=DECODER_FIRST_FRAME backend=stock-omx-tap writer_pid=22470787 generation=1 cookie=0x001de8d8 seq=27 size=1440x542 stride=1440 bytes=1170720 H264_VALID=YES
+direct111: PHASE=PIPELINE_SOURCE_PRIMED fresh_frames=2 writer_pid=22470787 generation=1 cookie=0x001de8d8 stale_single_frame_rejected=1
+direct111: PHASE=FIRST_DECODED_FRAME backend=stock-omx-tap format=NV12 size=1440x542 stride=1440 h264_ready=1 generation=1
+backend: init size=1440x455 displayable=3 context_owner=java
+backend: loaded /mnt/app/eso/lib/libdisplayinit.so
+backend: display_init complete (library handle kept open)
+backend: libscreen destroy=78024c9c get_iv=78024934 get_cv=78024aac
+backend: EGL initialized 1.4
+backend: display_create_window ret=1 displayable=3 size=1440x455 native=2d00a8 kd=2949288
+backend: eglMakeCurrent OK
+backend: window visible probe rc=0 visible=0 errno=0
+backend: manager-string rc=0 value='All your base are belong to us!' errno=0 [managed by displaymanager]
+renderer: GLES2 renderer initialized output=1440x455
+display: ready output=1440x455 displayable=3 context_owner=java
+renderer: PHASE=WATERMARK_ASSET_READY text=free_open_source_no_resale size=340x96 watermark_motion=BOUNCING_DRIFT
+renderer: PHASE=LOGO_ASSET_READY size=284x100
+direct111: PHASE=CONTEXT80_REQUEST owner=java composite=98,101,102,3 displayable=3 native_dmdt=0
+direct111: PHASE=STARTUP_LOGO_PRESENT duration_ms=2000 asset=/mnt/app/root/carplay-altscreen/bin/mirror/logo.rgba context_owner=java
+LIFECYCLE_WATCH=ARMED sidecar_pid=446508 stop_count=0 hook_log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log base_ready=/tmp/mmi-mirror-basevideo.ready
+renderer: PHASE=NV12_CSC_READY backend=cpu-bt601 input=1440x542 stride=1440 output=RGBA8888
+renderer: texture allocated 1440x542
+direct111: PHASE=DISPLAYABLE3_FIRST_PRESENT result=OK displayable=3 output=1440x455 source=private111-decoded window58_readback=0
+direct111: PHASE=DIRECT111_ACTIVE target_pipeline=private111->H264_TAP->decoder->displayable3->Context80 decoder_backend=stock-omx-tap h264_tap_independent=1 same_session_recovery=0 window58_readback=0 target_fps=30
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=22470787->22470787 active=1->1 gen=1->1 cookie=0x001de8d8->0x001de8d8 seq=184->185 slot=1->2
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=22470787->22470787 active=1->1 gen=1->1 cookie=0x001de8d8->0x001de8d8 seq=234->235 slot=0->1
+direct111: PHASE=H264_PROGRESS writer_pid=22470787 generation=1 cookie=0x001de8d8 active=1 packets=288 bytes=1946518 seq=288 wraps=0 drops=0 sps=4 pps=4 idr=3
+direct111: PHASE=DECODED_FRAME_RACE retry=1 writer=22470787->22470787 active=1->1 gen=1->1 cookie=0x001de8d8->0x001de8d8 seq=313->314 slot=1->2

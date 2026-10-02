@@ -1,0 +1,35 @@
+===== CarPlay generation pid=4235391 ppid=1200222 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=4235391 monitor=4329595
+[monitor] generation=4235391 active
+[monitor] dio_manager pid=4235391 exited; renderer remains persistent
+===== CarPlay generation pid=5849215 ppid=1200222 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=5849215 monitor=5918849
+[monitor] generation=5849215 active
+[monitor] starting maneuver_render reason=initial
+[monitor] dio_manager pid=5849215 exited; renderer remains persistent
+===== CarPlay generation pid=4239488 ppid=1200219 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=4239488 monitor=4341891
+[monitor] generation=4239488 active
+[monitor] starting maneuver_render reason=initial
+[monitor] dio_manager pid=4239488 exited; renderer remains persistent
+===== CarPlay generation pid=17756292 ppid=1200219 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=17756292 monitor=17870894
+[monitor] generation=17756292 active
+[monitor] adopted maneuver_render
+[monitor] generation=17756292 superseded
+===== CarPlay generation pid=19660924 ppid=1200219 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=19660924 monitor=19832874
+[monitor] generation=19660924 active
+[monitor] adopted maneuver_render
+[monitor] dio_manager pid=19660924 exited; renderer remains persistent
+===== CarPlay generation pid=21151790 ppid=1200219 =====
+[startup] preload inherited='' extra='/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so' -> '/mnt/app/root/hooks/libcarplay_hook.so:/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so'
+[startup] exec dio_manager pid=21151790 monitor=21213236
+[monitor] generation=21151790 active
+[monitor] adopted maneuver_render
+[monitor] dio_manager pid=21151790 exited; renderer remains persistent

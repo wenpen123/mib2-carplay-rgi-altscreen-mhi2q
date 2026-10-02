@@ -1,0 +1,2 @@
+     pid tid name               prio STATE            code  data        stack
+PROBE_RESULT status=0 command=pidin -p dio_manager mapinfo

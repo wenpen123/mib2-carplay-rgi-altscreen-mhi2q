@@ -1,0 +1,9 @@
+00:00:30.625 [WRN] [HOOK] lazy runtime init complete (constructor-free; first Cinemo boundary)
+00:00:27.504 [WRN] [HOOK] lazy runtime init complete (constructor-free; first Cinemo boundary)
+00:02:02.895 [WRN] [HOOK] lazy runtime init complete (constructor-free; first Cinemo boundary)
+00:02:05.901 [WRN] [HOOK] Stock ICinemoIAP::SendIAP2 failed session=1 len=24 rc=13
+00:02:07.903 [WRN] [HOOK] Stock ICinemoIAP::SendIAP2 failed session=1 len=24 rc=13
+00:02:14.314 [WRN] [HOOK] lazy runtime init complete (constructor-free; first Cinemo boundary)
+00:02:17.319 [WRN] [HOOK] Stock ICinemoIAP::SendIAP2 failed session=1 len=24 rc=13
+00:02:19.323 [WRN] [HOOK] Stock ICinemoIAP::SendIAP2 failed session=1 len=24 rc=13
+00:02:25.100 [WRN] [HOOK] lazy runtime init complete (constructor-free; first Cinemo boundary)

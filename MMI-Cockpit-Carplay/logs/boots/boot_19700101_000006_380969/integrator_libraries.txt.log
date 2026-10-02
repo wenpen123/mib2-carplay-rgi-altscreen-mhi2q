@@ -1,0 +1,231 @@
+     pid name               
+ 1200222 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78ee0000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x785a0000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x782d0000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78030000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78007000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78010000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x781f0000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x78130000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01270000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x78100000                                libm.so.2 /proc/boot/libm.so.2
+	0x78080000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78160000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x78000000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x780b0000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x780e0000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x781da000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78153000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x78272000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78250000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x7823f000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78265000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x782be000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x7829f000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78440000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78288000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x782b0000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs
+     pid name               
+ 1200219 rtphone_integrator 
+	   Address                                DT_SONAME Path
+	0x00100000                                      EXE /net/mmx.mibhigh.net/mnt/app/eso/./bin/apps/smartphone_integrator
+	0x78710000                               libosal.so /mnt/app/eso/lib/libosal.so
+	0x78220000                               libutil.so /mnt/app/eso/lib/libutil.so
+	0x78040000                               libcomm.so /mnt/app/eso/lib/libcomm.so
+	0x78170000                          libiplcommon.so /mnt/app/eso/lib/libiplcommon.so
+	0x78004000                          libdsicommon.so /mnt/app/eso/lib/libdsicommon.so
+	0x78020000                           libservmngt.so /mnt/app/eso/lib/libservmngt.so
+	0x78110000                    libirc_mmx_adapter.so /mnt/app/eso/lib/libirc_mmx_adapter.so
+	0x781c0000                          libecpp-ne.so.4 /lib/libecpp-ne.so.4
+	0x01570000                                libc.so.3 /usr/lib/ldqnx.so.2
+	0x781f0000                                libm.so.2 /proc/boot/libm.so.2
+	0x785c0000                           libsocket.so.3 /lib/libsocket.so.3
+	0x78370000                            libtracing.so /mnt/app/eso/lib/libtracing.so
+	0x7800b000               libRemoteConnectBackend.so /mnt/app/eso/lib/tracingPlugins/libRemoteConnectBackend.so
+	0x78310000                    libTracingProtocol.so /mnt/app/eso/lib/libTracingProtocol.so
+	0x78350000                             libprobes.so /mnt/app/eso/lib/libprobes.so
+	0x7815a000                      libservmngtproxy.so /mnt/app/eso/lib/factories/libservmngtproxy.so
+	0x78012000                        libbrokerproxy.so /mnt/app/eso/lib/factories/libbrokerproxy.so
+	0x7833e000           libasimmxsmartphoneappproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	0x78580000              libasimmxspswdl2appproxy.so /mnt/app/eso/lib/factories/libasimmxspswdl2appproxy.so
+	0x781e3000                  libasimmxoocappproxy.so /mnt/app/eso/lib/factories/libasimmxoocappproxy.so
+	0x78468000         libasimmxsmartphonemediaproxy.so /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	0x783fb000 libasi_dsi_spy_cartimeunitslanguageproxy /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	0x783e9000      libdsismartphoneintegrationproxy.so /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	0x78430000                   libpersistenceproxy.so /mnt/app/eso/lib/factories/libpersistenceproxy.so
+	0x78410000                     libasimmxfecproxy.so /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	0x78459000                            libusbdi.so.2 /lib/libusbdi.so.2
+	0x7848f000                           libusbdci.so.2 /mnt/app/armle/lib/libusbdci.so
+
+PROBE_RESULT status=0 command=pidin -p smartphone_integrator libs

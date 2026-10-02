@@ -1,0 +1,145 @@
+     pid Arguments
+       1 procnto-smp-instr -S 8192,128 -v -ae -mL~xr -F 4000
+       2 bmetrics_service
+       4 slogger -s 1024k
+    4101 /sbin/pipe
+   16391 /sbin/devc-sermsm8x60 -E -F -S -b115200 -u2 0x16240000
+   16392 /sbin/devc-sermsm8x60 -O 262144 -e -b115200 -u1 0x16340000
+   16394 /usr/bin/rstp -d /dev/ser2 -b 115200 /dev/rstp/pwrmanlegacy_datanc
+   20489 /bin/pmic_service
+   24587 /bin/qcgpio
+   32781 /usr/sbin/ooc -l INFO -p
+   45071 /bin/qcore --powerman --log_level=5
+   49166 /bin/qcsku
+   57360 /bin/i2c_service
+   61457 /bin/smmu_service
+   65556 /sbin/mq
+   65560 bridgechip_server
+   77846 /bin/io_service
+   81943 kgsl
+   81945 screen
+  110619 /usr/sbin/random -p
+  131102 /sbin/pci_server -v -d asic_AF board=mmx
+  143391 /eso/bin/apps/displaymanager 2_lvds
+  155680 /proc/boot/screen_power_app -priority 5
+  188434 devb-sdmmc-rim-msmsdcc disk maxio=4096 blk maxio=512,maxdio=4096,cache=10M,thread=12:6:6,noatime,ra=128k:256k,devdir=/dev/emmc cam quiet,cache,async sdmmc verbose=0,bs=dname=compat,pwroff_notify=long,temp_log_freq=60000 sdio idx=0
+  208917 /sbin/io-pkt-v6-hc -S -p tcpip threads_max=1000,enmap=0,stacksize=16384,stackguard,mclbytes=16384,pagesize=16384,pkt_typed_mem=/ram/dma,random -ppf-v6
+  217116 /sbin/mmx-pcie-init
+  299027 tinit
+  299037 login
+  327683 /bin/sh /etc/boot/boot.sh
+  327692 grep -F dumping to
+  327713 /sbin/dumper -v -m -z 9 -n -d /mnt/ota/system/core
+  327714 /armle/sbin/devc-pty
+  327718 tee /dev/stderr
+  331782 info
+  372772 sh /etc/boot/startup.sh
+  380967 /bin/sh /mnt/app/root/carplay-altscreen/bin/altscreen_adaptive_diag.sh
+  380969 /bin/sh /mnt/app/root/carplay-altscreen/bin/altscreen_boot_diag.sh
+  446508 /mnt/app/root/carplay-altscreen/bin/mirror/carplay-alt111-mirror-display --verbose
+  450586 /bin/sh /mnt/app/root/carplay-altscreen/bin/mirror/start_vehicle.sh
+  475185 sh /etc/boot/startup.sh
+  479277 sleep 60
+  479285 /eso/bin/broker
+  548918 /armle/sbin/mqueue
+  565305 devb-sdmmc-rim-msmsdcc blk cache=2M,noatime,ra=128k:128k disk name=sda cam quiet,cache,pnp sdmmc verbose=0,bs=dname=compat sdio idx=1,bs=cd=p26:en=35:wp=p20:maxclk=43300000,timing=hs
+  573498 devb-ram blk cache=512k ram capacity=40960 disk name=sysramdisk
+  581687 devb-ram blk cache=512k ram capacity=20480 disk name=organizer
+  618552 devb-sdmmc-rim-msmsdcc blk cache=2M,noatime,ra=128k:128k disk name=sdb cam quiet,cache,pnp sdmmc verbose=0,bs=dname=compat sdio idx=2,bs=cd=p23:en=37:wp=p19:maxclk=43300000,timing=hs
+  647230 audio_service -f /etc/
+  704560 io-usb -c -d compiled-ehci-arc-msm8960 ioport=0x12500000,irq=132,cache=1,verbose=2,ioport=0x12520000,irq=220,cache=1,verbose=2
+  815168 watchdog -k 20 -b 600 -i 610
+  847907 /eso/bin/traceserver
+  856110 /eso/bin/servicemgrmibhigh
+  860219 challenge -p 22111 -f
+  864307 ./cpumeter -c 999999000 -n mmx -i 1000
+  864326 ./IRCOutpost
+  929859 io-sdiorm-mib2-qc -hioport=0x121C0000,irq=0x85 -c43243000
+  942120 cartimeprovider
+  970804 /ifs/jre/bin/j9 -Dipl.config.dir=/etc/eso/production/ -Dipl.config.myProcName=hmi -Xmjit:code=2000,singleCache -Xquickstart -noverify -Xcompactexplicitgc -Xgcpolicy:gencon -Xssi4K -Xss512K -Djava.library.path=.:/mnt/app/eso/hmi/graphics:/root/lib-target:/ifs/jre/bin:/mnt/app/eso/hmi/lsd:/armle/lib:/armle/lib/dll:/armle/usr/lib:/eso/lib:/navigation:/navigation/lib:/armle/graphics -Dcom.ibm.oti.vm.bootstrap.library.path=.:/mnt/app/eso/hmi/graphics:/root/lib-target:/ifs/jre/bin:/mnt/app/eso/hmi/lsd:/armle/lib:/armle/lib/dll:/armle/usr/lib:/eso/lib:/navigation:/navigation/lib:/armle/graphics -Xmca16k -Xmco16k -Xmoi0 -Xmn10m -Xmo50m -Xmx60m -Xmso1m -DOEM=AU -DREGION=CN -DRUN_MODE=normal -Dhwg.font.path=/mnt/app/eso/hmi/fonts -DImageRoot=/mnt/app/eso/hmi/lsd/images -DKzbRoot=/mnt/app/eso/hmi/lsd/kzbs -DealMemorySize=80 -DmergeSelectionDrawerOnDemand=true -DErrorDumpDir=/mnt/ota/system/logs/ -Dexternalized.logs.path=/mnt/app/eso/hmi/lsd/ext_logs/ -Dipl.config.resource=/resources -Dipl.config.dir.hmi_startup=/mnt/app/eso/hmi/lsd -DSpellerCharacterSetPath=/mnt/app/eso/hmi/lsd/SpellerCharacterSets -DSYNC_EARLY_RVC=true -DWAIT_FOR_MAP_AVAILABLE=20000 -DWAIT_FOR_AUDIO_TIMEOUT=1 -DWAIT_FOR_SDS_AVAILABLE=1 -Dtv.startup.config.force.enable=true -DenableNLU=true -DsdsLogicalPopup=true -DexternalSDS=true -Dde.audi.gem.path.scriptfifo=/var -Dde.audi.gem.path.esdfiles=/mnt/app/eso/hmi/engdefs -Dde.audi.gem.image.path=/mnt/app/eso/hmi/lsd/images/GEM -Dde.audi.gem.font.path=/mnt/app/eso/hmi/fonts/ -DenableGEM=true -DIS_PRODUCTION_MODE=true -DuseNewTtsClient=true -DLOG=all=0,Ext.Power=5 -DSLOG=Ext.Startup=5,Fw.Error=2 -DErrorDumpTriggerPort=6767 -DSWDLAutoRetries=0 -Dde.audi.tghu.traceConfig=/mnt/app/eso/hmi/lsd/traceConfig.properties -Dde.audi.tghu.engineering.base_dir=/mnt/app/eso/hmi/engdefs -Dgreenmenu.jobs.searchLocation=sd*/home/jobs/job.mf@/fs -Dde.audi.gem.SlideShowSearchPath=sd*/slideshow/*.png@/fs -DmyAudi.VIN=BAUIEE4HZ09012808 -DmyAudi.IMSI=2620225510 -DpartialRenderingEnabled=false -Xbootclasspath::/mnt/app/eso/hmi/lsd/jars/xEventRecorder.jar:/mnt/app/eso/hmi/lsd/jars/AppDevelopment.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_transport.jar:/mnt/app/eso/hmi/lsd/jars/DevelopmentStubEvo.jar:/mnt/app/eso/hmi/lsd/jars/xTcpKeyPanel.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_os.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_commons.jar:/mnt/app/eso/hmi/lsd/jars/lang_data.zip:/mnt/app/eso/hmi/lsd/jars/locale.zip:/mnt/app/eso/hmi/lsd/jars/diag.jar:/mnt/app/eso/hmi/lsd/jars/RemoteHMI-Libs-Ext.jar:/mnt/app/eso/hmi/lsd/jars/xEventRecorderEvo.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_config.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_services.jar:/mnt/app/eso/hmi/lsd/jars/xTcpLog.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_tracing.jar:/mnt/app/eso/hmi/lsd/jars/fw_util_serializer.jar:/mnt/app/eso/hmi/lsd/jars/carplay_hook.jar:/ifs/lsd.jxe -jxe:/ifs/lsd.jxe
+  995393 io-audio -d qc skip_device_disable=0,bmetrics_level=medium,log_level=high,default_enable_csd_dev_tx=11,default_enable_csd_dev_rx=14,platform_id=mib2,mib_cgms=0,intr_thread_prio=21
+ 1007682 pps -m /ramdisk/pps -p /ramdisk/pps_dummy_persist
+ 1024069 systracker
+ 1024072 heartbeat -p11
+ 1024074 sh /etc/boot/startup.sh
+ 1024076 ./slf -f /etc/slf/slf.cfg
+ 1028143 sleep 120
+ 1073230 ./bin/apps/persistenceTNG_mibhigh -sm-name persistence_mibhigh -sm-id 104 -sm-time 4131 -sm-restart 0
+ 1130573 /eso/bin/apps/mediaconnector -v1 -map 0x11,0x10
+ 1130577 devb-eide-mmx eide noslave blk marking=none,cache=2m,ro cam resmgr,quiet mem name=/ram/dma cdrom timeout=20:10:7:7,retries=3
+ 1142864 /sbin/ejectd
+ 1146962 devp-iso-mmx-mib2 -R -S196 -i0 -B3 -P32 -Q24 -m/dev/mlb -MisoRX1 -v5 -p16
+ 1151059 devp-iso-mmx-mib2 -R -S196 -i1 -B3 -P32 -Q24 -m/dev/mlb -MisoRX2 -v5 -p16
+ 1155156 devp-iso-mmx-mib2 -T -S188 -i2 -B3 -P64 -Q18 -m/dev/mlb -MisoTX1 -v5 -p16
+ 1159255 devp-iso-mmx-mib2 -T -S188 -i3 -B3 -P64 -Q18 -m/dev/mlb -MisoTX2 -v5 -p16
+ 1167421 ham
+ 1175641 ham -g
+ 1183832 ./bin/apps/medialauncher -sm-name medialauncher -sm-id 307 -sm-time 4808 -sm-restart 0
+ 1196075 ./bin/apps/connectivity_launcher -sm-name connectivity_launcher -sm-id 315 -sm-time 4810 -sm-restart 0
+ 1200196 usblauncher -e -vv -c /etc/usblauncher.lua -M /etc/mcd.mnt -t -l -m /ramdisk/pps -p 2 -s /mnt/app/armle/lib/dll/pubs -n /dev/io-usb/io-usb -S 0 -O
+ 1204295 mmcsdpub -l -f /dev/sda0 -f /dev/sdb0 -m /ramdisk/pps -s /mnt/app/armle/lib/dll/pubs
+ 1204314 ./bin/apps/smartphone_integrator -sm-name smartphone_integrator -sm-id 353 -sm-time 4812 -sm-restart 0
+ 1204318 mcd -Vv /etc/mcd.conf
+ 1237034 autorunner
+ 1298492 usblauncher -w 10000 -H -e -r -v -c /etc/usblauncher_otg.lua -M /etc/mcd_otg.mnt -t -l -m /ramdisk/pps -p 2 -s /mnt/app/armle/lib/dll/pubs -n /dev/io-usb/otg -S 1
+ 1396811 ./bin/apps/sdtool -sm-name sdtool -sm-id 352 -sm-time 5603 -sm-restart 0
+ 1396827 ./bin/apps/diagnosis -sm-name MMXDiagService -sm-id 319 -sm-time 5608 -sm-restart 0
+ 1396828 /eso/bin/apps/connectionmanager connectionmanager 0
+ 1396829 ./bin/apps/fec -sm-name MMXFecService -sm-id 326 -sm-time 5612 -sm-restart 0
+ 1396831 ./bin/apps/systemservices -sm-name systemservices -sm-id 332 -sm-time 5616 -sm-restart 0
+ 1396832 /armle/usr/sbin/wpa_supplicant -Bi mlan0 -c /ramdisk/wpa_supplicant.conf
+ 1437793 /eso/bin/apps/btstack btstack 1
+ 1491042 /eso/bin/apps/nad nad 2
+ 1495139 /mnt/app/eso/bin/apps/videoovermost -sm-name videoovermost -sm-id 333 -sm-time 7438 -sm-restart 0
+ 1544294 /eso/bin/apps/dnsmasq
+ 1548391 /eso/bin/apps/dnsmasq
+ 1597540 /eso/bin/apps/telephone telephone 3
+ 1613897 /eso/bin/apps/bluetooth bluetooth 4
+ 1642575 /eso/bin/apps/dev-upnp dev-upnp 5
+ 1650789 /mnt/app/eso/bin/apps/sseProc -sm-name sseProc -sm-id 347 -sm-time 8816 -sm-restart 0
+ 1650792 ./bin/apps/swdlclient -sm-name swdlclient -sm-id 318 -sm-time 8817 -sm-restart 0
+ 1650793 ./bin/apps/cinflash -sm-name cinflash -sm-id 343 -sm-time 8820 -sm-restart 0
+ 1699946 /mnt/app/eso/bin/apps/media
+ 1699947 /sbin/devb-ram blk cache=0k ram capacity=71680 disk name=mediadb
+ 1699948 /mnt/app/armle/bin/cdpub -l -f /dev/cd0:/dev/cam0/000 -m /ramdisk/pps -p 250:500 -n 12 -s /mnt/app/armle/lib/dll/pubs
+ 1724502 videoCore
+ 1724525 vpeCore
+ 2007153 ./bin/apps/rdiserver -sm-name rdiserver -sm-id 341 -sm-time 11847 -sm-restart 0
+ 2056277 /eso/bin/comm_forwarder
+ 2056304 /mnt/app/wordprediction/awp -sm-name asiaWordPredictionProc -sm-id 355 -sm-time 12197 -sm-restart 0
+ 2130031 ./bin/apps/esoposprovider -sm-name EsoPosProviderProcess -sm-id 349 -sm-time 12817 -sm-restart 0
+ 2130036 ./bin/apps/videoencoderservice -sm-name videoencoderservice -sm-id 357 -sm-time 12820 -sm-restart 0
+ 2154611 ./bin/apps/mediarouter -sm-name mediarouter -sm-id 344 -sm-time 13205 -sm-restart 0
+ 2154613 ./bin/apps/organizer -sm-name organizerProc -sm-id 310 -sm-time 13475 -sm-restart 0
+ 2228342 devc-serusb -d vid=0x12d1,did=0x1573,busno=0x1,devno=0x1,ign_remove,ifaces=4:5:6:7:8,module=sierra
+ 2228343          
+ 2248826 /eso/bin/apps/messaging messaging 6
+ 2322552 ./bin/apps/esosearch -sm-name esosearchProc -sm-id 336 -sm-time 14883 -sm-restart 0
+ 2429049 /speech/SpeechLauncher -sm-name speechProc -sm-id 300 -sm-time 15282 -sm-restart 0
+ 2429051 ./navigation -sm-name navigationProc -sm-id 311 -sm-time 15285 -sm-restart 0
+ 3764349 ./bin/apps/trufflesSpeech -sm-name trufflesSpeech -sm-id 455 -sm-time 17289 -sm-restart 0
+ 3784828          
+ 3866750 ./bin/apps/rdv_controller -sm-name rdv_controller -sm-id 327 -sm-time 18751 -sm-restart 0
+ 3948654 usbrolereverse -d 3 -t 0 -l 1 -p /ramdisk/pps/device/usb_ctrl1
+ 3956864 inetd
+ 3960959 /mnt/app/armle/bin/ssr_policy_mgr -d -m 1 -p3
+ 4022401 /net/mmx/mnt/app/armle/sbin/refresh_tool -t path=/mnt/persist/var -h path=/mnt/persist/var
+ 4796466 ./bin/apps/trdevapp -sm-name trdevapp -sm-id 345 -sm-time 30817 -sm-restart 0
+ 5021828 ./bin/apps/explorer -sm-name explorerProc -sm-id 317 -sm-time 34135 -sm-restart 0
+ 5124210 ./bin/apps/radiodata -sm-name radiodata -sm-id 350 -sm-time 36422 -sm-restart 0
+ 5148805 /bin/sh /eso/hmi/engdefs/scripts/mqb/install_mmi_cockpit_carplay_rx.sh
+ 5267591 devb-ram blk cache=512k ram capacity=10240 disk name=logos
+ 5288072 /bin/sh /net/mmx/fs/sda0/Toolbox/scripts/altscreen_chain_test.sh install 
+ 5460102 ./bin/apps/browser -sm-name browserProc -sm-id 301 -sm-time 38222 -sm-restart 0
+ 6074505 ./bin/apps/mediaonline -sm-name mediaonline -sm-id 337 -sm-time 40565 -sm-restart 0
+ 6410380 ./bin/apps/voice_encoder_app -sm-name voice_encoder_app -sm-id 330 -sm-time 41313 -sm-restart 0
+ 7073829 /bin/sh /net/mmx.mibhigh.net/fs/sda0/Toolbox/scripts/altscreen_chain_test_universal.sh install
+ 8278079 sloginfo -w -t
+ 8646799 sleep 1
+ 8667275 sleep 1
+ 9068674 /bin/sh /net/mmx.mibhigh.net/fs/sda0/Toolbox/scripts/altscreen_chain_test_universal.sh install
+ 9068675 pidin arguments
+ 9068682 /bin/sh /net/mmx.mibhigh.net/fs/sda0/Toolbox/scripts/altscreen_chain_test_universal.sh install
+ 9068685 /bin/sh /mnt/app/root/carplay-altscreen/bin/altscreen_boot_diag.sh
+ 9068688 sleep 5
+PROBE_RESULT status=0 command=pidin arguments

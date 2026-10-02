@@ -1,0 +1,7 @@
+LOCK_ACQUIRED pid=7073829 action=install
+BACKUP=COMPLETE dir=/net/mmx/fs/sda0/MMI-Cockpit-Carplay/backup/original
+FIREWALL=TYPE111_RUNTIME_EXACT_PORT interface=carplay0 persistent_high_port_range=ABSENT
+FIRMWARE_PROFILE=UNIVERSAL source=aug22_unified_policy stock_reuse=YES
+UNIVERSAL_PRELOAD=INSTALLED path=/mnt/app/root/carplay-altscreen/lib/libcarplay_altscreen.so resolver=ELF_DYNAMIC_RELOCATION
+LOCK_RELEASE=PASS
+INSTALL=PASS reboot_required=YES

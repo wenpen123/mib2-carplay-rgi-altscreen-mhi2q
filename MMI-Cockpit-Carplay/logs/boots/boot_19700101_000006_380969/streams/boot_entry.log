@@ -1,0 +1,9 @@
+BOOT_ENTRY pid=327718 universal_persistent_diag=1 runtime=/mnt/app/root/carplay-altscreen/bin
+ADAPTIVE_FAILSAFE_STARTED pid=380965 wait_steps=0 store_required=NO
+BOOT_HELPER_FOUND wait_steps=0
+Killed 
+BOOT_ENTRY pid=327716 universal_persistent_diag=1 runtime=/mnt/app/root/carplay-altscreen/bin
+ADAPTIVE_FAILSAFE_STARTED pid=380967 wait_steps=0 store_required=NO
+BOOT_HELPER_FOUND wait_steps=0
+Killed 
+Killed 

@@ -1,0 +1,69 @@
+/net/mmx.mibhigh.net/dev/logos0t77 on /logosdisk type qnx4 
+/net/mmx.mibhigh.net/dev/mediadb0t77 on /fs/tmpfs type qnx4 
+/net/mmx.mibhigh.net/dev/sda0t12 on /fs/sda0 type dos (fat32) 
+/net/mmx.mibhigh.net/dev/organizer0t77 on /organizerdisk type qnx4 
+/net/mmx.mibhigh.net/dev/sysramdisk0t77 on /ramdisk type qnx4 
+/ramdisk/pps_dummy_persist on /ramdisk/pps type PPS 
+/net/mmx.mibhigh.net/mnt/navdb/speech/sr/vde/CN/common/common.iso on /mnt/speech-sr-vde-common type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/navdb/speech/sr/vde/CN/common_poicat/common_poicat.iso on /mnt/speech-sr-vde-common_poicat type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/navdb/speech/sr/vde/CN/China/China.iso on /mnt/speech-sr-vde-China type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-en-US_female.iso on /mnt/speech-tts-en-US_female type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-zh-HK_female.iso on /mnt/speech-tts-zh-HK_female type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-zh-CN_female.iso on /mnt/speech-tts-zh-CN_female type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-zh-TW_female.iso on /mnt/speech-tts-zh-TW_female type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-ja-JP_female.iso on /mnt/speech-tts-ja-JP_female type cd (rrip) 
+/net/mmx.mibhigh.net/mnt/speech/tts/voices/speech-tts-ko-KR_female.iso on /mnt/speech-tts-ko-KR_female type cd (rrip) 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.28 on /mnt/aw-persistence type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/boot1.e7b238d0-3010-4ee6-a677-8a4a4681ec9a.2 on /mnt/cinemo type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de5.33 on /mnt/ota type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.32 on /mnt/media type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de6.18 on /mnt/navdb type qnx6 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_FF.DAT on /mnt/navdb/spot/SPOT_FF type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_40.DAT on /mnt/navdb/spot/SPOT_40 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_3F.DAT on /mnt/navdb/spot/SPOT_3F type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_3E.DAT on /mnt/navdb/spot/SPOT_3E type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_3D.DAT on /mnt/navdb/spot/SPOT_3D type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_3C.DAT on /mnt/navdb/spot/SPOT_3C type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_36.DAT on /mnt/navdb/spot/SPOT_36 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_35.DAT on /mnt/navdb/spot/SPOT_35 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_34.DAT on /mnt/navdb/spot/SPOT_34 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_33.DAT on /mnt/navdb/spot/SPOT_33 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_32.DAT on /mnt/navdb/spot/SPOT_32 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_2E.DAT on /mnt/navdb/spot/SPOT_2E type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_2D.DAT on /mnt/navdb/spot/SPOT_2D type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_2C.DAT on /mnt/navdb/spot/SPOT_2C type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_2B.DAT on /mnt/navdb/spot/SPOT_2B type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_2A.DAT on /mnt/navdb/spot/SPOT_2A type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_29.DAT on /mnt/navdb/spot/SPOT_29 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_25.DAT on /mnt/navdb/spot/SPOT_25 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_24.DAT on /mnt/navdb/spot/SPOT_24 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_23.DAT on /mnt/navdb/spot/SPOT_23 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_22.DAT on /mnt/navdb/spot/SPOT_22 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_21.DAT on /mnt/navdb/spot/SPOT_21 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_20.DAT on /mnt/navdb/spot/SPOT_20 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_1F.DAT on /mnt/navdb/spot/SPOT_1F type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_17.DAT on /mnt/navdb/spot/SPOT_17 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_16.DAT on /mnt/navdb/spot/SPOT_16 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_15.DAT on /mnt/navdb/spot/SPOT_15 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_14.DAT on /mnt/navdb/spot/SPOT_14 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_13.DAT on /mnt/navdb/spot/SPOT_13 type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_0F.DAT on /mnt/navdb/spot/SPOT_0F type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_0E.DAT on /mnt/navdb/spot/SPOT_0E type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_0D.DAT on /mnt/navdb/spot/SPOT_0D type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_0C.DAT on /mnt/navdb/spot/SPOT_0C type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/SPOT/SPOT_0B.DAT on /mnt/navdb/spot/SPOT_0B type cd (iso9660) 
+/net/mmx.mibhigh.net/mnt/navdb/db/DBICON.DAT on /mnt/navdb/dbicon type cd (iso9660) 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.19 on /mnt/ols type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.20 on /mnt/gecache type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.21 on /mnt/adb type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.22 on /mnt/icab type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.23 on /mnt/mmebackup type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.24 on /mnt/gracenotedb type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.26 on /mnt/boardbook type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.17 on /mnt/persist type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.15 on /mnt/system type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.25 on /mnt/speech type qnx6 
+/net/mmx.mibhigh.net/dev/emmc/uda0.0fc63daf-8483-4772-8e79-3d69d8477de7.27 on /mnt/app type qnx6 
+/net/mmx.mibhigh.net/mnt/app/eso/lib/icu.iso on /mnt/app/eso/lib/icudt58l type cd (rrip) 
+none on /proc/ham type qnx6 
+PROBE_RESULT status=0 command=mount

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="carplay_hook-basevideo3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Toolbox/carplay_alt_screen/hmi/carplay_hook-basevideo3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

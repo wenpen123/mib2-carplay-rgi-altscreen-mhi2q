@@ -1,0 +1,119 @@
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        State
+tcp        0      0  *.4242                 *.*                    LISTEN
+tcp        0      0  10.0.0.15.21330        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21337        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65505        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21301        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21350        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21317        10.0.0.16.65482        ESTABLISHED
+tcp        0      0  10.0.0.15.21317        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21345        *.*                    LISTEN
+tcp        0      0  *.23                   *.*                    LISTEN
+tcp        0      0  10.0.0.15.65506        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65507        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21333        10.0.0.16.65486        ESTABLISHED
+tcp        0      0  10.0.0.15.65508        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65509        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21311        10.0.0.16.65487        ESTABLISHED
+tcp        0      0  10.0.0.15.21327        *.*                    LISTEN
+tcp        0      0  *.12345                *.*                    LISTEN
+tcp        0      0  10.0.0.15.21311        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21455        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21300        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21336        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21313        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21310        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21344        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21349        10.0.0.16.65488        ESTABLISHED
+tcp        0      0  10.0.0.15.21357        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21349        *.*                    LISTEN
+tcp        0      0  127.0.0.1.25010        *.*                    LISTEN
+tcp        0      0  10.173.189.1.25010     *.*                    LISTEN
+tcp        0      0  10.0.0.15.21355        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21107        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65520        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21341        *.*                    LISTEN
+tcp        0      0  127.0.0.1.19810        *.*                    LISTEN
+tcp        0      0  *.49152                *.*                    LISTEN
+tcp        0      0  10.0.0.15.65521        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65522        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21308        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65523        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21347        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21343        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21318        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21324        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65524        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21326        10.0.0.16.65489        ESTABLISHED
+tcp        0      0  10.0.0.15.65525        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21312        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21319        10.0.0.16.65490        ESTABLISHED
+tcp        0      0  10.0.0.15.21309        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65526        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65528        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65527        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65529        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65530        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.65531        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21333        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21339        *.*                    LISTEN
+tcp        0      0  127.0.0.1.53           *.*                    LISTEN
+tcp        0      0  10.173.189.1.53        *.*                    LISTEN
+tcp        0      0  10.0.0.15.65532        10.0.0.16.21400        ESTABLISHED
+tcp        0      0  10.0.0.15.21105        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21314        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21319        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21316        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21326        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21332        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21353        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21307        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21315        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21200        *.*                    LISTEN
+tcp        0      0  127.0.0.1.21021        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21104        *.*                    LISTEN
+tcp        0      0  127.0.0.1.6767         *.*                    LISTEN
+tcp        0      0  10.0.0.15.21100        10.0.0.16.65500        ESTABLISHED
+tcp        0      0  10.0.0.15.21001        10.0.0.16.65501        ESTABLISHED
+tcp        0      0  10.0.0.15.21001        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21102        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21331        *.*                    LISTEN
+tcp        0      0  *.22111                *.*                    LISTEN
+tcp        0      0  10.0.0.15.21100        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21101        *.*                    LISTEN
+tcp        0      0  10.0.0.15.21103        *.*                    LISTEN
+udp        0      0  *.*                    *.*                   
+udp        0      0  *.9111                 *.*                   
+udp        0      0  *.*                    *.*                   
+udp        0      0  239.255.255.145.28500  *.*                   
+udp        0      0  *.*                    *.*                   
+udp        0      0  *.49153                *.*                   
+udp        0      0  *.1900                 *.*                   
+udp        0      0  127.0.0.1.53           *.*                   
+udp        0      0  10.173.189.1.53        *.*                   
+udp        0      0  *.67                   *.*                   
+udp        0      0  *.*                    *.*                   
+Active Internet6 connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp6       0      0  fe80::ba9f:9ff:f.25010 *.*                    LISTEN
+tcp6       0      0  fe80::ba9f:9ff:f.25010 *.*                    LISTEN
+tcp6       0      0  *.28500                *.*                    LISTEN
+tcp6       0      0  ::1.53                 *.*                    LISTEN
+tcp6       0      0  fe80::1%lo0.53         *.*                    LISTEN
+tcp6       0      0  fe80::ba9f:9ff:f.53    *.*                    LISTEN
+udp6       0      0  *.28500                *.*                   
+udp6       0      0  ::1.53                 *.*                   
+udp6       0      0  fe80::1%lo0.53         *.*                   
+udp6       0      0  fe80::ba9f:9ff:f.53    *.*                   
+Active UNIX domain sockets
+Address  Type   Recv-Q Send-Q    Inode     Conn     Refs  Nextref Addr
+  29d4c8 dgram       0      0        0   29d470   29d470        0 
+  29d470 dgram       0      0        0   29d4c8   29d4c8        0 
+  29d418 dgram       0      0        0   29d3c0   29d3c0        0 
+  29d3c0 dgram       0      0        0   29d418   29d418        0 
+  29d368 dgram       0      0        0   29d310   29d310        0 
+  29d310 dgram       0      0        0   29d368   29d368        0 
+  29d2b8 dgram       0      0   29bc00   29d260        0        0 -> /var/run/wpa_supplicant/mlan0
+  29d260 dgram       0      0   29bb78        0   29d2b8        0 /var/run/wpa_supplicant/mlan0
+PROBE_RESULT status=0 command=netstat -an

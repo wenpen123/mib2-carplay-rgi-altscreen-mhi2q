@@ -1,0 +1,379 @@
+[ALTSCREEN] seq=1 epoch_us=100904022 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=HOOK_INIT log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log profile=observe main=1024x480 cluster=0x0 stream_alt=111
+[ALTSCREEN] seq=2 epoch_us=100910065 pid=22470787 tid=2 run_id=19700101_000108_18268299 STATE_ROOT=/mnt/app/root/carplay-altscreen/state app_authoritative=1 log=/tmp/MMI-Cockpit-Carplay.altscreen_hook.log profile=/mnt/app/root/carplay-altscreen/state/IAP2_PROFILE
+[ALTSCREEN] seq=3 epoch_us=100910065 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=STATE_ROOT_WAIT result=PASS authority=APP waited_s=0 startup_thread_blocked=0 stock_until_ready=1
+[ALTSCREEN] seq=4 epoch_us=100916108 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=STOCK_EXPORT_BIND result=PASS server=1 session=1 control=1 displays=1 process=1 create=1 method=RTLD_NEXT_OR_HANDLE_SCOPED
+[ALTSCREEN] seq=5 epoch_us=100916108 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=NATIVE_111_STOCK_BIND config=1 render=1 stream_start=1 screen_copy_main=1 screen_create=1 copy_delegates=1 register_delegates=1 pthread_create=1 pthread_detach=1 spawnl=1 geometry=0
+[ALTSCREEN] seq=6 epoch_us=100930209 pid=22470787 tid=2 run_id=19700101_000108_18268299 CF bind rawabi=standard array=1 dict=1 string=1 cfl_cstr3=1 number64=1 callbacks=1/1/1 typeid=1 release=1
+[ALTSCREEN] seq=7 epoch_us=100930209 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=AUG22_DYNAMIC_RESOLVER result=PASS resolver=ELF32_ARM_DYNAMIC_RELOCATION symbols=dynsym relocations=R_ARM_GLOB_DAT,R_ARM_JUMP_SLOT transaction=all_or_nothing stock_fail_open=YES persistent_sd_via_boot_recorder=YES
+[ALTSCREEN] seq=8 epoch_us=100930209 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=STOCK_INTERNAL_REDIRECT result=PASS slots=16 scope=AUG22_PROFILE_GOT code_bytes_changed=0
+[ALTSCREEN] seq=9 epoch_us=100938266 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_PROCESS_IDENTITY result=PASS process=dio_manager force_start=1 identity_override=DISABLED worker_started=1 stock_until_ready=1
+[ALTSCREEN] seq=10 epoch_us=100967475 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_AUTHORIZATION result=FORCED_BYPASS marker=FORCE_START required_symbol_and_backend_safety_checks=ENFORCED
+[ALTSCREEN] seq=11 epoch_us=100970496 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_PREREQUISITES result=PASS symbols=13 loader_layout=RX_RW
+[ALTSCREEN] seq=12 epoch_us=100970496 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_ABI_IDENTITY result=PASS compatibility_checks=FORCED resolution=DLSYM_REQUIRED_NAMES authorization=FORCED_BYPASS armed=1 mutate=1
+[ALTSCREEN] seq=13 epoch_us=100970496 pid=22470787 tid=2 run_id=19700101_000108_18268299 CF bind rawabi=standard array=1 dict=1 string=1 cfl_cstr3=1 number64=1 callbacks=1/1/1 typeid=1 release=1
+[ALTSCREEN] seq=14 epoch_us=100970496 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_FORWARDING_GATE result=PASS libc_forward=1 native_stock=1 nme_exact_io=1
+[ALTSCREEN] seq=15 epoch_us=100970496 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=LOG_WRITER_READY mode=bounded_async queue_slots=256 line_bytes=768 max_bytes=16777216 no_truncate=1 deferred_worker=1 startup_thread_blocked=0
+[ALTSCREEN] seq=16 epoch_us=100975532 pid=22470787 tid=2 run_id=19700101_000108_18268299 PROFILE file=/mnt/app/root/carplay-altscreen/state/IAP2_PROFILE content=observe resolved=observe modifies=0 pair=0/0 component=none - parse and log only
+[ALTSCREEN] seq=17 epoch_us=100975532 pid=22470787 tid=2 run_id=19700101_000108_18268299 CF bind rawabi=standard array=1 dict=1 string=1 cfl_cstr3=1 number64=1 callbacks=1/1/1 typeid=1 release=1
+[ALTSCREEN] seq=18 epoch_us=101012798 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=FLAGS_LOADED mutate=1 info=1 feature=1 create111=1 iap2=0
+[ALTSCREEN] seq=19 epoch_us=101016827 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=PRIVATE111_BACKEND_READY name=P1404-exact-priv111-two-phase stock_requires_split=1 two_phase=1 abi_verified=1
+[ALTSCREEN] seq=20 epoch_us=101016827 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=PRIVATE111_BACKEND_READY backend=P1404-exact-priv111-two-phase two_phase=1 exactHelpers=1 mainIsolation=1 generationFence=1
+[ALTSCREEN] seq=21 epoch_us=101016827 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=PRIVATE111_BACKEND_INSTALL_RESULT ready=1 identity=1 create111_armed=1
+[ALTSCREEN] seq=22 epoch_us=101038985 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=0 id=4 size=1024x480
+[ALTSCREEN] seq=23 epoch_us=101039992 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=1 id=1 size=1440x542
+[ALTSCREEN] seq=24 epoch_us=101039992 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_PUBLISHED display=1 size=1440x542 fixed_fallback=0
+[ALTSCREEN] seq=25 epoch_us=101039992 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_READY target_display=1 size=1440x542 source=SCREEN_PROPERTY_SIZE fixed_fallback=0
+[ALTSCREEN] seq=26 epoch_us=101039992 pid=22470787 tid=2 run_id=19700101_000108_18268299 PHASE=RUNTIME_GEOMETRY_GATE result=PASS attempts=1 startup_thread_blocked=0 fixed_fallback=0
+[ALTSCREEN] seq=27 epoch_us=101040999 pid=22470787 tid=2 run_id=19700101_000108_18268299 RUNTIME ready process=dio_manager identity=1 armed=1 mutate=1 bearer=1 profile=observe private111_backend=1
+[ALTSCREEN] seq=28 epoch_us=101040999 pid=22470787 tid=2 run_id=19700101_000108_18268299 RUNTIME bearer open64=183ad1c read=17dc49c write=17dd1a4 send=78384978 recv=7837c938 close=17d9168 dup=17d9344 nme_create=0 nme_write=0 nme_read=0 nme_delete=0
+[ALTSCREEN] seq=29 epoch_us=103401846 pid=22470787 tid=39 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=39 seq=1 profile=observe
+[ALTSCREEN] seq=30 epoch_us=103401846 pid=22470787 tid=39 run_id=19700101_000108_18268299 INFO_STOCK features not an int64 object=0
+[ALTSCREEN] seq=31 epoch_us=103401846 pid=22470787 tid=39 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=7516976 thread=39 seq=2 profile=observe
+[ALTSCREEN] seq=32 epoch_us=103402853 pid=22470787 tid=39 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=39 seq=3 profile=observe
+[ALTSCREEN] seq=33 epoch_us=103873209 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=4 profile=observe
+[ALTSCREEN] seq=34 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_REQUEST_ENTER session=742bb8 wants_alt=1 alt_descriptor=0 alt_descriptor_count=0 params=450cb0 wrapper=outer_session_setup canonical_parser=1
+[ALTSCREEN] seq=35 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=0 count=17
+[ALTSCREEN] seq=36 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=internalBuild type=redacted value=REDACTED
+[ALTSCREEN] seq=37 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=et type=scalar payload=metadata-only
+[ALTSCREEN] seq=38 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=updateSessionRequest type=redacted value=REDACTED
+[ALTSCREEN] seq=39 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=features type=array count=13
+[ALTSCREEN] seq=40 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original array depth=1 count=13
+[ALTSCREEN] seq=41 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=uiContext
+[ALTSCREEN] seq=42 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=viewAreas
+[ALTSCREEN] seq=43 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=cornerMasks
+[ALTSCREEN] seq=44 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=focusTransfer
+[ALTSCREEN] seq=45 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=h.264Level5.1
+[ALTSCREEN] seq=46 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=mainBuffered
+[ALTSCREEN] seq=47 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=altScreen
+[ALTSCREEN] seq=48 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=enhancedSiri
+[ALTSCREEN] seq=49 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=hevc
+[ALTSCREEN] seq=50 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=vehicleStateProtocol
+[ALTSCREEN] seq=51 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=sessionManagement
+[ALTSCREEN] seq=52 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=logTransfer
+[ALTSCREEN] seq=53 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=string value=iAPChannel
+[ALTSCREEN] seq=54 epoch_us=103878245 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=model type=scalar payload=metadata-only
+[ALTSCREEN] seq=55 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=osName type=scalar payload=metadata-only
+[ALTSCREEN] seq=56 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=deviceID type=redacted value=REDACTED
+[ALTSCREEN] seq=57 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=name type=scalar payload=metadata-only
+[ALTSCREEN] seq=58 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=diagnosticsAndUsage type=redacted value=REDACTED
+[ALTSCREEN] seq=59 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=sessionCorrelationUUID type=redacted value=REDACTED
+[ALTSCREEN] seq=60 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=timingPort type=redacted value=REDACTED
+[ALTSCREEN] seq=61 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=sessionUUID type=redacted value=REDACTED
+[ALTSCREEN] seq=62 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=statsCollectionEnabled type=redacted value=REDACTED
+[ALTSCREEN] seq=63 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=osVersion type=redacted value=REDACTED
+[ALTSCREEN] seq=64 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=macAddress type=scalar payload=metadata-only
+[ALTSCREEN] seq=65 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=osBuildVersion type=redacted value=REDACTED
+[ALTSCREEN] seq=66 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=sourceVersion type=redacted value=REDACTED
+[ALTSCREEN] seq=67 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=PHONE_REQUEST_111 PHONE_REQUESTED_ALTSCREEN=YES
+[ALTSCREEN] seq=68 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_111_REQUEST create111_armed=1 descriptor=0 count=0 canonical=1
+[ALTSCREEN] seq=69 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_PREP session=742bb8 prep_rc=0 private_policy=0 private_allowed=0 stock_params=450cb0 original_params=450cb0 owned=0 stock110_protected=0 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=70 epoch_us=103879252 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_REQUEST strategy=passthrough_or_split_failed params=450cb0
+[ALTSCREEN] seq=71 epoch_us=103895367 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_PLATFORM_NOTIFICATION session=742bb8 response_owner=outer_session_setup out_params=0
+[ALTSCREEN] seq=72 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionSetup self=742bb8 lr=7803f734 rc=0 thread=41 seq=5 profile=observe
+[ALTSCREEN] seq=73 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_RETURN rc=0 response=450b90 wants_alt=1 alt_descriptor=0 prep_rc=0
+[ALTSCREEN] seq=74 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=0 count=2
+[ALTSCREEN] seq=75 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=0 key=eventPort type=int value=5001
+[ALTSCREEN] seq=76 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=0 key=timingPort type=redacted value=REDACTED
+[ALTSCREEN] seq=77 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_RESPONSE_PATCH enabledFeatures=created alt=1 viewAreas=1 count=2 set=1
+[ALTSCREEN] seq=78 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_FEATURE_NEGOTIATION receiver=742bb8 requested=1 feature_property_advertised=0 display_published=0 geometry_preflight=1 response_patched=1 descriptor_phase=0 backend_ready=1
+[ALTSCREEN] seq=79 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_ALT_ACCEPTED ALT_FEATURE_NEGOTIATED=YES proof=enabledFeatures_intersection
+[ALTSCREEN] seq=80 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=0 count=3
+[ALTSCREEN] seq=81 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=eventPort type=int value=5001
+[ALTSCREEN] seq=82 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=timingPort type=redacted value=REDACTED
+[ALTSCREEN] seq=83 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=enabledFeatures type=array count=2
+[ALTSCREEN] seq=84 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final array depth=1 count=2
+[ALTSCREEN] seq=85 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=string value=altScreen
+[ALTSCREEN] seq=86 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=string value=viewAreas
+[ALTSCREEN] seq=87 epoch_us=103899396 pid=22470787 tid=41 run_id=19700101_000108_18268299 NEGOTIATED probe enabledFeatures array count=2 altScreen=1 viewAreas=1
+[ALTSCREEN] seq=88 epoch_us=103917525 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032b40 rc=7414624 thread=41 seq=6 profile=observe
+[ALTSCREEN] seq=89 epoch_us=103918533 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032af8 rc=2432536 thread=41 seq=7 profile=observe
+[ALTSCREEN] seq=90 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032258 rc=2432144 thread=41 seq=8 profile=observe
+[ALTSCREEN] seq=91 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL Screen_CopyDisplaysInfo self=7429b0 lr=78838750 rc=4524296 thread=41 seq=9 profile=observe
+[ALTSCREEN] seq=92 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 DISPLAYS stock container=450908 is_array=0 count=0
+[ALTSCREEN] seq=93 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 ALTINFO container not a CFArray typeid=5 left_untouched=1
+[ALTSCREEN] seq=94 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 DISPLAYS final container=450908 is_array=0 count=0
+[ALTSCREEN] seq=95 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformCopyProperty self=742bb8 lr=78838804 rc=2429456 thread=41 seq=10 profile=observe
+[ALTSCREEN] seq=96 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 DISPLAYS info-stock container=251210 is_array=1 count=1
+[ALTSCREEN] seq=97 epoch_us=103919540 pid=22470787 tid=41 run_id=19700101_000108_18268299 ALTAREA existing_display=0 full=1024x480 safeArea=nested initialViewArea=0
+[ALTSCREEN] seq=98 epoch_us=103931626 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=0 id=4 size=1024x480
+[ALTSCREEN] seq=99 epoch_us=103931626 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=1 id=1 size=1440x542
+[ALTSCREEN] seq=100 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_PUBLISHED display=1 size=1440x542 fixed_fallback=0
+[ALTSCREEN] seq=101 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_READY target_display=1 size=1440x542 source=SCREEN_PROPERTY_SIZE fixed_fallback=0
+[ALTSCREEN] seq=102 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 ALTAREA schema=viewAreas[array] initialViewArea=0 safeArea=nested full=1440x542
+[ALTSCREEN] seq=103 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 ALTINFO built type=111 1440x542@60 uuid=b7e6c5a0-2222-4000-8000-000000000002 features=0xa input=3 fields=11
+[ALTSCREEN] seq=104 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 ALTINFO displays 1 -> 2 creator_ref_released_after_retaining_append=1
+[ALTSCREEN] seq=105 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=AIRPLAY_INFO_111 INFO_ALT_DISPLAY=YES streamType=111 uuid=b7e6c5a0-2222-4000-8000-000000000002 geom=1440x542@60
+[ALTSCREEN] seq=106 epoch_us=103932633 pid=22470787 tid=41 run_id=19700101_000108_18268299 DISPLAYS info-final container=251210 is_array=1 count=2
+[ALTSCREEN] seq=107 epoch_us=103933640 pid=22470787 tid=41 run_id=19700101_000108_18268299 DISPLAYS info-final[1] type=111 is_dict=1 uuid=b7e6c5a0-2222-4000-8000-000000000002
+[ALTSCREEN] seq=108 epoch_us=103936662 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=11 profile=observe
+[ALTSCREEN] seq=109 epoch_us=103936662 pid=22470787 tid=41 run_id=19700101_000108_18268299 INFO_STOCK features not an int64 object=0
+[ALTSCREEN] seq=110 epoch_us=103937669 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032360 rc=0 thread=41 seq=12 profile=observe
+[ALTSCREEN] seq=111 epoch_us=103937669 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=780329fc rc=0 thread=41 seq=13 profile=observe
+[ALTSCREEN] seq=112 epoch_us=103938676 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformCopyProperty self=742bb8 lr=78838804 rc=2430240 thread=41 seq=14 profile=observe
+[ALTSCREEN] seq=113 epoch_us=103941698 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032438 rc=0 thread=41 seq=15 profile=observe
+[ALTSCREEN] seq=114 epoch_us=103943712 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032508 rc=2430128 thread=41 seq=16 profile=observe
+[ALTSCREEN] seq=115 epoch_us=103944719 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032550 rc=2014088612 thread=41 seq=17 profile=observe
+[ALTSCREEN] seq=116 epoch_us=103945727 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032a3c rc=7359448 thread=41 seq=18 profile=observe
+[ALTSCREEN] seq=117 epoch_us=103946734 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=780329d8 rc=7359520 thread=41 seq=19 profile=observe
+[ALTSCREEN] seq=118 epoch_us=103947741 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformCopyProperty self=742bb8 lr=78838804 rc=4523360 thread=41 seq=20 profile=observe
+[ALTSCREEN] seq=119 epoch_us=103950763 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=780326c4 rc=2014088612 thread=41 seq=21 profile=observe
+[ALTSCREEN] seq=120 epoch_us=103956806 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032744 rc=7364784 thread=41 seq=22 profile=observe
+[ALTSCREEN] seq=121 epoch_us=103957813 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032a7c rc=7360192 thread=41 seq=23 profile=observe
+[ALTSCREEN] seq=122 epoch_us=103958820 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032ad4 rc=7360264 thread=41 seq=24 profile=observe
+[ALTSCREEN] seq=123 epoch_us=103959827 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=7803284c rc=0 thread=41 seq=25 profile=observe
+[ALTSCREEN] seq=124 epoch_us=103959827 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032b1c rc=7360336 thread=41 seq=26 profile=observe
+[ALTSCREEN] seq=125 epoch_us=103960834 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78032910 rc=0 thread=41 seq=27 profile=observe
+[ALTSCREEN] seq=126 epoch_us=103960834 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=7364752 thread=41 seq=28 profile=observe
+[ALTSCREEN] seq=127 epoch_us=103970906 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SESSION_START_ENTER receiver=742bb8 params=9ccc74
+[ALTSCREEN] seq=128 epoch_us=104003136 pid=22470787 tid=41 run_id=19700101_000108_18268299 CONTROL startSession session=742bb8 arg=0
+[ALTSCREEN] seq=129 epoch_us=104008172 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformControl self=742bb8 lr=7810cf74 rc=0 thread=41 seq=29 profile=observe
+[ALTSCREEN] seq=130 epoch_us=104014215 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SESSION_START_RETURN receiver=742bb8 rc=0
+[ALTSCREEN] seq=131 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=30 profile=observe
+[ALTSCREEN] seq=132 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_REQUEST_ENTER session=742bb8 wants_alt=1 alt_descriptor=450e60 alt_descriptor_count=1 params=450b90 wrapper=outer_session_setup canonical_parser=1
+[ALTSCREEN] seq=133 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=0 count=1
+[ALTSCREEN] seq=134 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=streams type=array count=1
+[ALTSCREEN] seq=135 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original array depth=1 count=1
+[ALTSCREEN] seq=136 epoch_us=104069611 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=dict count=4
+[ALTSCREEN] seq=137 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=3 count=4
+[ALTSCREEN] seq=138 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=uuid type=redacted value=REDACTED
+[ALTSCREEN] seq=139 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=latencyMs type=int value=25
+[ALTSCREEN] seq=140 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=type type=int value=111
+[ALTSCREEN] seq=141 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS STREAMTYPE tag=setup-request-original seen=111 main=0 alt=1
+[ALTSCREEN] seq=142 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=streamConnectionID type=redacted value=REDACTED
+[ALTSCREEN] seq=143 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_111_DESCRIPTOR session=742bb8 descriptor=450e60 count=1 advertised=1 display_published=1 feature_property_advertised=0 feature_negotiated=1 create111_armed=1 backend_ready=1 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=144 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_111_REQUEST create111_armed=1 descriptor=450e60 count=1 canonical=1
+[ALTSCREEN] seq=145 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_SPLIT receiver=742bb8 original=450b90 stock_only=450cb0 descriptor=450e60 removed=1
+[ALTSCREEN] seq=146 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_FENCE_BEGIN receiver=742bb8 descriptor=450e60 generation=1 slot=0
+[ALTSCREEN] seq=147 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_PREP receiver=742bb8 strategy=P1404-exact-priv111-two-phase stock_only_request=450cb0 original=450b90 descriptor=450e60
+[ALTSCREEN] seq=148 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_PREP session=742bb8 prep_rc=1 private_policy=1 private_allowed=1 stock_params=450cb0 original_params=450b90 owned=1 stock110_protected=1 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=149 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-stock dict depth=0 count=1
+[ALTSCREEN] seq=150 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-stock d=0 key=streams type=array count=0
+[ALTSCREEN] seq=151 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-stock array depth=1 count=0
+[ALTSCREEN] seq=152 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_PLATFORM_NOTIFICATION session=742bb8 response_owner=outer_session_setup out_params=0
+[ALTSCREEN] seq=153 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionSetup self=742bb8 lr=7803f734 rc=0 thread=41 seq=31 profile=observe
+[ALTSCREEN] seq=154 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_RETURN rc=0 response=450cf8 wants_alt=1 alt_descriptor=450e60 prep_rc=1
+[ALTSCREEN] seq=155 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=0 count=0
+[ALTSCREEN] seq=156 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_FENCE_COMMIT_ENTER receiver=742bb8 descriptor=450e60 generation=1 serialized=1
+[ALTSCREEN] seq=157 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_PREPARE_BEGIN receiver=742bb8 descriptor=450e60 generation=1 backend=P1404-exact-priv111-two-phase two_phase=1
+[ALTSCREEN] seq=158 epoch_us=104070618 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_CREATE_RETURN receiver=742bb8 rc=0 session=7dcab8
+[ALTSCREEN] seq=159 epoch_us=104071625 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SETUP_RETURN receiver=742bb8 session=7dcab8 rc=0
+[ALTSCREEN] seq=160 epoch_us=104071625 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SECURITY_DERIVE_CALL receiver=742bb8 session=7dcab8 conn=3109072182127641235 key_source=receiver+0x1c8
+[ALTSCREEN] seq=161 epoch_us=104071625 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SECURITY_DERIVE_RETURN receiver=742bb8 session=7dcab8 return_type=void
+[ALTSCREEN] seq=162 epoch_us=104071625 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SECURITY_SET_CALL receiver=742bb8 session=7dcab8
+[ALTSCREEN] seq=163 epoch_us=104071625 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SECURITY_SET_RETURN receiver=742bb8 session=7dcab8 rc=0 ctr_ready=1
+[ALTSCREEN] seq=164 epoch_us=104072632 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_LISTENER_OPEN_RETURN rc=0 requested_port=0 bound_port=65501 advertised_port=65501 fd=37 helper=ServerSocketOpen recvbuf=-180224 af=24
+[ALTSCREEN] seq=165 epoch_us=106290458 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_FIREWALL_ADD receiver=742bb8 session=7dcab8 port=65501 result=OK scope=carplay0_tcp_exact_port before_response=1
+[ALTSCREEN] seq=166 epoch_us=106290458 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_PREPARED receiver=742bb8 session=7dcab8 dataPort=65501 conn=3109072182127641235 startSession=0 stream_pending=1
+[ALTSCREEN] LOG_QUEUE_DROPPED total=1 capacity=255 run_id=19700101_000108_18268299
+[ALTSCREEN] seq=167 epoch_us=106290458 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SESSION_STAGE id=1 generation=0 receiver=742bb8 alt_session=7dcab8 stream_pending=1 committed=0 stock110_untouched=1
+[ALTSCREEN] seq=168 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_WORKER_READY receiver=742bb8 session=7dcab8 thread=44 blocked_on_accept=1 response_not_merged_yet=1
+[ALTSCREEN] seq=169 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_WORKER_ARM receiver=742bb8 generation=1 alt_session=7dcab8 worker_ready=1 accept_pending=1 response_not_merged=1
+[ALTSCREEN] seq=170 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_RESPONSE_MERGE_BEGIN receiver=742bb8 generation=1 stock_response=450cf8 private_response=450e18 two_phase=1
+[ALTSCREEN] seq=171 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_RESPONSE_NORMALIZE response=450cf8 empty_stock_response=1 streams_array_created=1 livi_shape=1
+[ALTSCREEN] seq=172 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 NEGOTIATED probe streams contains explicit type111=1
+[ALTSCREEN] seq=173 epoch_us=106293480 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_RESPONSE_TXN_READY response=450cf8 private=450e18 streams_merged=1 empty_stock_response=1 enabledFeatures=stock_unchanged_livi_stream_setup stock_objects_retained=1
+[ALTSCREEN] seq=174 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_SESSION_COMMIT id=1 generation=1 receiver=742bb8 alt_session=7dcab8 final_response_merged=1 listener_ready=1 stream_pending=1 g5b=0 stock110_untouched=1
+[ALTSCREEN] seq=175 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_PRIVATE_READY id=1 generation=1 receiver=742bb8 alt_session=7dcab8 alt_stream=PENDING backend=P1404-exact-priv111-two-phase final_response_merged=1 listener_worker_ready=1 two_phase=1 stock110_untouched=1
+[ALTSCREEN] seq=176 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=STREAM_111_FENCE_COMMIT_LEAVE receiver=742bb8 generation=1 private_rc=1 serialized=1
+[ALTSCREEN] seq=177 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_111_FINISH receiver=742bb8 id=1 generation=1 session=7dcab8 stream=0 private_rc=1 stock_rc=0 response=450cf8 generation_consumed=1
+[ALTSCREEN] seq=178 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=0 count=1
+[ALTSCREEN] seq=179 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=streams type=array count=1
+[ALTSCREEN] seq=180 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final array depth=1 count=1
+[ALTSCREEN] seq=181 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=182 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=3 count=2
+[ALTSCREEN] seq=183 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=dataPort type=int value=65501
+[ALTSCREEN] seq=184 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=type type=int value=111
+[ALTSCREEN] seq=185 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS STREAMTYPE tag=setup-response-final seen=111 main=0 alt=1
+[ALTSCREEN] seq=186 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 NEGOTIATED probe streams contains explicit type111=1
+[ALTSCREEN] seq=187 epoch_us=106294487 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_111_FINAL_READY receiver=742bb8 id=1 generation=1 session=7dcab8 stream=0 response=450cf8 type111=1 dataPort_merged=1 stock_rc=0 return_to_phone=1
+[ALTSCREEN] seq=188 epoch_us=106301537 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_ACCEPT_RETURN receiver=742bb8 id=1 generation=1 session=7dcab8 rc=0 native_fd=39 attempt=1
+[ALTSCREEN] seq=189 epoch_us=106302544 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_FIREWALL_DEFERRED receiver=742bb8 session=7dcab8 reason=post_accept_keep_until_teardown next=NETSOCKET_CREATE
+[ALTSCREEN] seq=190 epoch_us=106303551 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_NETSOCKET_CREATE_RETURN receiver=742bb8 rc=0 native_fd=39 net=4582b8
+[ALTSCREEN] seq=191 epoch_us=106303551 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_TIMING_READY receiver=742bb8 session=7dcab8 source=receiver+0x13d0 callbacks=stock-clock
+[ALTSCREEN] seq=192 epoch_us=106303551 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_STOCK_BIND config=1 render=1 stream_start=1 screen_copy_main=1 screen_create=1 copy_delegates=1 register_delegates=1 pthread_create=1 pthread_detach=1 spawnl=1 geometry=1
+[ALTSCREEN] seq=193 epoch_us=106303551 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_START_CLAIM_PREPARE receiver=742bb8 owner_thread=44 ready=1 preconfig_attach=1
+[ALTSCREEN] seq=194 epoch_us=106303551 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_START_CALL receiver=742bb8 id=1 generation=1 session=7dcab8 config=0 livi_direct_type111=1 post_accept=1 preconfig_claim=1
+[ALTSCREEN] seq=195 epoch_us=106309595 pid=22470787 tid=41 run_id=19700101_000108_18268299 CONTROL disableBluetooth session=742bb8 arg=450cb0
+[ALTSCREEN] seq=196 epoch_us=106310602 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformControl self=742bb8 lr=7810cf74 rc=0 thread=41 seq=32 profile=observe
+[ALTSCREEN] seq=197 epoch_us=106332760 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=33 profile=observe
+[ALTSCREEN] seq=198 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_REQUEST_ENTER session=742bb8 wants_alt=0 alt_descriptor=0 alt_descriptor_count=0 params=450b90 wrapper=outer_session_setup canonical_parser=1
+[ALTSCREEN] seq=199 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=0 count=1
+[ALTSCREEN] seq=200 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=streams type=array count=1
+[ALTSCREEN] seq=201 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original array depth=1 count=1
+[ALTSCREEN] seq=202 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=dict count=7
+[ALTSCREEN] seq=203 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=3 count=7
+[ALTSCREEN] seq=204 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioType type=redacted value=REDACTED
+[ALTSCREEN] seq=205 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=input type=redacted value=REDACTED
+[ALTSCREEN] seq=206 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=dataPort type=int value=53115
+[ALTSCREEN] seq=207 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=supportsHighAccuracyTimestamps type=redacted value=REDACTED
+[ALTSCREEN] seq=208 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioLatencyMs type=redacted value=REDACTED
+[ALTSCREEN] seq=209 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=type type=int value=100
+[ALTSCREEN] seq=210 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioFormat type=redacted value=REDACTED
+[ALTSCREEN] seq=211 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_PREP session=742bb8 prep_rc=0 private_policy=0 private_allowed=0 stock_params=450b90 original_params=450b90 owned=0 stock110_protected=0 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=212 epoch_us=106333767 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_REQUEST strategy=passthrough_or_split_failed params=450b90
+[ALTSCREEN] seq=213 epoch_us=106340817 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=0 id=4 size=1024x480
+[ALTSCREEN] seq=214 epoch_us=106341825 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DISPLAY_CANDIDATE index=1 id=1 size=1440x542
+[ALTSCREEN] seq=215 epoch_us=106343839 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_PUBLISHED display=1 size=1440x542 fixed_fallback=0
+[ALTSCREEN] seq=216 epoch_us=106343839 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_READY target_display=1 size=1440x542 source=SCREEN_PROPERTY_SIZE fixed_fallback=0
+[ALTSCREEN] seq=217 epoch_us=106343839 pid=22470787 tid=44 run_id=19700101_000108_18268299 ALTAREA schema=viewAreas[array] initialViewArea=0 safeArea=nested full=1440x542
+[ALTSCREEN] seq=218 epoch_us=106343839 pid=22470787 tid=44 run_id=19700101_000108_18268299 ALTINFO built type=111 1440x542@60 uuid=b7e6c5a0-2222-4000-8000-000000000002 features=0xa input=3 fields=11
+[ALTSCREEN] seq=219 epoch_us=106343839 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_PRIVATE_SCREEN_COPY receiver=742bb8 owner_thread=44 screen=458f18 type=111 runtime_object=ScreenCreate delegates=stock_main geometry=runtime_display1 stock_main_mutated=0
+[ALTSCREEN] seq=220 epoch_us=106348875 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_STOCK_BIND config=1 render=1 stream_start=1 screen_copy_main=1 screen_create=1 copy_delegates=1 register_delegates=1 pthread_create=1 pthread_detach=1 spawnl=1 geometry=1
+[ALTSCREEN] seq=221 epoch_us=106348875 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_ATTACH_STAGE receiver=742bb8 stream=1de8d8 video_impl=71acc8 renderer_before_start=458208 generation=1 state_generation=1 requested_geometry=1440x542 first_config_pending=1
+[ALTSCREEN] seq=222 epoch_us=106348875 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_PRECONFIG_ATTACH receiver=742bb8 stream=1de8d8 result=STAGED stock_start_called=1 main110_untouched=1
+[ALTSCREEN] seq=223 epoch_us=106364990 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_PLATFORM_NOTIFICATION session=742bb8 response_owner=outer_session_setup out_params=0
+[ALTSCREEN] seq=224 epoch_us=106623837 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_GEOMETRY_APPLIED requested=1440x542 negotiated=1440x542 fixed=0 screen_scaling=0
+[ALTSCREEN] seq=225 epoch_us=106678225 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_MANAGED_WINDOW receiver=742bb8 stream=1de8d8 renderer=458208 window=458158 group_skipped=1 manage_rc=0 buffers_rc=0 managed=1 manager=displaymanager stock_buffer_owner=1 compat_decoder_staging=1 direct_sink_window58=0
+[ALTSCREEN] seq=226 epoch_us=106678225 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_CONFIG_RETURN receiver=742bb8 stream=1de8d8 renderer=458208 rc=0 input=0x0_source_1440x542 output=1440x542_source_1440x542 target=1440x542 geometry_match=1 displayable=58 format=65548 usage=0x484 scaling=0 fixed_geometry=0 dm_managed=1
+[ALTSCREEN] seq=227 epoch_us=106678225 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_CONFIG_CTX id=1 generation=1 stream=0 proof=stock-omx-cscreen-config-dynamic-geometry-displayable58
+[ALTSCREEN] seq=228 epoch_us=106678225 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_CONFIG ALT_VIDEO_CONFIG_RX=YES proof=stock-omx-cscreen-config-dynamic-geometry-displayable58
+[ALTSCREEN] seq=229 epoch_us=106951173 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_ATTACH receiver=742bb8 stream=1de8d8 video_impl=71acc8 renderer=458208 displayable=58 first_config_rewritten=1 main110_untouched=1 capture=0 rfb=0 scaling=0 fixed_geometry=0
+[ALTSCREEN] seq=230 epoch_us=106951173 pid=22470787 tid=44 run_id=19700101_000108_18268299  PHASE=NATIVE_111_PRECONFIG_COMPLETE receiver=742bb8 stream=1de8d8 stock_rc=0 attached=1 first_config_rewritten=1 main110_untouched=1
+[ALTSCREEN] seq=231 epoch_us=106951173 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=NATIVE_111_START_CLAIM_COMPLETE receiver=742bb8 owner_thread=44 stream=1de8d8 attached=1 preconfig_attach=1
+[ALTSCREEN] seq=232 epoch_us=106952180 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_START_RETURN receiver=742bb8 id=1 generation=1 session=7dcab8 rc=0 stream=1de8d8 claimed_stream=1de8d8 preconfig_attached=1 post_accept=1
+[ALTSCREEN] seq=233 epoch_us=106952180 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_STREAM_BOUND id=1 generation=1 receiver=742bb8 alt_session=7dcab8 alt_stream=1de8d8 post_accept=1 stock110_untouched=1
+[ALTSCREEN] seq=234 epoch_us=106952180 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_PROCESSING_COMMIT id=1 generation=1 receiver=742bb8 alt_session=7dcab8 alt_stream=1de8d8 accept=1 startSession=1 bound=1 processFrames=STARTING
+[ALTSCREEN] seq=235 epoch_us=106952180 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_READY STREAM_111_SETUP=YES streamType=111
+[ALTSCREEN] seq=236 epoch_us=106952180 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=STREAM_111_PROCESSFRAMES_BEGIN receiver=742bb8 id=1 generation=1 session=7dcab8 stream=1de8d8 net=4582b8 timeout_s=30
+[ALTSCREEN] seq=237 epoch_us=106960237 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_AVCC_PROPERTY stream=1de8d8 bytes=40 valid=1 nal_length_size=4 sps=1 pps=1 first16=01640020_ffe10015_27640020_ac131450 shm_dependency=NONE
+[ALTSCREEN] seq=238 epoch_us=106965273 pid=22470787 tid=44 run_id=19700101_000108_18268299 STREAM new ptr=1de8d8 thread=44 caller=7803b780 profile=observe
+[ALTSCREEN] seq=239 epoch_us=106965273 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_FIRST_PAYLOAD receiver=742bb8 id=1 generation=1 session=7dcab8 stream=1de8d8 bytes=182 annexb_nals=0
+[ALTSCREEN] seq=240 epoch_us=106965273 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_PROGRESS id=1 generation=1 receiver=742bb8 session=7dcab8 stream=1de8d8 ALT_VIDEO_BYTES=182 ALT_VIDEO_PACKETS=1 annexb_nals=0 last=182
+[ALTSCREEN] seq=241 epoch_us=106965273 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_RX ALT_VIDEO_RX=1 ALT_VIDEO_BYTES=182 ALT_VIDEO_PACKETS=1 last=182
+[ALTSCREEN] seq=242 epoch_us=106972324 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_SHM_MAPPED name=/carplay111_h264 bytes=4194372 ring=4194304 map=2a800000 old_writer_pid=0 old_generation=0 old_active=0 attempt=1
+[ALTSCREEN] seq=243 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=FRAME_TAP_SHM_MAPPED name=/carplay111_decoded bytes=6291520 slots=3 slot_bytes=2097152 map=2a108000 old_writer_pid=0 old_generation=0 old_active=0 attempt=1
+[ALTSCREEN] seq=244 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_SESSION_RESET old_writer_pid=0 old_generation=0 old_active=0 new_writer_pid=22470787 generation=1 cookie=0x001de8d8 force=1 ready_published_last=1
+[ALTSCREEN] seq=245 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_SHM_READY name=/carplay111_h264 writer_pid=22470787 generation=1 active=1
+[ALTSCREEN] seq=246 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=FRAME_TAP_SESSION_RESET old_writer_pid=0 old_generation=0 old_active=0 new_writer_pid=22470787 generation=1 cookie=0x001de8d8 force=1 ready_published_last=1
+[ALTSCREEN] seq=247 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=FRAME_TAP_SHM_READY name=/carplay111_decoded writer_pid=22470787 generation=1 active=1
+[ALTSCREEN] seq=248 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_AVCC_CONFIG stream=1de8d8 generation=1 seq=1 bytes=40 nal_length_size=4 sps=1 pps=1 first16=01640020_ffe10015_27640020_ac131450
+[ALTSCREEN] seq=249 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=DIRECT111_TAP_ATTACH stream=1de8d8 generation=1 cookie=0x001de8d8 h264=1 decoded_fallback=1 stock_forward=1 mmap_prot=0x300 session_reset=1 writer_pid=22470787
+[ALTSCREEN] seq=250 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_FIRST_DATA stream=1de8d8 generation=1 seq=2 bytes=182 format=avcc nal_length_size=4 annexb_nals=0 avcc_nals=1 flags=0xb0 first16=000000b2_25b80040_0093ffd2_87a9cdff
+[ALTSCREEN] seq=251 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_FIRST_IDR stream=1de8d8 generation=1 seq=2 source=avcc H264_STREAM_VALID=YES
+[ALTSCREEN] seq=252 epoch_us=106983403 pid=22470787 tid=44 run_id=19700101_000108_18268299 STREAM data ptr=1de8d8 calls=1 bytes=182 MB=0 sps=0 pps=0 idr=0 other=0
+[ALTSCREEN] seq=253 epoch_us=107036784 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_LINEARIZER_API backend=screen-read-window context=APPLICATION result=READY
+[ALTSCREEN] seq=254 epoch_us=107037791 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_NATIVE_WINDOW_METADATA window=458158 config_format=65548 config_usage=0x484 screen_format=12 screen_usage=0x484 screen_size=1440x542 measured_vendor_format=0x0001000c
+[ALTSCREEN] seq=255 epoch_us=107039805 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_LINEARIZER_PIXMAP backend=screen-nv12 format=12 size=1440x542 stride=1440 offsets=0,780480,0 usage=0xa result=READY
+[ALTSCREEN] seq=256 epoch_us=107049877 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_LINEARIZER_PIXEL backend=screen-nv12 detail=LOW accepted=1 reason=valid_uniform_frame
+[ALTSCREEN] seq=257 epoch_us=107050884 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_TAP_LAYOUT stream=1de8d8 generation=1 buffer=2574020 config_format=12 config_usage=0x484 visible=1440x542 source_layout=qnx_nv12_128x32 source_stride=1536 uv_offset=835584 packed_stride=1440 packed_bytes=1170720 first16=ffffffff_ffffffff_ffffffff_ffffffff
+[ALTSCREEN] seq=258 epoch_us=107050884 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=DECODER_FIRST_FRAME backend=stock-omx-tap stream=1de8d8 generation=1 seq=1 format=NV12 size=1440x542 bytes=1170720 source_stride=1536 window58_readback=0
+[ALTSCREEN] seq=259 epoch_us=107050884 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_LINEARIZER_FIRST_FRAME backend=screen-nv12 source_format=65548 source_usage=0x484 size=1440x542 readback_us=9065 readback_success=1 shm_publish_success=1 output=packed-nv12 window_readback=exact-stock-handle
+[ALTSCREEN] seq=260 epoch_us=107051891 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=NATIVE_111_FIRST_REAL_FRAME receiver=742bb8 stream=1de8d8 renderer=458208 generation=1 result=POSTED geometry=1440x542 route_gate=eligible
+[ALTSCREEN] seq=261 epoch_us=107088150 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=DECODER_111_CTX_READY id=1 generation=1 stream=1de8d8 proof=private111-stock-omx-three-successful-posts-stock-avcc-config-observed
+[ALTSCREEN] seq=262 epoch_us=107088150 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=DECODER_111_READY ALT_DECODER_READY=YES proof=private111-stock-omx-three-successful-posts-stock-avcc-config-observed
+[ALTSCREEN] seq=263 epoch_us=107088150 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=NATIVE_111_DECODER_READY receiver=742bb8 stream=1de8d8 renderer=458208 posts=3 sps=0 pps=0 idr=0 negotiated_geometry=1440x542 fixed_geometry=0 bitstream=stock_avcc annexb_observer_optional=1
+[ALTSCREEN] seq=264 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionSetup self=742bb8 lr=7803f734 rc=0 thread=41 seq=34 profile=observe
+[ALTSCREEN] seq=265 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_RETURN rc=0 response=450830 wants_alt=0 alt_descriptor=0 prep_rc=0
+[ALTSCREEN] seq=266 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=0 count=1
+[ALTSCREEN] seq=267 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=0 key=streams type=array count=1
+[ALTSCREEN] seq=268 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock array depth=1 count=1
+[ALTSCREEN] seq=269 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=270 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=3 count=2
+[ALTSCREEN] seq=271 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=dataPort type=int value=7070
+[ALTSCREEN] seq=272 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=type type=int value=100
+[ALTSCREEN] seq=273 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=0 count=1
+[ALTSCREEN] seq=274 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=streams type=array count=1
+[ALTSCREEN] seq=275 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final array depth=1 count=1
+[ALTSCREEN] seq=276 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=277 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=3 count=2
+[ALTSCREEN] seq=278 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=dataPort type=int value=7070
+[ALTSCREEN] seq=279 epoch_us=107802246 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=type type=int value=100
+[ALTSCREEN] seq=280 epoch_us=107925122 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=35 profile=observe
+[ALTSCREEN] seq=281 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_REQUEST_ENTER session=742bb8 wants_alt=0 alt_descriptor=0 alt_descriptor_count=0 params=450518 wrapper=outer_session_setup canonical_parser=1
+[ALTSCREEN] seq=282 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=0 count=1
+[ALTSCREEN] seq=283 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=streams type=array count=1
+[ALTSCREEN] seq=284 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original array depth=1 count=1
+[ALTSCREEN] seq=285 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=dict count=4
+[ALTSCREEN] seq=286 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=3 count=4
+[ALTSCREEN] seq=287 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=uuid type=redacted value=REDACTED
+[ALTSCREEN] seq=288 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=latencyMs type=int value=25
+[ALTSCREEN] seq=289 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=type type=int value=110
+[ALTSCREEN] seq=290 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS STREAMTYPE tag=setup-request-original seen=110 main=1 alt=0
+[ALTSCREEN] seq=291 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=streamConnectionID type=redacted value=REDACTED
+[ALTSCREEN] seq=292 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_PREP session=742bb8 prep_rc=0 private_policy=0 private_allowed=0 stock_params=450518 original_params=450518 owned=0 stock110_protected=0 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=293 epoch_us=107926130 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_REQUEST strategy=passthrough_or_split_failed params=450518
+[ALTSCREEN] seq=294 epoch_us=107936202 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_PLATFORM_NOTIFICATION session=742bb8 response_owner=outer_session_setup out_params=0
+[ALTSCREEN] seq=295 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionSetup self=742bb8 lr=7803f734 rc=0 thread=41 seq=36 profile=observe
+[ALTSCREEN] seq=296 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_RETURN rc=0 response=450830 wants_alt=0 alt_descriptor=0 prep_rc=0
+[ALTSCREEN] seq=297 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=0 count=1
+[ALTSCREEN] seq=298 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=0 key=streams type=array count=1
+[ALTSCREEN] seq=299 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock array depth=1 count=1
+[ALTSCREEN] seq=300 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=301 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=3 count=2
+[ALTSCREEN] seq=302 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=dataPort type=int value=6030
+[ALTSCREEN] seq=303 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=type type=int value=110
+[ALTSCREEN] seq=304 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS STREAMTYPE tag=setup-response-stock seen=110 main=1 alt=0
+[ALTSCREEN] seq=305 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=0 count=1
+[ALTSCREEN] seq=306 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=streams type=array count=1
+[ALTSCREEN] seq=307 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final array depth=1 count=1
+[ALTSCREEN] seq=308 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=309 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=3 count=2
+[ALTSCREEN] seq=310 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=dataPort type=int value=6030
+[ALTSCREEN] seq=311 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=type type=int value=110
+[ALTSCREEN] seq=312 epoch_us=107939223 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS STREAMTYPE tag=setup-response-final seen=110 main=1 alt=0
+[ALTSCREEN] seq=313 epoch_us=107943252 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_SUBMIT receiver=742bb8 stream=0 generation=0 event=showUI uuid=b7e6c5a0-2222-4000-8000-000000000002 url=maps:/car/instrumentcluster/map rc=0 response_callback=1
+[ALTSCREEN] seq=314 epoch_us=107947281 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_SUBMIT receiver=742bb8 stream=0 generation=0 event=forceKeyFrame uuid=b7e6c5a0-2222-4000-8000-000000000002 url=- rc=0 response_callback=1
+[ALTSCREEN] seq=315 epoch_us=107947281 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=ALT111_REQUEST_AFTER_MAIN receiver=742bb8 show_rc=0 keyframe_rc=0 private_stream_required=0
+[ALTSCREEN] seq=316 epoch_us=107947281 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESPONSE receiver=742bb8 stream=0 generation=0 event=1 status=0 response=450830
+[ALTSCREEN] seq=317 epoch_us=107974475 pid=22470787 tid=53 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_SUBMIT receiver=742bb8 stream=1de8d8 generation=1 event=showUI uuid=b7e6c5a0-2222-4000-8000-000000000002 url=maps:/car/instrumentcluster/map rc=0 response_callback=1
+[ALTSCREEN] seq=318 epoch_us=107979511 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESPONSE receiver=742bb8 stream=0 generation=0 event=2 status=0 response=450cb0
+[ALTSCREEN] seq=319 epoch_us=107982532 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESPONSE receiver=742bb8 stream=1de8d8 generation=1 event=1 status=0 response=450cb0
+[ALTSCREEN] seq=320 epoch_us=107982532 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT_UI_CTX_ACTIVE id=1 generation=1 proof=showUI-alt-uuid-cluster-map-response-status0
+[ALTSCREEN] seq=321 epoch_us=107982532 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT_UI_ACTIVE ALT_UI_SHOW_FOCUS=YES proof=showUI-alt-uuid-cluster-map-response-status0
+[ALTSCREEN] seq=322 epoch_us=107982532 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESULT receiver=742bb8 stream=1de8d8 generation=1 event=1 status=0 response_received=1 accepted=1 applied=1 retry=0
+[ALTSCREEN] seq=323 epoch_us=108028863 pid=22470787 tid=41 run_id=19700101_000108_18268299 CONTROL suggestUI session=742bb8 arg=450710
+[ALTSCREEN] seq=324 epoch_us=108037927 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformControl self=742bb8 lr=7810cf74 rc=-6714 thread=41 seq=37 profile=observe
+[ALTSCREEN] seq=325 epoch_us=108037927 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SUGGEST_UI_ACCEPTED session=742bb8 stock_rc=-6714 return_rc=0 policy=LIVI_NOOP urls_not_shown=1
+[ALTSCREEN] seq=326 epoch_us=108091308 pid=22470787 tid=56 run_id=19700101_000108_18268299 PHASE=H264_AVCC_PROPERTY stream=1dec80 bytes=39 valid=1 nal_length_size=4 sps=1 pps=1 first16=0164001f_ffe10014_2764001f_ac131450 shm_dependency=NONE
+[ALTSCREEN] seq=327 epoch_us=108094330 pid=22470787 tid=56 run_id=19700101_000108_18268299 STREAM new ptr=1dec80 thread=56 caller=7803b780 profile=observe
+[ALTSCREEN] seq=328 epoch_us=108094330 pid=22470787 tid=56 run_id=19700101_000108_18268299 STREAM data ptr=1dec80 calls=1 bytes=21467 MB=0 sps=0 pps=0 idr=0 other=0
+[ALTSCREEN] seq=329 epoch_us=108107423 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_AVCC_CONFIG stream=1de8d8 generation=1 seq=32 bytes=40 nal_length_size=4 sps=1 pps=1 first16=01640020_ffe10015_27640020_ac131450
+[ALTSCREEN] seq=330 epoch_us=108173898 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=TEARDOWN_PLATFORM_NOTIFICATION session=742bb8 lifetime_owner=outer_session_teardown
+[ALTSCREEN] seq=331 epoch_us=108434759 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=TEARDOWN_OUTER receiver=742bb8 stock_called=1 reason=0 done=0 scope=0
+[ALTSCREEN] seq=332 epoch_us=108599938 pid=22470787 tid=41 run_id=19700101_000108_18268299 CONTROL suggestUI session=742bb8 arg=4505f0
+[ALTSCREEN] seq=333 epoch_us=108611017 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformControl self=742bb8 lr=7810cf74 rc=-6714 thread=41 seq=38 profile=observe
+[ALTSCREEN] seq=334 epoch_us=108611017 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SUGGEST_UI_ACCEPTED session=742bb8 stock_rc=-6714 return_rc=0 policy=LIVI_NOOP urls_not_shown=1
+[ALTSCREEN] seq=335 epoch_us=108691592 pid=22470787 tid=41 run_id=19700101_000108_18268299 CONTROL duckAudio session=742bb8 arg=450710
+[ALTSCREEN] seq=336 epoch_us=108694613 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionPlatformControl self=742bb8 lr=7810cf74 rc=0 thread=41 seq=39 profile=observe
+[ALTSCREEN] seq=337 epoch_us=108710728 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL ServerPlatformCopyProperty self=78f030 lr=78069974 rc=0 thread=41 seq=40 profile=observe
+[ALTSCREEN] seq=338 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_REQUEST_ENTER session=742bb8 wants_alt=0 alt_descriptor=0 alt_descriptor_count=0 params=450710 wrapper=outer_session_setup canonical_parser=1
+[ALTSCREEN] seq=339 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=0 count=1
+[ALTSCREEN] seq=340 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=0 key=streams type=array count=1
+[ALTSCREEN] seq=341 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original array depth=1 count=1
+[ALTSCREEN] seq=342 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=2 key=[] type=dict count=5
+[ALTSCREEN] seq=343 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-request-original dict depth=3 count=5
+[ALTSCREEN] seq=344 epoch_us=108718786 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioType type=redacted value=REDACTED
+[ALTSCREEN] seq=345 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=supportsHighAccuracyTimestamps type=redacted value=REDACTED
+[ALTSCREEN] seq=346 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioLatencyMs type=redacted value=REDACTED
+[ALTSCREEN] seq=347 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=type type=int value=101
+[ALTSCREEN] seq=348 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-request-original d=3 key=audioFormat type=redacted value=REDACTED
+[ALTSCREEN] seq=349 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_PREP session=742bb8 prep_rc=0 private_policy=0 private_allowed=0 stock_params=450710 original_params=450710 owned=0 stock110_protected=0 backend=P1404-exact-priv111-two-phase
+[ALTSCREEN] seq=350 epoch_us=108719793 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_REQUEST strategy=passthrough_or_split_failed params=450710
+[ALTSCREEN] seq=351 epoch_us=108884972 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_PLATFORM_NOTIFICATION session=742bb8 response_owner=outer_session_setup out_params=0
+[ALTSCREEN] seq=352 epoch_us=108995762 pid=22470787 tid=53 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_SUBMIT receiver=742bb8 stream=1de8d8 generation=1 event=forceKeyFrame uuid=b7e6c5a0-2222-4000-8000-000000000002 url=- rc=0 response_callback=1
+[ALTSCREEN] seq=353 epoch_us=109040078 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESPONSE receiver=742bb8 stream=1de8d8 generation=1 event=2 status=0 response=4507e8
+[ALTSCREEN] seq=354 epoch_us=109040078 pid=22470787 tid=39 run_id=19700101_000108_18268299 PHASE=ALT111_EVENT_RESULT receiver=742bb8 stream=1de8d8 generation=1 event=2 status=0 response_received=1 accepted=1 applied=1 retry=0
+[ALTSCREEN] seq=355 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 CALL SessionSetup self=742bb8 lr=7803f734 rc=0 thread=41 seq=41 profile=observe
+[ALTSCREEN] seq=356 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 PHASE=SETUP_STOCK_RETURN rc=0 response=4505f0 wants_alt=0 alt_descriptor=0 prep_rc=0
+[ALTSCREEN] seq=357 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=0 count=1
+[ALTSCREEN] seq=358 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=0 key=streams type=array count=1
+[ALTSCREEN] seq=359 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock array depth=1 count=1
+[ALTSCREEN] seq=360 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=361 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-stock dict depth=3 count=2
+[ALTSCREEN] seq=362 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=dataPort type=int value=7071
+[ALTSCREEN] seq=363 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-stock d=3 key=type type=int value=101
+[ALTSCREEN] seq=364 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=0 count=1
+[ALTSCREEN] seq=365 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=0 key=streams type=array count=1
+[ALTSCREEN] seq=366 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final array depth=1 count=1
+[ALTSCREEN] seq=367 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=2 key=[] type=dict count=2
+[ALTSCREEN] seq=368 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBS setup-response-final dict depth=3 count=2
+[ALTSCREEN] seq=369 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=dataPort type=int value=7071
+[ALTSCREEN] seq=370 epoch_us=109049143 pid=22470787 tid=41 run_id=19700101_000108_18268299 OBSALL setup-response-final d=3 key=type type=int value=101
+[ALTSCREEN] seq=371 epoch_us=109070294 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=H264_AVCC_CONFIG stream=1de8d8 generation=1 seq=68 bytes=40 nal_length_size=4 sps=1 pps=1 first16=01640020_ffe10015_27640020_ac131450
+[ALTSCREEN] seq=372 epoch_us=109094467 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_AVCC_CONFIG stream=1de8d8 generation=1 seq=69 bytes=40 nal_length_size=4 sps=1 pps=1 first16=01640020_ffe10015_27640020_ac131450
+[ALTSCREEN] seq=373 epoch_us=113566377 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=H264_TAP_PROGRESS stream=1de8d8 generation=1 packets=256 bytes=1852782 seq=256 wraps=0 drops=0 sps=4 pps=4 idr=3 format=avcc
+[ALTSCREEN] seq=374 epoch_us=113658031 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_PROGRESS id=1 generation=1 receiver=742bb8 session=7dcab8 stream=1de8d8 ALT_VIDEO_BYTES=1864338 ALT_VIDEO_PACKETS=256 annexb_nals=0 last=2930
+[ALTSCREEN] seq=375 epoch_us=113658031 pid=22470787 tid=44 run_id=19700101_000108_18268299 PHASE=VIDEO_111_PROGRESS ALT_VIDEO_BYTES=1864338 ALT_VIDEO_PACKETS=256 last=2930
+[ALTSCREEN] seq=376 epoch_us=113671124 pid=22470787 tid=44 run_id=19700101_000108_18268299 STREAM data ptr=1de8d8 calls=257 bytes=1867266 MB=1 sps=0 pps=0 idr=0 other=0
+[ALTSCREEN] seq=377 epoch_us=114767951 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=DECODER_PROGRESS backend=stock-omx-tap stream=1de8d8 generation=1 frames=300 seq=300 size=1440x542 source_stride=1536 drops=0
+[ALTSCREEN] seq=378 epoch_us=114767951 pid=22470787 tid=47 run_id=19700101_000108_18268299 PHASE=FRAME_LINEARIZER_PROGRESS backend=screen-nv12 readbacks=300 published=300 publish_drops=0 requests=300 failures=0 fallbacks=0 slow_readbacks=0 readback_p50_ms=3 readback_p95_ms=6 readback_max_us=9065 size=1440x542

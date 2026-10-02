@@ -1,0 +1,8 @@
+00:00:06.216 [CP/W][DisplayManager] cluster platform: kombiType=1 sysConst(541)=2 carplayCtx=true altScreenCtx=true
+00:00:19.361 [CP/W][Bus] send dropped (no connection) type=0x100
+00:00:19.634 [CP/W][Bus] send dropped (no connection) type=0x100
+00:00:06.144 [CP/W][DisplayManager] cluster platform: kombiType=1 sysConst(541)=2 carplayCtx=true altScreenCtx=true
+00:00:19.751 [CP/W][Bus] send dropped (no connection) type=0x100
+00:01:59.159 [CP/W][Bus] send dropped (no connection) type=0x100
+00:02:10.235 [CP/W][Bus] send dropped (no connection) type=0x100
+00:02:21.713 [CP/W][Bus] send dropped (no connection) type=0x100

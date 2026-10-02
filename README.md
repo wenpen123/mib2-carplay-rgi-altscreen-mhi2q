@@ -1,4 +1,5 @@
 Audi Virtual Cockpit CarPlay AltScreen (CN MU1003 / MHI2Q 适配版)
+
 本项目是针对奥迪国规车机（MHI2Q_CN_AUG22_K1004 / MU1003 固件，搭载 12.3 寸全液晶虚拟座舱）编译的开箱即用 SD 卡安装文件包。
 
 针对国内车主最常用的高德地图 / 百度地图车标偏右以及方向盘 VIEW 键切换运动模式（单圆盘）时画面被表盘遮挡/裁切的问题进行了针对性修复与实车验证。
@@ -12,7 +13,7 @@ Audi Virtual Cockpit CarPlay AltScreen (CN MU1003 / MHI2Q 适配版)
 衷心感谢 Allemon 的卓越贡献与持续维护！感谢他在 cluster-placement 分支中深入排查 AirPlay 底层的 displays session property，重构了副屏视图区域控制逻辑，并完美解决了虚拟座舱切换 Classic / Sport 视图时的视口平移问题。没有他的耐心指导与快速迭代，国内车主无法在液晶仪表上体验到如此完美的 30fps 全屏 CarPlay 导航体验。
 
 🛠️ 主要修复与特性
-高德地图 / 百度地图完美居中：测试结果图片在image文件夹。
+高德地图 / 百度地图完美居中：
 <img width="1539" height="716" alt="image" src="https://github.com/user-attachments/assets/a8ea4de4-e26d-47a7-a379-6dc17415a3c6" />
 运动布局
 <img width="1553" height="660" alt="image" src="https://github.com/user-attachments/assets/4b605801-a1da-4d35-8f24-c76fb27c8a39" />

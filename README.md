@@ -39,13 +39,6 @@ Audi Virtual Cockpit CarPlay AltScreen (CN MU1003 / MHI2Q 适配版)
 📂 仓库结构说明
 本仓库的内容即为 SD 卡根目录结构：
 
-Plaintext
-mib2-carplay-rgi-altscreen-mhi2q/
-├──........
-├── Toolbox/               # AltScreen & RGI 脚本、核心库与资源文件
-├── Tools
-└── README.md              # 说明文档~~
-├──.......
 
 📦 安装与配置方法
 1. 准备工作

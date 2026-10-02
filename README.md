@@ -12,11 +12,8 @@ Audi Virtual Cockpit CarPlay AltScreen (CN MU1003 / MHI2Q 适配版)
 衷心感谢 Allemon 的卓越贡献与持续维护！感谢他在 cluster-placement 分支中深入排查 AirPlay 底层的 displays session property，重构了副屏视图区域控制逻辑，并完美解决了虚拟座舱切换 Classic / Sport 视图时的视口平移问题。没有他的耐心指导与快速迭代，国内车主无法在液晶仪表上体验到如此完美的 30fps 全屏 CarPlay 导航体验。
 
 🛠️ 主要修复与特性
-高德地图 / 百度地图完美居中：
-https://github.com/wenpen123/mib2-carplay-rgi-altscreen-mhi2q/blob/main/image/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE.jpg
-https://github.com/wenpen123/mib2-carplay-rgi-altscreen-mhi2q/blob/main/image/%E7%BB%8F%E5%85%B8%E5%B8%83%E5%B1%80.png
-https://github.com/wenpen123/mib2-carplay-rgi-altscreen-mhi2q/blob/main/image/%E8%BF%90%E5%8A%A8%E5%B8%83%E5%B1%80%E5%8D%95%E7%82%AE%E7%AD%92%E7%95%8C%E9%9D%A2.jpg
-https://github.com/wenpen123/mib2-carplay-rgi-altscreen-mhi2q/blob/main/image/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE.jpg
+高德地图 / 百度地图完美居中：测试结果图片在image文件夹。
+
 修复了第三方地图因忽略 iOS Safe Area 导致的画面与车标严重靠右问题。
 
 在 GEM 绿屏菜单中将集群地图区域（Cluster map area）设置为 1080 px 后，高德地图与百度地图的车标即可处于仪表正中央，右侧多余区域平滑隐入原生车速表与引导面板后方。

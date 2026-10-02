@@ -13,6 +13,14 @@ Audi Virtual Cockpit CarPlay AltScreen (CN MU1003 / MHI2Q 适配版)
 
 🛠️ 主要修复与特性
 高德地图 / 百度地图完美居中：测试结果图片在image文件夹。
+<img width="1539" height="716" alt="image" src="https://github.com/user-attachments/assets/a8ea4de4-e26d-47a7-a379-6dc17415a3c6" />
+运动布局
+<img width="1553" height="660" alt="image" src="https://github.com/user-attachments/assets/4b605801-a1da-4d35-8f24-c76fb27c8a39" />
+<img width="1599" height="618" alt="image" src="https://github.com/user-attachments/assets/7141e626-c727-48da-b39f-7561e9e8b4a9" />
+百度地图：
+<img width="1569" height="618" alt="image" src="https://github.com/user-attachments/assets/738e1b5c-c31b-48c9-9116-a880b7061299" />
+
+
 
 修复了第三方地图因忽略 iOS Safe Area 导致的画面与车标严重靠右问题。
 
